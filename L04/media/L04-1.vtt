@@ -1,0 +1,449 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.162
+Take two to the n, minus one
+
+2
+00:00:06.162 --> 00:00:08.975
+for n from two to seven.
+
+3
+00:00:08.975 --> 00:00:12.912
+Three, seven, fifteen, thirty-one
+
+4
+00:00:12.912 --> 00:00:17.300
+sixty-three, one hundred twenty-seven.
+
+5
+00:00:17.650 --> 00:00:20.963
+Three is prime, seven is prime
+
+6
+00:00:20.963 --> 00:00:23.207
+thirty-one is prime.
+
+7
+00:00:23.207 --> 00:00:27.374
+A claim suggests itself: two to the n
+
+8
+00:00:27.374 --> 00:00:28.550
+minus one
+
+9
+00:00:28.550 --> 00:00:32.290
+is prime for every n at least two.
+
+10
+00:00:32.640 --> 00:00:33.360
+Is it?
+
+11
+00:00:33.360 --> 00:00:35.520
+Pause and decide.
+
+12
+00:00:39.100 --> 00:00:39.391
+No.
+
+13
+00:00:39.391 --> 00:00:41.624
+Look at n equals four.
+
+14
+00:00:41.624 --> 00:00:44.439
+Fifteen is three times five
+
+15
+00:00:44.439 --> 00:00:46.380
+so it is not prime.
+
+16
+00:00:46.730 --> 00:00:49.051
+The claim was about every n
+
+17
+00:00:49.051 --> 00:00:52.117
+so one failure is enough to sink it.
+
+18
+00:00:52.117 --> 00:00:54.521
+Fifteen is a counterexample.
+
+19
+00:00:54.521 --> 00:00:58.250
+Sixty-three fails too, but we only need one.
+
+20
+00:00:58.600 --> 00:01:00.712
+Now change two words.
+
+21
+00:01:00.712 --> 00:01:04.535
+There is an n for which two to the n
+
+22
+00:01:04.535 --> 00:01:07.049
+minus one, is not prime.
+
+23
+00:01:07.049 --> 00:01:09.363
+That sentence is true
+
+24
+00:01:09.363 --> 00:01:12.280
+and n equals four proves it.
+
+25
+00:01:12.860 --> 00:01:17.146
+The two sentences differ in two small words.
+
+26
+00:01:17.146 --> 00:01:20.847
+For all, written as an upside-down A
+
+27
+00:01:20.847 --> 00:01:24.159
+means for every element of a set.
+
+28
+00:01:24.159 --> 00:01:26.983
+There exists, a backwards E
+
+29
+00:01:26.983 --> 00:01:30.100
+means for at least one element.
+
+30
+00:01:30.450 --> 00:01:32.876
+The set is called the domain
+
+31
+00:01:32.876 --> 00:01:35.638
+and it is part of the statement.
+
+32
+00:01:35.721 --> 00:01:38.148
+Here the domain is the values
+
+33
+00:01:38.231 --> 00:01:39.570
+of n we look at.
+
+34
+00:01:39.920 --> 00:01:44.309
+On a finite domain, for all is a long and
+
+35
+00:01:44.309 --> 00:01:46.608
+every cell must pass.
+
+36
+00:01:46.608 --> 00:01:49.430
+There exists is a long or
+
+37
+00:01:49.430 --> 00:01:51.520
+one cell is enough.
+
+38
+00:01:52.100 --> 00:01:55.911
+How do you prove a there-exists statement?
+
+39
+00:01:55.911 --> 00:01:59.904
+Claim: there are positive integers a and b
+
+40
+00:01:59.904 --> 00:02:00.902
+not equal
+
+41
+00:02:00.902 --> 00:02:04.260
+with a to the b equal to b to the a.
+
+42
+00:02:04.610 --> 00:02:07.494
+Here is a table of a to the b
+
+43
+00:02:07.494 --> 00:02:10.378
+for a and b from two to four.
+
+44
+00:02:10.378 --> 00:02:13.262
+Two to the fourth is sixteen.
+
+45
+00:02:13.262 --> 00:02:16.530
+And four squared is also sixteen.
+
+46
+00:02:16.880 --> 00:02:18.717
+That is the whole proof.
+
+47
+00:02:18.717 --> 00:02:19.942
+Name a witness
+
+48
+00:02:19.942 --> 00:02:22.391
+a equals two and b equals four
+
+49
+00:02:22.391 --> 00:02:25.300
+and check it: sixteen equals sixteen.
+
+50
+00:02:25.376 --> 00:02:27.520
+How you found the witness is
+
+51
+00:02:27.596 --> 00:02:29.280
+not part of the proof.
+
+52
+00:02:29.860 --> 00:02:32.974
+A for-all statement needs more.
+
+53
+00:02:32.974 --> 00:02:35.786
+Claim: for every integer n
+
+54
+00:02:35.786 --> 00:02:38.900
+three divides n cubed minus n.
+
+55
+00:02:39.250 --> 00:02:42.619
+Try n equals five: one hundred and twenty
+
+56
+00:02:42.619 --> 00:02:44.865
+which is three times forty.
+
+57
+00:02:44.865 --> 00:02:48.474
+But that proves only the case n equals five.
+
+58
+00:02:48.474 --> 00:02:51.362
+There are infinitely many integers
+
+59
+00:02:51.362 --> 00:02:54.410
+and examples cover only some of them.
+
+60
+00:02:54.990 --> 00:02:59.066
+Instead, let n be an arbitrary integer
+
+61
+00:02:59.066 --> 00:03:02.620
+and assume nothing else about it.
+
+62
+00:03:02.620 --> 00:03:06.801
+Factor: n cubed minus n is n minus one
+
+63
+00:03:06.801 --> 00:03:09.623
+times n, times n plus one.
+
+64
+00:03:09.623 --> 00:03:12.550
+Three consecutive integers.
+
+65
+00:03:12.900 --> 00:03:14.548
+On the number line
+
+66
+00:03:14.635 --> 00:03:16.890
+the multiples of three are
+
+67
+00:03:16.977 --> 00:03:18.538
+every third point.
+
+68
+00:03:18.625 --> 00:03:21.313
+Three consecutive integers make
+
+69
+00:03:21.400 --> 00:03:23.482
+a window of width three.
+
+70
+00:03:23.482 --> 00:03:25.823
+Slide the window anywhere
+
+71
+00:03:25.910 --> 00:03:27.905
+it always holds exactly
+
+72
+00:03:27.992 --> 00:03:29.900
+one multiple of three.
+
+73
+00:03:30.250 --> 00:03:32.504
+So one of the three factors
+
+74
+00:03:32.587 --> 00:03:34.507
+is a multiple of three
+
+75
+00:03:34.507 --> 00:03:36.593
+and so is their product.
+
+76
+00:03:36.593 --> 00:03:38.513
+Since n was arbitrary
+
+77
+00:03:38.597 --> 00:03:40.850
+three divides n cubed minus
+
+78
+00:03:40.934 --> 00:03:42.770
+n for every integer n.
+
+79
+00:03:43.350 --> 00:03:46.093
+Back to two to the n, minus one.
+
+80
+00:03:46.093 --> 00:03:49.607
+The claim, every one is prime, is false.
+
+81
+00:03:49.607 --> 00:03:52.950
+So what exactly does its negation say?
+
+82
+00:03:53.300 --> 00:03:56.262
+Not every one is prime means
+
+83
+00:03:56.262 --> 00:03:58.612
+some one is not prime.
+
+84
+00:03:58.612 --> 00:04:02.902
+Move the not inside, past the quantifier
+
+85
+00:04:02.902 --> 00:04:06.580
+and flip for all into there exists.
+
+86
+00:04:07.160 --> 00:04:09.822
+A common mistake is to write
+
+87
+00:04:09.822 --> 00:04:12.024
+every one is not prime.
+
+88
+00:04:12.024 --> 00:04:15.879
+That sentence is false too: three, seven
+
+89
+00:04:15.971 --> 00:04:18.357
+thirty-one and one hundred
+
+90
+00:04:18.449 --> 00:04:20.560
+twenty-seven are prime.
+
+91
+00:04:20.910 --> 00:04:23.658
+A statement and its negation always
+
+92
+00:04:23.736 --> 00:04:25.856
+have opposite truth values.
+
+93
+00:04:25.856 --> 00:04:29.310
+If both are false, you have not negated it.
+
+94
+00:04:29.660 --> 00:04:33.155
+The other rule flips the other way
+
+95
+00:04:33.155 --> 00:04:37.050
+not there exists becomes for all, not.
+
+96
+00:04:37.050 --> 00:04:40.844
+To disprove a there-exists statement
+
+97
+00:04:40.844 --> 00:04:43.940
+show that every element fails.
+
+98
+00:04:44.520 --> 00:04:47.068
+So: to prove there exists
+
+99
+00:04:47.068 --> 00:04:49.910
+name a witness and check it.
+
+100
+00:04:49.910 --> 00:04:54.320
+To prove for all, take an arbitrary element.
+
+101
+00:04:54.670 --> 00:04:56.566
+To disprove for all
+
+102
+00:04:56.566 --> 00:04:59.409
+one counterexample is enough.
+
+103
+00:04:59.409 --> 00:05:03.105
+And to negate, move the not inside and
+
+104
+00:05:03.200 --> 00:05:05.190
+flip each quantifier.
+
+105
+00:05:05.770 --> 00:05:10.525
+Try it yourself: is two to the p, minus one
+
+106
+00:05:10.525 --> 00:05:13.227
+prime for every prime p?
+
+107
+00:05:13.227 --> 00:05:17.010
+Find a proof, or a counterexample.
+
+108
+00:05:17.360 --> 00:05:18.497
+In part two
+
+109
+00:05:18.497 --> 00:05:21.624
+two quantifiers in one sentence.
+
+110
+00:05:21.624 --> 00:05:24.561
+For every lock there is a key
+
+111
+00:05:24.561 --> 00:05:27.783
+or there is a key for every lock
+
+112
+00:05:27.783 --> 00:05:30.720
+the order changes the meaning.

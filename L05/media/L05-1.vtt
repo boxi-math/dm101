@@ -1,0 +1,541 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:04.822
+Rock, paper, scissors.
+
+2
+00:00:04.822 --> 00:00:06.656
+Rock beats scissors.
+
+3
+00:00:06.656 --> 00:00:08.578
+Scissors beats paper.
+
+4
+00:00:08.578 --> 00:00:10.500
+And paper beats rock.
+
+5
+00:00:10.850 --> 00:00:12.754
+Put the moves in a grid.
+
+6
+00:00:12.754 --> 00:00:14.420
+A shaded cell means
+
+7
+00:00:14.420 --> 00:00:16.483
+the row beats the column.
+
+8
+00:00:16.483 --> 00:00:18.229
+Nothing beats itself
+
+9
+00:00:18.229 --> 00:00:20.530
+so the diagonal stays empty.
+
+10
+00:00:20.880 --> 00:00:23.013
+Now think of taller than.
+
+11
+00:00:23.013 --> 00:00:25.232
+If Ana is taller than Bo
+
+12
+00:00:25.232 --> 00:00:27.451
+and Bo is taller than Cy
+
+13
+00:00:27.451 --> 00:00:29.840
+then Ana is taller than Cy.
+
+14
+00:00:30.190 --> 00:00:33.134
+Does beats work the same way?
+
+15
+00:00:33.134 --> 00:00:35.266
+Rock beats scissors
+
+16
+00:00:35.266 --> 00:00:37.905
+and scissors beats paper.
+
+17
+00:00:37.905 --> 00:00:40.443
+So does rock beat paper?
+
+18
+00:00:40.443 --> 00:00:42.270
+Pause and decide.
+
+19
+00:00:45.850 --> 00:00:46.104
+No.
+
+20
+00:00:46.104 --> 00:00:47.628
+Paper beats rock
+
+21
+00:00:47.628 --> 00:00:51.438
+so the cell for rock against paper is empty.
+
+22
+00:00:51.438 --> 00:00:53.555
+The two steps are there
+
+23
+00:00:53.555 --> 00:00:56.010
+but the shortcut is missing.
+
+24
+00:00:56.360 --> 00:00:59.124
+Taller than always has the shortcut.
+
+25
+00:00:59.124 --> 00:01:00.353
+Beats does not.
+
+26
+00:01:00.353 --> 00:01:03.348
+That is why the game has no best move.
+
+27
+00:01:03.425 --> 00:01:05.575
+In this lecture we give that
+
+28
+00:01:05.652 --> 00:01:08.800
+difference a name, and four more like it.
+
+29
+00:01:09.380 --> 00:01:11.780
+So what is a relation?
+
+30
+00:01:11.780 --> 00:01:15.053
+It is a set of ordered pairs.
+
+31
+00:01:15.162 --> 00:01:19.416
+We write x R y when the pair with first
+
+32
+00:01:19.526 --> 00:01:23.344
+entry x and second entry y is in R.
+
+33
+00:01:23.453 --> 00:01:26.071
+A relation on a set A is
+
+34
+00:01:26.180 --> 00:01:28.580
+a subset of A times A.
+
+35
+00:01:28.930 --> 00:01:32.968
+Take A equal to one, two, three, four
+
+36
+00:01:32.968 --> 00:01:36.900
+and the relation less than or equal.
+
+37
+00:01:36.900 --> 00:01:38.707
+Row x, column y.
+
+38
+00:01:38.707 --> 00:01:42.745
+Row one: one is at most every number.
+
+39
+00:01:42.745 --> 00:01:47.315
+Row two starts at two, row three at three
+
+40
+00:01:47.315 --> 00:01:50.290
+and row four has only four.
+
+41
+00:01:50.640 --> 00:01:52.155
+Ten pairs in all.
+
+42
+00:01:52.155 --> 00:01:55.807
+The order matters: two is at most three
+
+43
+00:01:55.807 --> 00:01:58.480
+but three is not at most two.
+
+44
+00:01:58.830 --> 00:02:01.051
+The grid has sixteen cells
+
+45
+00:02:01.133 --> 00:02:03.107
+and any choice of shaded
+
+46
+00:02:03.189 --> 00:02:04.834
+cells is a relation.
+
+47
+00:02:04.834 --> 00:02:07.548
+So there are two to the sixteen
+
+48
+00:02:07.630 --> 00:02:09.604
+sixty-five thousand five
+
+49
+00:02:09.687 --> 00:02:11.578
+hundred and thirty-six
+
+50
+00:02:11.578 --> 00:02:13.470
+relations on this set.
+
+51
+00:02:14.050 --> 00:02:15.622
+Now the properties.
+
+52
+00:02:15.705 --> 00:02:18.354
+A relation is reflexive if every
+
+53
+00:02:18.436 --> 00:02:20.340
+x is related to itself.
+
+54
+00:02:20.340 --> 00:02:23.236
+On the grid, that is the diagonal.
+
+55
+00:02:23.236 --> 00:02:26.795
+Less than or equal has the whole diagonal
+
+56
+00:02:26.795 --> 00:02:28.450
+so it is reflexive.
+
+57
+00:02:28.800 --> 00:02:31.541
+Irreflexive is the opposite extreme
+
+58
+00:02:31.541 --> 00:02:33.597
+no x is related to itself.
+
+59
+00:02:33.597 --> 00:02:36.490
+Picture four bus stops on one street
+
+60
+00:02:36.566 --> 00:02:38.698
+and relate two stops if they
+
+61
+00:02:38.774 --> 00:02:40.525
+are next to each other.
+
+62
+00:02:40.525 --> 00:02:42.581
+No stop is next to itself
+
+63
+00:02:42.581 --> 00:02:44.560
+so the diagonal is empty.
+
+64
+00:02:45.140 --> 00:02:49.098
+Symmetric means: whenever x R y, also y R x.
+
+65
+00:02:49.098 --> 00:02:53.145
+On the grid, each shaded cell has its mirror
+
+66
+00:02:53.235 --> 00:02:55.574
+image across the diagonal.
+
+67
+00:02:55.574 --> 00:02:58.183
+The bus stops are symmetric.
+
+68
+00:02:58.183 --> 00:03:00.161
+Two is next to three
+
+69
+00:03:00.161 --> 00:03:02.500
+and three is next to two.
+
+70
+00:03:02.850 --> 00:03:04.850
+Antisymmetric means
+
+71
+00:03:04.850 --> 00:03:09.350
+x R y and y R x together force x equal to y.
+
+72
+00:03:09.350 --> 00:03:11.150
+Off the diagonal
+
+73
+00:03:11.150 --> 00:03:15.150
+no cell and its mirror are both shaded.
+
+74
+00:03:15.150 --> 00:03:18.850
+Less than or equal is antisymmetric.
+
+75
+00:03:18.850 --> 00:03:22.950
+Its shaded cells sit above the diagonal
+
+76
+00:03:22.950 --> 00:03:26.450
+and their mirrors below are empty.
+
+77
+00:03:27.030 --> 00:03:30.385
+A warning: these words are not opposites.
+
+78
+00:03:30.385 --> 00:03:32.840
+Shade only the cell one, one.
+
+79
+00:03:32.840 --> 00:03:35.295
+Two is not related to itself
+
+80
+00:03:35.295 --> 00:03:37.259
+so it is not reflexive.
+
+81
+00:03:37.259 --> 00:03:40.614
+One is, so it is not irreflexive either.
+
+82
+00:03:40.614 --> 00:03:41.350
+Neither.
+
+83
+00:03:41.700 --> 00:03:44.319
+Equality, just the diagonal
+
+84
+00:03:44.413 --> 00:03:47.219
+is symmetric and antisymmetric
+
+85
+00:03:47.313 --> 00:03:48.903
+at the same time.
+
+86
+00:03:48.903 --> 00:03:53.019
+And one two, two one, one three is neither
+
+87
+00:03:53.019 --> 00:03:55.357
+one three has no mirror
+
+88
+00:03:55.451 --> 00:03:57.789
+while one two and two one
+
+89
+00:03:57.883 --> 00:03:59.660
+form a mirror pair.
+
+90
+00:04:00.240 --> 00:04:02.272
+Transitive means
+
+91
+00:04:02.272 --> 00:04:05.620
+x R y and y R z give x R z.
+
+92
+00:04:05.620 --> 00:04:10.521
+Two steps must always have the shortcut.
+
+93
+00:04:10.521 --> 00:04:15.781
+For less than or equal: one is at most two
+
+94
+00:04:15.781 --> 00:04:21.160
+two is at most four, so one is at most four.
+
+95
+00:04:21.510 --> 00:04:24.510
+The proof works for all integers.
+
+96
+00:04:24.510 --> 00:04:28.147
+z minus x is z minus y, plus y minus x
+
+97
+00:04:28.147 --> 00:04:31.328
+two numbers that are not negative
+
+98
+00:04:31.328 --> 00:04:34.510
+so the sum is not negative either.
+
+99
+00:04:34.860 --> 00:04:36.472
+The bus stops fail.
+
+100
+00:04:36.472 --> 00:04:40.203
+One is next to two, and two is next to one
+
+101
+00:04:40.203 --> 00:04:42.832
+but one is not next to itself.
+
+102
+00:04:42.832 --> 00:04:45.377
+One counterexample is enough.
+
+103
+00:04:45.377 --> 00:04:48.260
+Beats broke down in the same way.
+
+104
+00:04:48.840 --> 00:04:50.411
+Last, the inverse.
+
+105
+00:04:50.498 --> 00:04:53.202
+R inverse swaps the two entries
+
+106
+00:04:53.290 --> 00:04:54.947
+of every pair in R.
+
+107
+00:04:54.947 --> 00:04:56.081
+On the grid
+
+108
+00:04:56.081 --> 00:04:59.920
+it is the mirror image across the diagonal.
+
+109
+00:05:00.270 --> 00:05:02.251
+Take less than or equal.
+
+110
+00:05:02.251 --> 00:05:05.883
+Flip it, and you get greater than or equal
+
+111
+00:05:05.883 --> 00:05:09.350
+the shaded cells move below the diagonal.
+
+112
+00:05:09.700 --> 00:05:12.896
+A relation is symmetric exactly when
+
+113
+00:05:12.985 --> 00:05:15.293
+it equals its own inverse.
+
+114
+00:05:15.293 --> 00:05:17.602
+The bus stops: flip them
+
+115
+00:05:17.602 --> 00:05:19.466
+and nothing changes.
+
+116
+00:05:19.466 --> 00:05:22.396
+Proving it means two inclusions
+
+117
+00:05:22.396 --> 00:05:26.302
+R inside R inverse, and R inverse inside R
+
+118
+00:05:26.302 --> 00:05:27.900
+each by symmetry.
+
+119
+00:05:28.480 --> 00:05:31.525
+So read a relation off its grid.
+
+120
+00:05:31.525 --> 00:05:35.808
+The diagonal tells reflexive or irreflexive.
+
+121
+00:05:35.808 --> 00:05:40.090
+The mirror tells symmetric or antisymmetric.
+
+122
+00:05:40.090 --> 00:05:41.613
+For transitive
+
+123
+00:05:41.613 --> 00:05:45.800
+check every two-step path for its shortcut.
+
+124
+00:05:46.150 --> 00:05:50.038
+One relation has all three of reflexive
+
+125
+00:05:50.038 --> 00:05:53.828
+symmetric and transitive: same parity.
+
+126
+00:05:53.828 --> 00:05:56.549
+One and three are both odd
+
+127
+00:05:56.549 --> 00:05:59.270
+two and four are both even.
+
+128
+00:05:59.850 --> 00:06:01.314
+Try it yourself.
+
+129
+00:06:01.314 --> 00:06:04.882
+Here is a relation on one, two, three.
+
+130
+00:06:04.882 --> 00:06:06.254
+Draw its grid.
+
+131
+00:06:06.254 --> 00:06:09.090
+Which properties does it have?
+
+132
+00:06:09.440 --> 00:06:12.153
+Same parity behaves like equals.
+
+133
+00:06:12.153 --> 00:06:15.290
+In part two, relations of that kind
+
+134
+00:06:15.290 --> 00:06:17.241
+equivalence relations
+
+135
+00:06:17.241 --> 00:06:19.360
+sort a set into classes.

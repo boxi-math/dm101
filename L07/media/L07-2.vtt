@@ -1,0 +1,345 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.816
+A post office sells only four-cent
+
+2
+00:00:05.902 --> 00:00:07.703
+and five-cent stamps.
+
+3
+00:00:07.703 --> 00:00:10.704
+Which amounts can you pay exactly?
+
+4
+00:00:10.704 --> 00:00:13.020
+Twelve cents: three fours.
+
+5
+00:00:13.370 --> 00:00:17.019
+Thirteen: two fours and a five.
+
+6
+00:00:17.019 --> 00:00:21.021
+Fourteen: one four and two fives.
+
+7
+00:00:21.021 --> 00:00:23.610
+Fifteen: three fives.
+
+8
+00:00:23.960 --> 00:00:27.078
+Can every amount from twelve on be paid?
+
+9
+00:00:27.078 --> 00:00:30.195
+And which amounts can't be paid at all?
+
+10
+00:00:30.195 --> 00:00:31.520
+Pause and guess.
+
+11
+00:00:35.100 --> 00:00:39.836
+A computer tries every amount below thirty.
+
+12
+00:00:39.836 --> 00:00:44.792
+Only six amounts fail: one, two, three, six
+
+13
+00:00:44.792 --> 00:00:46.775
+seven and eleven.
+
+14
+00:00:46.775 --> 00:00:50.740
+From twelve on, every amount works.
+
+15
+00:00:51.090 --> 00:00:53.656
+But that was only up to thirty.
+
+16
+00:00:53.656 --> 00:00:55.724
+A search is not a proof.
+
+17
+00:00:55.724 --> 00:00:58.290
+We want every amount, forever.
+
+18
+00:00:58.870 --> 00:01:01.026
+Try ordinary induction
+
+19
+00:01:01.026 --> 00:01:03.651
+from k cents to k plus one.
+
+20
+00:01:03.651 --> 00:01:06.651
+We would need a one-cent stamp
+
+21
+00:01:06.651 --> 00:01:08.620
+and there isn't one.
+
+22
+00:01:08.620 --> 00:01:10.870
+Knowing k doesn't help.
+
+23
+00:01:11.220 --> 00:01:13.934
+Instead, look four cents back.
+
+24
+00:01:13.934 --> 00:01:17.100
+If we can pay k minus three cents
+
+25
+00:01:17.100 --> 00:01:20.900
+one more four-cent stamp pays k plus one.
+
+26
+00:01:21.250 --> 00:01:24.580
+For example, with k equal to nineteen
+
+27
+00:01:24.580 --> 00:01:27.122
+sixteen plus four is twenty.
+
+28
+00:01:27.122 --> 00:01:30.890
+The step reaches back four cents, not one.
+
+29
+00:01:31.470 --> 00:01:35.156
+Suppose we checked only one base case
+
+30
+00:01:35.156 --> 00:01:35.932
+twelve.
+
+31
+00:01:35.932 --> 00:01:39.520
+The step jumps four cents at a time
+
+32
+00:01:39.520 --> 00:01:42.430
+sixteen, twenty, twenty-four.
+
+33
+00:01:42.780 --> 00:01:43.790
+But thirteen
+
+34
+00:01:43.790 --> 00:01:46.896
+fourteen and fifteen are never reached
+
+35
+00:01:46.896 --> 00:01:49.770
+and neither are seventeen, eighteen
+
+36
+00:01:49.770 --> 00:01:50.547
+nineteen.
+
+37
+00:01:50.547 --> 00:01:52.100
+The chain has gaps.
+
+38
+00:01:52.680 --> 00:01:56.869
+So one base case is not enough here.
+
+39
+00:01:56.869 --> 00:02:00.360
+Check four: twelve, thirteen
+
+40
+00:02:00.360 --> 00:02:02.920
+fourteen and fifteen.
+
+41
+00:02:03.270 --> 00:02:05.833
+From twelve the step reaches
+
+42
+00:02:05.924 --> 00:02:07.663
+sixteen and twenty.
+
+43
+00:02:07.663 --> 00:02:11.416
+From thirteen, seventeen and twenty-one.
+
+44
+00:02:11.416 --> 00:02:15.077
+From fourteen, eighteen and twenty-two.
+
+45
+00:02:15.077 --> 00:02:18.830
+From fifteen, nineteen and twenty-three.
+
+46
+00:02:19.180 --> 00:02:21.464
+Together the four chains cover
+
+47
+00:02:21.540 --> 00:02:23.672
+every amount from twelve on.
+
+48
+00:02:23.672 --> 00:02:24.433
+Why four?
+
+49
+00:02:24.433 --> 00:02:26.641
+The step uses k minus three
+
+50
+00:02:26.641 --> 00:02:29.001
+which must be at least twelve.
+
+51
+00:02:29.001 --> 00:02:32.426
+So the step only starts at k equals fifteen
+
+52
+00:02:32.426 --> 00:02:35.700
+and twelve to fifteen are checked by hand.
+
+53
+00:02:36.280 --> 00:02:38.886
+This is strong induction.
+
+54
+00:02:38.886 --> 00:02:41.700
+One, check the base cases
+
+55
+00:02:41.700 --> 00:02:45.244
+as many as the step reaches back.
+
+56
+00:02:45.244 --> 00:02:49.309
+Two, assume every case from c up to k
+
+57
+00:02:49.309 --> 00:02:50.560
+not just k.
+
+58
+00:02:50.910 --> 00:02:54.289
+Three, use any of them to prove
+
+59
+00:02:54.398 --> 00:02:56.578
+the case k plus one.
+
+60
+00:02:56.578 --> 00:03:00.174
+Four, conclude that P of n holds
+
+61
+00:03:00.283 --> 00:03:02.790
+for every n at least c.
+
+62
+00:03:03.140 --> 00:03:04.643
+For the stamps
+
+63
+00:03:04.643 --> 00:03:08.951
+every amount from twelve to k can be paid
+
+64
+00:03:08.951 --> 00:03:13.460
+so k minus three can, and so can k plus one.
+
+65
+00:03:14.040 --> 00:03:17.714
+Strong induction also proves that every
+
+66
+00:03:17.808 --> 00:03:20.729
+integer from two on is a prime
+
+67
+00:03:20.729 --> 00:03:22.990
+or a product of primes.
+
+68
+00:03:22.990 --> 00:03:24.120
+Take sixty.
+
+69
+00:03:24.470 --> 00:03:25.775
+It is not prime
+
+70
+00:03:25.775 --> 00:03:29.038
+sixty dots make a six by ten rectangle.
+
+71
+00:03:29.038 --> 00:03:32.382
+Six and ten are both smaller than sixty
+
+72
+00:03:32.382 --> 00:03:34.910
+so the hypothesis covers them.
+
+73
+00:03:35.260 --> 00:03:37.416
+Six is two times three
+
+74
+00:03:37.416 --> 00:03:39.573
+ten is two times five
+
+75
+00:03:39.666 --> 00:03:42.198
+so sixty is two times three
+
+76
+00:03:42.291 --> 00:03:44.260
+times two times five.
+
+77
+00:03:44.610 --> 00:03:47.183
+Ordinary induction could not do this.
+
+78
+00:03:47.253 --> 00:03:49.270
+Knowing about fifty-nine says
+
+79
+00:03:49.340 --> 00:03:50.731
+nothing about sixty.
+
+80
+00:03:50.731 --> 00:03:52.817
+The step needs smaller cases
+
+81
+00:03:52.817 --> 00:03:53.930
+anywhere below.
+
+82
+00:03:54.510 --> 00:03:58.141
+Your turn: three-cent and five-cent stamps.
+
+83
+00:03:58.141 --> 00:04:00.590
+Which amounts can't be paid
+
+84
+00:04:00.590 --> 00:04:04.390
+and how many base cases does the proof need?
+
+85
+00:04:04.740 --> 00:04:06.420
+Next time: functions
+
+86
+00:04:06.420 --> 00:04:08.820
+and the pigeonhole principle.

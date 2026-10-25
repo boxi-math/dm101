@@ -1,0 +1,465 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.803
+Four students, Ana, Ben, Cai and Dev
+
+2
+00:00:06.803 --> 00:00:10.179
+come to a room with five seats
+
+3
+00:00:10.179 --> 00:00:12.500
+numbered one to five.
+
+4
+00:00:12.850 --> 00:00:17.121
+Here is a seating plan, drawn as arrows.
+
+5
+00:00:17.121 --> 00:00:19.470
+Ana sits in seat two.
+
+6
+00:00:19.470 --> 00:00:21.392
+Ben in seat five.
+
+7
+00:00:21.392 --> 00:00:26.090
+Cai also in seat two, and Dev in seat four.
+
+8
+00:00:26.440 --> 00:00:28.368
+Is any seat shared?
+
+9
+00:00:28.368 --> 00:00:30.296
+Is any seat empty?
+
+10
+00:00:30.296 --> 00:00:31.920
+Pause and look.
+
+11
+00:00:35.500 --> 00:00:37.670
+Seat two gets two arrows
+
+12
+00:00:37.670 --> 00:00:39.580
+Ana and Cai share it.
+
+13
+00:00:39.580 --> 00:00:42.184
+Seats one and three get none
+
+14
+00:00:42.184 --> 00:00:43.660
+they stay empty.
+
+15
+00:00:44.010 --> 00:00:45.737
+But one thing is right.
+
+16
+00:00:45.812 --> 00:00:47.689
+Every student has exactly
+
+17
+00:00:47.764 --> 00:00:49.491
+one arrow leaving them.
+
+18
+00:00:49.566 --> 00:00:51.593
+That one rule is what makes
+
+19
+00:00:51.668 --> 00:00:53.170
+the plan a function.
+
+20
+00:00:53.750 --> 00:00:57.073
+Write the plan as pairs: Ana with two
+
+21
+00:00:57.073 --> 00:00:59.347
+Ben with five, and so on.
+
+22
+00:00:59.347 --> 00:01:01.971
+A set of pairs is a relation
+
+23
+00:01:01.971 --> 00:01:04.070
+from students to seats.
+
+24
+00:01:04.420 --> 00:01:07.825
+A relation f is a function when no
+
+25
+00:01:07.925 --> 00:01:11.030
+first element has two partners.
+
+26
+00:01:11.030 --> 00:01:14.836
+If a comes with b one and with b two
+
+27
+00:01:14.836 --> 00:01:17.340
+then b one equals b two.
+
+28
+00:01:17.690 --> 00:01:21.300
+And f from A to B also asks that
+
+29
+00:01:21.413 --> 00:01:24.459
+every element of A appears
+
+30
+00:01:24.459 --> 00:01:27.730
+the domain of f is all of A.
+
+31
+00:01:28.310 --> 00:01:30.209
+Two plans that fail.
+
+32
+00:01:30.209 --> 00:01:33.437
+Give Ben a second seat, seat one.
+
+33
+00:01:33.437 --> 00:01:35.906
+Now Ben has two partners
+
+34
+00:01:35.906 --> 00:01:38.470
+so this is not a function.
+
+35
+00:01:38.820 --> 00:01:40.741
+Take that arrow away again
+
+36
+00:01:40.741 --> 00:01:43.160
+and take away Dev's seat instead.
+
+37
+00:01:43.160 --> 00:01:46.077
+Each student still has at most one seat
+
+38
+00:01:46.077 --> 00:01:47.358
+but Dev has none.
+
+39
+00:01:47.358 --> 00:01:50.418
+The domain is no longer all four students
+
+40
+00:01:50.489 --> 00:01:52.908
+so this is not a function from the
+
+41
+00:01:52.979 --> 00:01:54.900
+four students to the seats.
+
+42
+00:01:55.250 --> 00:01:58.904
+A function needs both: every student
+
+43
+00:01:58.904 --> 00:02:01.570
+and exactly one seat each.
+
+44
+00:02:02.150 --> 00:02:05.639
+The seats the plan actually reaches, two
+
+45
+00:02:05.639 --> 00:02:08.703
+four and five, form the image of f.
+
+46
+00:02:08.703 --> 00:02:11.000
+The set of all five seats
+
+47
+00:02:11.000 --> 00:02:14.830
+where f is allowed to land, is the codomain.
+
+48
+00:02:15.180 --> 00:02:17.115
+How many plans are there?
+
+49
+00:02:17.192 --> 00:02:19.127
+Each of the four students
+
+50
+00:02:19.204 --> 00:02:21.062
+picks one of five seats
+
+51
+00:02:21.062 --> 00:02:22.842
+so five to the fourth
+
+52
+00:02:22.842 --> 00:02:25.860
+six hundred and twenty-five functions.
+
+53
+00:02:26.440 --> 00:02:30.869
+A function is one-to-one when f of a equals
+
+54
+00:02:30.972 --> 00:02:34.885
+f of a prime only if a equals a prime.
+
+55
+00:02:34.885 --> 00:02:39.520
+In the picture: no seat receives two arrows.
+
+56
+00:02:39.870 --> 00:02:42.475
+Our plan fails at seat two
+
+57
+00:02:42.475 --> 00:02:44.790
+where Ana and Cai meet.
+
+58
+00:02:45.140 --> 00:02:49.351
+Move Ana to seat three and Cai to seat one.
+
+59
+00:02:49.351 --> 00:02:51.506
+Call this plan P two.
+
+60
+00:02:51.506 --> 00:02:54.443
+Every student now sits alone
+
+61
+00:02:54.443 --> 00:02:56.500
+P two is one-to-one.
+
+62
+00:02:57.080 --> 00:03:01.140
+A function is onto when every element
+
+63
+00:03:01.250 --> 00:03:04.871
+of B receives at least one arrow.
+
+64
+00:03:04.871 --> 00:03:09.480
+P two is not onto: seat two is empty now.
+
+65
+00:03:09.830 --> 00:03:12.845
+In fact no plan for four students
+
+66
+00:03:12.937 --> 00:03:15.038
+can be onto five seats
+
+67
+00:03:15.038 --> 00:03:18.510
+four arrows reach at most four seats.
+
+68
+00:03:19.090 --> 00:03:21.739
+Now a function on numbers
+
+69
+00:03:21.739 --> 00:03:25.000
+f of n equals three n plus two
+
+70
+00:03:25.000 --> 00:03:28.566
+from the integers to the integers.
+
+71
+00:03:28.566 --> 00:03:32.845
+Minus one goes to minus one, zero to two
+
+72
+00:03:32.845 --> 00:03:34.170
+one to five.
+
+73
+00:03:34.520 --> 00:03:39.087
+One-to-one: suppose three n plus two equals
+
+74
+00:03:39.193 --> 00:03:41.636
+three n prime plus two.
+
+75
+00:03:41.636 --> 00:03:44.928
+Subtract two, divide by three
+
+76
+00:03:44.928 --> 00:03:46.840
+n equals n prime.
+
+77
+00:03:47.190 --> 00:03:47.733
+Onto?
+
+78
+00:03:47.733 --> 00:03:49.794
+Try to reach zero.
+
+79
+00:03:49.902 --> 00:03:53.591
+Three n plus two equals zero gives
+
+80
+00:03:53.700 --> 00:03:56.521
+n equals minus two thirds
+
+81
+00:03:56.521 --> 00:03:59.233
+which is not an integer.
+
+82
+00:03:59.233 --> 00:04:03.790
+So zero gets no arrow, and f is not onto.
+
+83
+00:04:04.370 --> 00:04:05.762
+A common mix-up
+
+84
+00:04:05.849 --> 00:04:08.373
+one-to-one does not mean each
+
+85
+00:04:08.460 --> 00:04:10.287
+input has one output.
+
+86
+00:04:10.287 --> 00:04:14.116
+Take g of n equals the absolute value of n
+
+87
+00:04:14.116 --> 00:04:17.770
+from the integers to the natural numbers.
+
+88
+00:04:18.120 --> 00:04:21.310
+Each input has exactly one output
+
+89
+00:04:21.310 --> 00:04:23.468
+as for every function.
+
+90
+00:04:23.468 --> 00:04:27.033
+But two and minus two both go to two
+
+91
+00:04:27.033 --> 00:04:30.880
+two arrows meet, so g is not one-to-one.
+
+92
+00:04:31.230 --> 00:04:32.962
+It is onto, though
+
+93
+00:04:33.054 --> 00:04:35.333
+every natural number m is
+
+94
+00:04:35.424 --> 00:04:37.430
+the image of m itself.
+
+95
+00:04:38.010 --> 00:04:40.695
+A function that is one-to-one
+
+96
+00:04:40.788 --> 00:04:43.010
+and onto is a bijection.
+
+97
+00:04:43.010 --> 00:04:47.177
+Back to the room, with a fifth student, Eli.
+
+98
+00:04:47.177 --> 00:04:51.159
+Five students, five seats, no seat shared
+
+99
+00:04:51.159 --> 00:04:54.770
+every seat receives exactly one arrow.
+
+100
+00:04:55.120 --> 00:04:57.254
+The rule three x plus two
+
+101
+00:04:57.340 --> 00:04:58.962
+is a bijection too
+
+102
+00:04:58.962 --> 00:05:02.120
+from the rationals to the rationals.
+
+103
+00:05:02.470 --> 00:05:06.675
+Given any rational y, solve for x
+
+104
+00:05:06.675 --> 00:05:09.766
+y minus two, over three.
+
+105
+00:05:09.766 --> 00:05:15.208
+That x is rational, so it is in the domain
+
+106
+00:05:15.208 --> 00:05:17.310
+and f of x is y.
+
+107
+00:05:17.890 --> 00:05:21.497
+So: a function sends every input
+
+108
+00:05:21.610 --> 00:05:24.316
+along exactly one arrow.
+
+109
+00:05:24.316 --> 00:05:27.585
+One-to-one, no output twice.
+
+110
+00:05:27.585 --> 00:05:30.290
+Onto, no output missed.
+
+111
+00:05:30.640 --> 00:05:35.070
+Try it: is f of n equals five minus two
+
+112
+00:05:35.183 --> 00:05:38.477
+n one-to-one on the integers?
+
+113
+00:05:38.477 --> 00:05:39.840
+Is it onto?
+
+114
+00:05:40.190 --> 00:05:43.307
+In part two we turn the arrows round
+
+115
+00:05:43.307 --> 00:05:45.834
+chain two functions together
+
+116
+00:05:45.834 --> 00:05:48.950
+and put seven students in six seats.

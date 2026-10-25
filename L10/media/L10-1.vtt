@@ -1,0 +1,453 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.266
+Roll two four-sided dice.
+
+2
+00:00:05.266 --> 00:00:09.051
+Each one shows one, two, three or four.
+
+3
+00:00:09.051 --> 00:00:13.215
+That gives sixteen equally likely outcomes
+
+4
+00:00:13.215 --> 00:00:15.959
+the first die picks the row
+
+5
+00:00:15.959 --> 00:00:19.460
+and the second die picks the column.
+
+6
+00:00:19.810 --> 00:00:21.304
+At a school fair
+
+7
+00:00:21.304 --> 00:00:24.731
+you win the larger of the two numbers
+
+8
+00:00:24.731 --> 00:00:25.610
+in coins.
+
+9
+00:00:25.610 --> 00:00:28.510
+Here is the prize in every cell.
+
+10
+00:00:28.510 --> 00:00:30.970
+A ticket costs three coins.
+
+11
+00:00:31.320 --> 00:00:35.534
+Is the average prize more than three coins?
+
+12
+00:00:35.534 --> 00:00:37.200
+Pause and guess.
+
+13
+00:00:40.780 --> 00:00:44.531
+Take one outcome: the first die shows one
+
+14
+00:00:44.531 --> 00:00:46.585
+the second shows four.
+
+15
+00:00:46.585 --> 00:00:48.282
+The prize is four.
+
+16
+00:00:48.372 --> 00:00:51.319
+So the prize is a rule that turns
+
+17
+00:00:51.408 --> 00:00:53.820
+each outcome into a number.
+
+18
+00:00:54.170 --> 00:00:57.477
+That is exactly what a random variable is
+
+19
+00:00:57.477 --> 00:01:00.547
+a function, X, from the sample space S
+
+20
+00:01:00.626 --> 00:01:02.279
+to a set of values V.
+
+21
+00:01:02.279 --> 00:01:05.822
+Nothing about the function itself is random.
+
+22
+00:01:05.900 --> 00:01:07.869
+The randomness is only in
+
+23
+00:01:07.947 --> 00:01:10.467
+which outcome happens, this one
+
+24
+00:01:10.467 --> 00:01:11.490
+or this one.
+
+25
+00:01:11.840 --> 00:01:15.110
+The same outcome can feed other functions.
+
+26
+00:01:15.110 --> 00:01:18.147
+The sum of the two numbers gives five.
+
+27
+00:01:18.147 --> 00:01:20.561
+And the values can be any set
+
+28
+00:01:20.561 --> 00:01:23.520
+win or lose is a random variable too.
+
+29
+00:01:24.100 --> 00:01:27.199
+Each value of M picks out an event
+
+30
+00:01:27.199 --> 00:01:30.652
+the outcomes where M takes that value.
+
+31
+00:01:30.652 --> 00:01:33.397
+M equals one is a single cell.
+
+32
+00:01:33.397 --> 00:01:35.965
+M equals two is three cells.
+
+33
+00:01:35.965 --> 00:01:38.621
+M equals three is five cells
+
+34
+00:01:38.621 --> 00:01:41.100
+and M equals four is seven.
+
+35
+00:01:41.450 --> 00:01:44.519
+Each event is an L-shaped layer
+
+36
+00:01:44.519 --> 00:01:48.354
+and the sizes are the odd numbers: one
+
+37
+00:01:48.354 --> 00:01:50.272
+three, five, seven.
+
+38
+00:01:50.368 --> 00:01:53.437
+So the probability that M equals
+
+39
+00:01:53.533 --> 00:01:55.930
+four is seven sixteenths.
+
+40
+00:01:56.280 --> 00:01:58.435
+Stack the counts as columns.
+
+41
+00:01:58.435 --> 00:02:00.976
+Each value with its probability
+
+42
+00:02:00.976 --> 00:02:03.747
+that list is the distribution of M.
+
+43
+00:02:03.747 --> 00:02:06.749
+The columns hold sixteen cells in all
+
+44
+00:02:06.749 --> 00:02:09.520
+so the probabilities add up to one.
+
+45
+00:02:10.100 --> 00:02:12.570
+Here is another random variable
+
+46
+00:02:12.650 --> 00:02:14.961
+on the same dice: the sum, T.
+
+47
+00:02:14.961 --> 00:02:16.714
+The grid is the same
+
+48
+00:02:16.714 --> 00:02:20.300
+but every cell now holds a different number.
+
+49
+00:02:20.650 --> 00:02:24.600
+The distribution of the sum is a tent: one
+
+50
+00:02:24.600 --> 00:02:27.815
+two, three, four, three, two, one.
+
+51
+00:02:27.815 --> 00:02:30.755
+Because the values are numbers
+
+52
+00:02:30.755 --> 00:02:33.878
+T less than five is an event too.
+
+53
+00:02:33.878 --> 00:02:35.531
+It has six cells
+
+54
+00:02:35.531 --> 00:02:38.930
+so its probability is three eighths.
+
+55
+00:02:39.510 --> 00:02:43.152
+When are two random variables independent?
+
+56
+00:02:43.152 --> 00:02:46.880
+When, for every value a and every value b
+
+57
+00:02:46.967 --> 00:02:50.782
+the probability that X equals a and Y equals
+
+58
+00:02:50.868 --> 00:02:54.510
+b is the product of the two probabilities.
+
+59
+00:02:54.860 --> 00:02:58.475
+Take X, the first die, and Y, the second.
+
+60
+00:02:58.475 --> 00:03:01.562
+X equals two is a row: four cells
+
+61
+00:03:01.562 --> 00:03:02.708
+one quarter.
+
+62
+00:03:02.708 --> 00:03:05.177
+Y equals three is a column
+
+63
+00:03:05.177 --> 00:03:06.765
+also one quarter.
+
+64
+00:03:06.765 --> 00:03:10.468
+Both together is one cell, one sixteenth
+
+65
+00:03:10.468 --> 00:03:14.260
+and that is one quarter times one quarter.
+
+66
+00:03:14.610 --> 00:03:16.600
+The same happens for every
+
+67
+00:03:16.677 --> 00:03:18.284
+row and every column
+
+68
+00:03:18.284 --> 00:03:20.810
+so the two dice are independent.
+
+69
+00:03:21.390 --> 00:03:25.309
+Now take X, the first die, and M, the prize.
+
+70
+00:03:25.309 --> 00:03:28.249
+X equals four is the bottom row.
+
+71
+00:03:28.338 --> 00:03:30.654
+M equals four is the seven
+
+72
+00:03:30.743 --> 00:03:32.969
+cells of the outer layer.
+
+73
+00:03:32.969 --> 00:03:36.265
+Both together: the whole bottom row
+
+74
+00:03:36.265 --> 00:03:38.670
+four cells out of sixteen.
+
+75
+00:03:39.020 --> 00:03:41.873
+But the product is one quarter
+
+76
+00:03:41.968 --> 00:03:44.156
+times seven sixteenths
+
+77
+00:03:44.156 --> 00:03:47.009
+which is seven sixty-fourths.
+
+78
+00:03:47.009 --> 00:03:48.055
+Not equal.
+
+79
+00:03:48.055 --> 00:03:51.003
+Once the first die shows four
+
+80
+00:03:51.003 --> 00:03:54.142
+the prize is certain to be four.
+
+81
+00:03:54.142 --> 00:03:56.900
+X and M are not independent.
+
+82
+00:03:57.480 --> 00:03:58.418
+A warning.
+
+83
+00:03:58.418 --> 00:04:00.481
+Take X and the sum T
+
+84
+00:04:00.481 --> 00:04:03.762
+at a equals one and b equals five.
+
+85
+00:04:03.762 --> 00:04:05.357
+That is row one
+
+86
+00:04:05.357 --> 00:04:08.545
+and the four cells with sum five.
+
+87
+00:04:08.545 --> 00:04:11.920
+They share one cell: one sixteenth.
+
+88
+00:04:12.014 --> 00:04:15.483
+And one quarter times four sixteenths
+
+89
+00:04:15.577 --> 00:04:17.640
+is also one sixteenth.
+
+90
+00:04:17.990 --> 00:04:20.284
+So are they independent?
+
+91
+00:04:20.284 --> 00:04:22.770
+Try b equals two instead.
+
+92
+00:04:22.770 --> 00:04:26.307
+Sum two is one cell, inside row one
+
+93
+00:04:26.307 --> 00:04:27.741
+one sixteenth.
+
+94
+00:04:27.836 --> 00:04:30.704
+But the product is one quarter
+
+95
+00:04:30.800 --> 00:04:34.910
+times one sixteenth, only one sixty-fourth.
+
+96
+00:04:35.260 --> 00:04:38.358
+One pair that works proves nothing.
+
+97
+00:04:38.358 --> 00:04:42.340
+Independence is a statement about all pairs.
+
+98
+00:04:42.920 --> 00:04:44.788
+So here is the pattern.
+
+99
+00:04:44.869 --> 00:04:47.630
+To prove that two random variables
+
+100
+00:04:47.711 --> 00:04:51.284
+are independent, check every pair of values.
+
+101
+00:04:51.284 --> 00:04:54.614
+To refute it, one pair where the product
+
+102
+00:04:54.695 --> 00:04:56.400
+rule fails is enough.
+
+103
+00:04:56.750 --> 00:04:59.976
+The first die and the prize: refuted
+
+104
+00:04:59.976 --> 00:05:01.546
+at four and four.
+
+105
+00:05:01.546 --> 00:05:05.470
+The two dice: proved, for all sixteen pairs.
+
+106
+00:05:06.050 --> 00:05:07.157
+Try it yourself
+
+107
+00:05:07.226 --> 00:05:09.510
+are the larger and the smaller of
+
+108
+00:05:09.579 --> 00:05:11.517
+the two numbers independent?
+
+109
+00:05:11.517 --> 00:05:12.970
+One pair settles it.
+
+110
+00:05:13.320 --> 00:05:16.049
+In part two we come back to the fair.
+
+111
+00:05:16.049 --> 00:05:19.368
+The average prize is called the expectation
+
+112
+00:05:19.441 --> 00:05:21.138
+and we will see whether
+
+113
+00:05:21.211 --> 00:05:22.760
+it beats three coins.

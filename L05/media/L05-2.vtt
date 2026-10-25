@@ -1,0 +1,521 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.314
+Day zero is a Wednesday.
+
+2
+00:00:05.314 --> 00:00:08.231
+Seven days later, day seven
+
+3
+00:00:08.231 --> 00:00:10.544
+it is Wednesday again.
+
+4
+00:00:10.544 --> 00:00:13.260
+And again on day fourteen.
+
+5
+00:00:13.610 --> 00:00:16.324
+Days that are a multiple of seven
+
+6
+00:00:16.406 --> 00:00:18.956
+apart fall on the same weekday.
+
+7
+00:00:18.956 --> 00:00:21.998
+So which weekday is day one hundred?
+
+8
+00:00:21.998 --> 00:00:23.890
+Pause and work it out.
+
+9
+00:00:27.470 --> 00:00:30.541
+One hundred minus two is ninety-eight
+
+10
+00:00:30.541 --> 00:00:33.935
+and ninety-eight is seven times fourteen.
+
+11
+00:00:34.016 --> 00:00:36.521
+So day one hundred falls on the
+
+12
+00:00:36.602 --> 00:00:39.350
+same weekday as day two: a Friday.
+
+13
+00:00:39.700 --> 00:00:43.186
+Same weekday is a relation between days
+
+14
+00:00:43.274 --> 00:00:45.888
+a and b are related when seven
+
+15
+00:00:45.976 --> 00:00:47.544
+divides a minus b.
+
+16
+00:00:47.632 --> 00:00:49.811
+It treats day two and day
+
+17
+00:00:49.898 --> 00:00:51.990
+one hundred as the same
+
+18
+00:00:51.990 --> 00:00:53.820
+the way equals does.
+
+19
+00:00:54.400 --> 00:00:56.710
+A relation like that is called
+
+20
+00:00:56.787 --> 00:00:59.481
+an equivalence relation: reflexive
+
+21
+00:00:59.481 --> 00:01:01.560
+symmetric, and transitive.
+
+22
+00:01:01.910 --> 00:01:05.330
+Here is same parity on one, two, three
+
+23
+00:01:05.330 --> 00:01:07.171
+four, from part one.
+
+24
+00:01:07.171 --> 00:01:10.853
+Its diagonal is full, so it is reflexive.
+
+25
+00:01:10.853 --> 00:01:13.308
+It is its own mirror image
+
+26
+00:01:13.308 --> 00:01:15.062
+so it is symmetric.
+
+27
+00:01:15.062 --> 00:01:16.991
+And it is transitive
+
+28
+00:01:16.991 --> 00:01:20.147
+one and three have the same parity
+
+29
+00:01:20.147 --> 00:01:23.830
+three and one too, and so do one and one.
+
+30
+00:01:24.180 --> 00:01:26.033
+Equals, same parity
+
+31
+00:01:26.125 --> 00:01:28.348
+and same weekday are all
+
+32
+00:01:28.441 --> 00:01:30.479
+equivalence relations.
+
+33
+00:01:30.479 --> 00:01:32.980
+Less than or equal is not
+
+34
+00:01:32.980 --> 00:01:34.740
+it fails symmetry.
+
+35
+00:01:35.320 --> 00:01:37.073
+Careful with close to.
+
+36
+00:01:37.153 --> 00:01:40.261
+Say two people are related if they live
+
+37
+00:01:40.341 --> 00:01:43.130
+within one kilometre of each other.
+
+38
+00:01:43.130 --> 00:01:45.760
+That is reflexive and symmetric.
+
+39
+00:01:46.110 --> 00:01:48.628
+Ana lives zero point eight
+
+40
+00:01:48.725 --> 00:01:50.566
+kilometres from Bo
+
+41
+00:01:50.566 --> 00:01:54.828
+and Bo zero point eight kilometres from Cy.
+
+42
+00:01:54.925 --> 00:01:57.637
+But Ana and Cy are one point
+
+43
+00:01:57.734 --> 00:01:59.768
+six kilometres apart.
+
+44
+00:01:59.768 --> 00:02:01.317
+Not transitive.
+
+45
+00:02:01.414 --> 00:02:04.030
+Being close is not the same
+
+46
+00:02:04.127 --> 00:02:05.870
+as being the same.
+
+47
+00:02:06.450 --> 00:02:10.055
+Now the most important example.
+
+48
+00:02:10.171 --> 00:02:13.427
+a is congruent to b modulo n
+
+49
+00:02:13.543 --> 00:02:16.450
+when n divides a minus b.
+
+50
+00:02:16.800 --> 00:02:20.379
+Twenty-three is congruent to two, mod seven
+
+51
+00:02:20.379 --> 00:02:22.657
+the difference, twenty-one
+
+52
+00:02:22.657 --> 00:02:24.447
+is seven times three.
+
+53
+00:02:24.447 --> 00:02:26.643
+Negative numbers work too.
+
+54
+00:02:26.643 --> 00:02:30.141
+Minus four is congruent to two, mod three
+
+55
+00:02:30.141 --> 00:02:33.720
+because minus six is three times minus two.
+
+56
+00:02:34.300 --> 00:02:35.116
+Theorem
+
+57
+00:02:35.116 --> 00:02:39.708
+congruence mod n is an equivalence relation.
+
+58
+00:02:39.708 --> 00:02:42.973
+Three proofs, one per property.
+
+59
+00:02:42.973 --> 00:02:46.033
+Reflexive: a minus a is zero
+
+60
+00:02:46.033 --> 00:02:48.380
+which is n times zero.
+
+61
+00:02:48.730 --> 00:02:53.065
+Symmetric: if a minus b is n times k
+
+62
+00:02:53.065 --> 00:02:57.166
+then b minus a is n times minus k
+
+63
+00:02:57.166 --> 00:03:00.330
+and minus k is an integer.
+
+64
+00:03:00.680 --> 00:03:04.463
+Transitive: say a minus b is n k
+
+65
+00:03:04.463 --> 00:03:06.985
+and b minus c is n m.
+
+66
+00:03:06.985 --> 00:03:12.030
+Take n equal to three, with five minus two
+
+67
+00:03:12.030 --> 00:03:14.552
+and eight minus five.
+
+68
+00:03:14.552 --> 00:03:17.418
+Add the two differences
+
+69
+00:03:17.418 --> 00:03:20.513
+a minus c is n k plus n m
+
+70
+00:03:20.513 --> 00:03:23.609
+which is n times k plus m.
+
+71
+00:03:23.609 --> 00:03:26.360
+So a is congruent to c.
+
+72
+00:03:26.940 --> 00:03:29.406
+An equivalence relation sorts
+
+73
+00:03:29.492 --> 00:03:31.107
+a set into classes.
+
+74
+00:03:31.193 --> 00:03:33.574
+The class of a is the set of
+
+75
+00:03:33.659 --> 00:03:35.700
+everything related to a.
+
+76
+00:03:36.050 --> 00:03:39.188
+Write zero to eleven in rows of three.
+
+77
+00:03:39.188 --> 00:03:42.904
+Mod three, the class of zero is zero, three
+
+78
+00:03:42.904 --> 00:03:45.299
+six, nine: the first column.
+
+79
+00:03:45.299 --> 00:03:48.520
+The class of one is the second column
+
+80
+00:03:48.520 --> 00:03:51.410
+and the class of two is the third.
+
+81
+00:03:51.760 --> 00:03:54.409
+Is the class of one different
+
+82
+00:03:54.500 --> 00:03:56.601
+from the class of four?
+
+83
+00:03:56.601 --> 00:03:56.966
+No.
+
+84
+00:03:56.966 --> 00:03:59.524
+Four is in the same column
+
+85
+00:03:59.524 --> 00:04:02.538
+it is one class with many names.
+
+86
+00:04:02.629 --> 00:04:06.009
+Two names give the same class exactly
+
+87
+00:04:06.100 --> 00:04:08.840
+when the elements are related.
+
+88
+00:04:09.420 --> 00:04:13.703
+This is true for every equivalence relation.
+
+89
+00:04:13.703 --> 00:04:16.234
+First, no class is empty
+
+90
+00:04:16.234 --> 00:04:20.030
+a is in its own class, by reflexivity.
+
+91
+00:04:20.030 --> 00:04:22.950
+Second, if a is related to b
+
+92
+00:04:22.950 --> 00:04:26.260
+the classes of a and b are equal.
+
+93
+00:04:26.610 --> 00:04:26.990
+Why?
+
+94
+00:04:26.990 --> 00:04:29.460
+Take x in the class of a.
+
+95
+00:04:29.460 --> 00:04:32.405
+x is related to a, and a to b
+
+96
+00:04:32.405 --> 00:04:36.110
+so by transitivity, x is related to b.
+
+97
+00:04:36.110 --> 00:04:39.530
+Symmetry gives the other inclusion.
+
+98
+00:04:39.880 --> 00:04:43.584
+So two classes are either equal or disjoint
+
+99
+00:04:43.584 --> 00:04:45.688
+they never just overlap.
+
+100
+00:04:45.772 --> 00:04:47.792
+And together the classes
+
+101
+00:04:47.877 --> 00:04:49.560
+cover the whole set.
+
+102
+00:04:50.140 --> 00:04:54.042
+Pieces like these have a name: a partition.
+
+103
+00:04:54.042 --> 00:04:58.124
+The parts are nonempty, they do not overlap
+
+104
+00:04:58.124 --> 00:05:01.300
+and together they make up the set.
+
+105
+00:05:01.650 --> 00:05:03.700
+The converse holds too.
+
+106
+00:05:03.700 --> 00:05:07.711
+Cut one to six into one four, two three six
+
+107
+00:05:07.711 --> 00:05:08.603
+and five.
+
+108
+00:05:08.692 --> 00:05:11.188
+Relate two numbers when they
+
+109
+00:05:11.277 --> 00:05:13.149
+are in the same part.
+
+110
+00:05:13.149 --> 00:05:16.090
+That is an equivalence relation.
+
+111
+00:05:16.440 --> 00:05:19.178
+List the elements part by part
+
+112
+00:05:19.267 --> 00:05:21.740
+and its grid is three blocks
+
+113
+00:05:21.828 --> 00:05:23.241
+on the diagonal.
+
+114
+00:05:23.241 --> 00:05:26.156
+Four pairs, plus nine, plus one
+
+115
+00:05:26.156 --> 00:05:27.569
+fourteen pairs.
+
+116
+00:05:27.657 --> 00:05:29.866
+So a four-element set has
+
+117
+00:05:29.954 --> 00:05:31.632
+fifteen partitions
+
+118
+00:05:31.632 --> 00:05:34.724
+and fifteen equivalence relations
+
+119
+00:05:34.724 --> 00:05:35.960
+one for each.
+
+120
+00:05:36.540 --> 00:05:38.922
+So the classes of an equivalence
+
+121
+00:05:38.996 --> 00:05:40.932
+relation form a partition
+
+122
+00:05:41.006 --> 00:05:42.867
+and every partition gives
+
+123
+00:05:42.941 --> 00:05:44.728
+an equivalence relation.
+
+124
+00:05:44.728 --> 00:05:47.333
+In code, equality must be one too
+
+125
+00:05:47.407 --> 00:05:49.194
+but a floating-point NaN
+
+126
+00:05:49.268 --> 00:05:50.980
+is not equal to itself.
+
+127
+00:05:51.330 --> 00:05:52.778
+Try it yourself
+
+128
+00:05:52.868 --> 00:05:56.579
+is a times b at least zero an equivalence
+
+129
+00:05:56.669 --> 00:05:58.931
+relation on the integers?
+
+130
+00:05:58.931 --> 00:06:02.370
+Next lecture: proof by contradiction.

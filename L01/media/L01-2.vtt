@@ -1,0 +1,509 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.847
+Part one defined divides.
+
+2
+00:00:05.847 --> 00:00:09.266
+Now three words built on it.
+
+3
+00:00:09.266 --> 00:00:12.567
+Even: a equals two times c
+
+4
+00:00:12.567 --> 00:00:14.925
+for some integer c.
+
+5
+00:00:14.925 --> 00:00:18.462
+Odd: a equals two k plus one
+
+6
+00:00:18.462 --> 00:00:20.820
+for some integer k.
+
+7
+00:00:21.170 --> 00:00:25.132
+And prime, which we come to later.
+
+8
+00:00:25.132 --> 00:00:26.763
+First a test.
+
+9
+00:00:26.763 --> 00:00:28.977
+Is minus five odd?
+
+10
+00:00:28.977 --> 00:00:32.356
+Which integer k do you need?
+
+11
+00:00:32.356 --> 00:00:34.570
+Pause and find it.
+
+12
+00:00:38.150 --> 00:00:41.178
+Minus five is two times minus three
+
+13
+00:00:41.178 --> 00:00:42.019
+plus one.
+
+14
+00:00:42.019 --> 00:00:45.300
+Not minus two: that gives minus three.
+
+15
+00:00:45.300 --> 00:00:47.151
+So minus five is odd
+
+16
+00:00:47.151 --> 00:00:49.590
+with k equal to minus three.
+
+17
+00:00:49.940 --> 00:00:53.023
+Zero is even: zero is two times zero.
+
+18
+00:00:53.023 --> 00:00:55.023
+Minus fourteen is even
+
+19
+00:00:55.023 --> 00:00:56.940
+two times minus seven.
+
+20
+00:00:56.940 --> 00:00:58.607
+On the number line
+
+21
+00:00:58.607 --> 00:01:02.357
+the even numbers are steps of two from zero
+
+22
+00:01:02.440 --> 00:01:04.357
+and the odd numbers are
+
+23
+00:01:04.440 --> 00:01:07.940
+steps of two from one, in both directions.
+
+24
+00:01:08.290 --> 00:01:09.245
+With dots
+
+25
+00:01:09.245 --> 00:01:13.543
+an even number of dots makes two equal rows.
+
+26
+00:01:13.543 --> 00:01:16.599
+Thirteen makes two rows of six
+
+27
+00:01:16.599 --> 00:01:18.796
+and one dot left over.
+
+28
+00:01:18.796 --> 00:01:22.330
+Thirteen is two times six, plus one.
+
+29
+00:01:22.910 --> 00:01:24.194
+Now a proof.
+
+30
+00:01:24.194 --> 00:01:28.793
+If a and b are odd, then a times b is odd.
+
+31
+00:01:28.793 --> 00:01:31.895
+Unwrap: a is two x plus one
+
+32
+00:01:31.895 --> 00:01:34.569
+and b is two y plus one
+
+33
+00:01:34.569 --> 00:01:37.350
+with new letters x and y.
+
+34
+00:01:37.700 --> 00:01:40.937
+The goal is an integer k with
+
+35
+00:01:41.048 --> 00:01:44.173
+a b equal to two k plus one.
+
+36
+00:01:44.173 --> 00:01:48.191
+Multiply out: four x y, plus two x
+
+37
+00:01:48.191 --> 00:01:50.646
+plus two y, plus one.
+
+38
+00:01:50.646 --> 00:01:55.334
+That is two times, two x y plus x plus y
+
+39
+00:01:55.334 --> 00:01:56.450
+plus one.
+
+40
+00:01:56.450 --> 00:02:01.026
+And two x y plus x plus y is an integer.
+
+41
+00:02:01.026 --> 00:02:02.700
+So a b is odd.
+
+42
+00:02:03.050 --> 00:02:04.012
+For example
+
+43
+00:02:04.012 --> 00:02:06.659
+five times seven is thirty-five.
+
+44
+00:02:06.659 --> 00:02:09.065
+In a five by seven rectangle
+
+45
+00:02:09.065 --> 00:02:11.391
+the first four rows pair up.
+
+46
+00:02:11.391 --> 00:02:13.796
+The last row has three pairs
+
+47
+00:02:13.796 --> 00:02:15.641
+and one dot left over
+
+48
+00:02:15.641 --> 00:02:18.528
+thirty-five is two times seventeen
+
+49
+00:02:18.528 --> 00:02:19.330
+plus one.
+
+50
+00:02:19.910 --> 00:02:23.873
+Can a number be both even and odd?
+
+51
+00:02:23.873 --> 00:02:29.118
+Suppose a is two c, and also two k plus one.
+
+52
+00:02:29.118 --> 00:02:33.430
+Then two times c minus k equals one.
+
+53
+00:02:33.780 --> 00:02:35.745
+Call c minus k, j.
+
+54
+00:02:35.745 --> 00:02:40.113
+It is an integer, and two j equals one.
+
+55
+00:02:40.113 --> 00:02:42.951
+But if j is zero or less
+
+56
+00:02:42.951 --> 00:02:45.463
+two j is zero or less.
+
+57
+00:02:45.463 --> 00:02:48.192
+And if j is one or more
+
+58
+00:02:48.192 --> 00:02:50.703
+two j is at least two.
+
+59
+00:02:50.703 --> 00:02:52.996
+One sits in the gap.
+
+60
+00:02:52.996 --> 00:02:55.180
+No integer j works.
+
+61
+00:02:55.530 --> 00:02:57.375
+So no integer is both.
+
+62
+00:02:57.459 --> 00:02:59.639
+That every integer is even
+
+63
+00:02:59.723 --> 00:03:03.412
+or odd is also true, but its proof waits for
+
+64
+00:03:03.496 --> 00:03:06.850
+the division theorem, in lecture eleven.
+
+65
+00:03:07.430 --> 00:03:08.519
+Now primes.
+
+66
+00:03:08.519 --> 00:03:11.588
+A positive integer p is prime
+
+67
+00:03:11.588 --> 00:03:14.756
+provided p is greater than one
+
+68
+00:03:14.855 --> 00:03:17.825
+and its only positive divisors
+
+69
+00:03:17.924 --> 00:03:19.310
+are one and p.
+
+70
+00:03:19.660 --> 00:03:23.018
+In dots, a divisor is a number of rows
+
+71
+00:03:23.107 --> 00:03:25.493
+that the dots fill exactly.
+
+72
+00:03:25.493 --> 00:03:28.762
+Twelve dots make three rows of four
+
+73
+00:03:28.762 --> 00:03:30.530
+or two rows of six.
+
+74
+00:03:30.530 --> 00:03:32.474
+Three divides twelve
+
+75
+00:03:32.562 --> 00:03:35.125
+and three is strictly between
+
+76
+00:03:35.214 --> 00:03:36.539
+one and twelve.
+
+77
+00:03:36.539 --> 00:03:38.660
+So twelve is composite.
+
+78
+00:03:39.010 --> 00:03:41.022
+Thirteen dots make only
+
+79
+00:03:41.110 --> 00:03:44.259
+one kind of rectangle: a single row.
+
+80
+00:03:44.259 --> 00:03:48.108
+Its positive divisors are one and thirteen.
+
+81
+00:03:48.108 --> 00:03:49.770
+Thirteen is prime.
+
+82
+00:03:50.350 --> 00:03:52.493
+What about ninety-one?
+
+83
+00:03:52.493 --> 00:03:56.584
+It is odd, it is not a multiple of three
+
+84
+00:03:56.584 --> 00:03:59.312
+and not a multiple of five.
+
+85
+00:03:59.312 --> 00:04:00.870
+It looks prime.
+
+86
+00:04:01.220 --> 00:04:03.629
+But ninety-one dots make
+
+87
+00:04:03.730 --> 00:04:06.038
+seven rows of thirteen.
+
+88
+00:04:06.038 --> 00:04:09.652
+Ninety-one is seven times thirteen
+
+89
+00:04:09.652 --> 00:04:11.660
+so it is composite.
+
+90
+00:04:11.660 --> 00:04:14.571
+Looking prime is not a test.
+
+91
+00:04:14.571 --> 00:04:16.980
+Only the definition is.
+
+92
+00:04:17.560 --> 00:04:18.271
+And one?
+
+93
+00:04:18.271 --> 00:04:19.871
+One is not prime
+
+94
+00:04:19.960 --> 00:04:22.360
+because the definition asks
+
+95
+00:04:22.449 --> 00:04:24.493
+for p greater than one.
+
+96
+00:04:24.493 --> 00:04:26.982
+It is not composite either
+
+97
+00:04:27.071 --> 00:04:29.738
+there is no integer b with one
+
+98
+00:04:29.827 --> 00:04:32.138
+less than b less than one.
+
+99
+00:04:32.138 --> 00:04:33.560
+One is neither.
+
+100
+00:04:33.910 --> 00:04:37.958
+Two is prime, and it is the only even prime.
+
+101
+00:04:38.050 --> 00:04:40.810
+Any larger even number has two
+
+102
+00:04:40.902 --> 00:04:43.110
+as a divisor in between.
+
+103
+00:04:43.690 --> 00:04:45.780
+One more definition.
+
+104
+00:04:45.780 --> 00:04:49.437
+A positive integer a is composite
+
+105
+00:04:49.437 --> 00:04:52.258
+provided some b divides a
+
+106
+00:04:52.258 --> 00:04:55.810
+with one less than b less than a.
+
+107
+00:04:56.160 --> 00:04:59.375
+Theorem: for every a at least two
+
+108
+00:04:59.469 --> 00:05:01.927
+a is composite if and only
+
+109
+00:05:02.022 --> 00:05:03.724
+if a is not prime.
+
+110
+00:05:03.724 --> 00:05:07.789
+So every such a is exactly one of the two.
+
+111
+00:05:07.789 --> 00:05:11.855
+Here are two to seven, sorted: two, three
+
+112
+00:05:11.855 --> 00:05:14.313
+five and seven are prime
+
+113
+00:05:14.313 --> 00:05:16.960
+four and six are composite.
+
+114
+00:05:17.310 --> 00:05:21.375
+The key step: if a positive b divides a
+
+115
+00:05:21.375 --> 00:05:24.118
+with a equal to b times c
+
+116
+00:05:24.118 --> 00:05:28.488
+then c is at least one, so b is at most a.
+
+117
+00:05:28.488 --> 00:05:31.638
+That fact is in no definition.
+
+118
+00:05:31.638 --> 00:05:33.670
+We had to prove it.
+
+119
+00:05:34.250 --> 00:05:35.249
+To sum up.
+
+120
+00:05:35.249 --> 00:05:39.444
+Even is two c, and odd is two k plus one
+
+121
+00:05:39.444 --> 00:05:42.240
+for zero and negatives too.
+
+122
+00:05:42.240 --> 00:05:46.135
+The product of two odd numbers is odd.
+
+123
+00:05:46.135 --> 00:05:50.130
+And one is neither prime nor composite.
+
+124
+00:05:50.480 --> 00:05:52.091
+Try it yourself
+
+125
+00:05:52.091 --> 00:05:56.419
+show that n squared plus n is always even.
+
+126
+00:05:56.419 --> 00:05:59.339
+Next lecture: what if, then
+
+127
+00:05:59.339 --> 00:06:02.560
+and if and only if really mean.

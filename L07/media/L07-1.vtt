@@ -1,0 +1,441 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.697
+Here is a formula: n squared, plus n
+
+2
+00:00:06.697 --> 00:00:08.339
+plus forty-one.
+
+3
+00:00:08.339 --> 00:00:12.136
+At n equals zero it gives forty-one.
+
+4
+00:00:12.136 --> 00:00:16.651
+Then forty-three, forty-seven, fifty-three
+
+5
+00:00:16.651 --> 00:00:17.780
+sixty-one.
+
+6
+00:00:18.130 --> 00:00:20.279
+Every one of them is prime.
+
+7
+00:00:20.359 --> 00:00:22.508
+A computer checks the first
+
+8
+00:00:22.587 --> 00:00:26.010
+forty values of n, and all forty are prime.
+
+9
+00:00:26.360 --> 00:00:29.264
+So is it prime for every n?
+
+10
+00:00:29.264 --> 00:00:31.200
+Pause and decide.
+
+11
+00:00:34.780 --> 00:00:36.540
+Try n equals forty.
+
+12
+00:00:36.633 --> 00:00:39.134
+Forty squared plus forty is
+
+13
+00:00:39.226 --> 00:00:41.264
+forty times forty-one.
+
+14
+00:00:41.264 --> 00:00:43.487
+Add one more forty-one
+
+15
+00:00:43.487 --> 00:00:47.100
+and you get forty-one times forty-one.
+
+16
+00:00:47.450 --> 00:00:48.528
+Not prime.
+
+17
+00:00:48.528 --> 00:00:51.762
+The pattern held forty times
+
+18
+00:00:51.762 --> 00:00:53.810
+and then it broke.
+
+19
+00:00:54.160 --> 00:00:56.358
+Checking cases, however many
+
+20
+00:00:56.358 --> 00:00:59.389
+never proves a statement about every n.
+
+21
+00:00:59.389 --> 00:01:02.800
+There are always more cases than we checked.
+
+22
+00:01:03.380 --> 00:01:05.879
+Here is another pattern.
+
+23
+00:01:05.879 --> 00:01:08.378
+Add up the odd numbers.
+
+24
+00:01:08.378 --> 00:01:10.460
+One is one squared.
+
+25
+00:01:10.810 --> 00:01:15.184
+One plus three is four, two squared.
+
+26
+00:01:15.184 --> 00:01:19.315
+Plus five is nine, three squared.
+
+27
+00:01:19.315 --> 00:01:23.810
+Plus seven is sixteen, four squared.
+
+28
+00:01:24.160 --> 00:01:27.202
+Each new odd number wraps one more
+
+29
+00:01:27.291 --> 00:01:29.438
+layer around the square.
+
+30
+00:01:29.528 --> 00:01:32.122
+Is the sum of the first n odd
+
+31
+00:01:32.211 --> 00:01:34.448
+numbers always n squared?
+
+32
+00:01:34.448 --> 00:01:37.400
+We need a proof, not more cases.
+
+33
+00:01:37.980 --> 00:01:40.046
+Picture a row of dominoes
+
+34
+00:01:40.046 --> 00:01:42.351
+one for each natural number.
+
+35
+00:01:42.351 --> 00:01:44.258
+If the first one falls
+
+36
+00:01:44.337 --> 00:01:46.801
+and every falling domino knocks
+
+37
+00:01:46.880 --> 00:01:49.900
+over the next one, then they all fall.
+
+38
+00:01:50.250 --> 00:01:53.547
+That is the principle of induction.
+
+39
+00:01:53.547 --> 00:01:57.691
+Two facts: a base case, P of c, and a step
+
+40
+00:01:57.691 --> 00:02:01.930
+P of k implies P of k plus one, for every k.
+
+41
+00:02:02.280 --> 00:02:04.398
+Neither fact works alone.
+
+42
+00:02:04.483 --> 00:02:07.025
+A domino too far from the next
+
+43
+00:02:07.109 --> 00:02:08.804
+one stops the chain.
+
+44
+00:02:08.889 --> 00:02:11.346
+And a perfect row that nobody
+
+45
+00:02:11.430 --> 00:02:13.040
+pushes never moves.
+
+46
+00:02:13.620 --> 00:02:17.091
+Now prove the odd number pattern.
+
+47
+00:02:17.091 --> 00:02:20.456
+Call it P of n: one plus three
+
+48
+00:02:20.456 --> 00:02:23.927
+and so on up to two n minus one
+
+49
+00:02:23.927 --> 00:02:25.820
+equals n squared.
+
+50
+00:02:26.170 --> 00:02:28.716
+Step one, the base case.
+
+51
+00:02:28.716 --> 00:02:32.747
+For n equals one the sum is just one
+
+52
+00:02:32.747 --> 00:02:35.293
+and one squared is one.
+
+53
+00:02:35.293 --> 00:02:35.930
+True.
+
+54
+00:02:36.510 --> 00:02:39.777
+Step two, the inductive hypothesis.
+
+55
+00:02:39.777 --> 00:02:42.203
+Take any k, at least one
+
+56
+00:02:42.297 --> 00:02:45.470
+and assume the first k odd numbers
+
+57
+00:02:45.563 --> 00:02:47.430
+add up to k squared.
+
+58
+00:02:47.780 --> 00:02:52.429
+Picture that sum as a k by k square of dots.
+
+59
+00:02:52.429 --> 00:02:54.965
+We do not know which k.
+
+60
+00:02:54.965 --> 00:02:58.980
+We only assume P of k for that one k.
+
+61
+00:02:59.560 --> 00:03:02.389
+Step three, the inductive step.
+
+62
+00:03:02.389 --> 00:03:05.948
+The next odd number is two k plus one.
+
+63
+00:03:05.948 --> 00:03:08.321
+Lay it around the square
+
+64
+00:03:08.321 --> 00:03:10.876
+k dots down the right side
+
+65
+00:03:10.876 --> 00:03:14.800
+k along the bottom, and one in the corner.
+
+66
+00:03:15.150 --> 00:03:19.966
+The square is now k plus one by k plus one.
+
+67
+00:03:19.966 --> 00:03:24.894
+In symbols: k squared, plus two k plus one
+
+68
+00:03:24.894 --> 00:03:28.030
+equals k plus one, squared.
+
+69
+00:03:28.380 --> 00:03:31.066
+So P of k plus one is true.
+
+70
+00:03:31.165 --> 00:03:34.548
+We started from P of k and arrived
+
+71
+00:03:34.647 --> 00:03:36.537
+at P of k plus one
+
+72
+00:03:36.537 --> 00:03:39.820
+never in the opposite direction.
+
+73
+00:03:40.400 --> 00:03:42.710
+Step four, the conclusion.
+
+74
+00:03:42.710 --> 00:03:46.176
+The base case pushes the first domino
+
+75
+00:03:46.176 --> 00:03:47.064
+P of one.
+
+76
+00:03:47.064 --> 00:03:49.552
+The step works for every k
+
+77
+00:03:49.552 --> 00:03:52.840
+so each domino knocks over the next.
+
+78
+00:03:53.190 --> 00:03:56.863
+By induction, the sum of the first n odd
+
+79
+00:03:56.955 --> 00:03:58.883
+numbers is n squared
+
+80
+00:03:58.883 --> 00:04:01.270
+for every n at least one.
+
+81
+00:04:01.850 --> 00:04:03.559
+Now a warning.
+
+82
+00:04:03.559 --> 00:04:08.321
+Claim: n squared plus n is always odd.
+
+83
+00:04:08.321 --> 00:04:10.030
+Try the step.
+
+84
+00:04:10.030 --> 00:04:14.670
+k plus one, squared, plus k plus one
+
+85
+00:04:14.670 --> 00:04:17.234
+is k squared plus k
+
+86
+00:04:17.234 --> 00:04:20.530
+plus two times k plus one.
+
+87
+00:04:20.880 --> 00:04:22.696
+Odd plus even is odd.
+
+88
+00:04:22.696 --> 00:04:25.809
+Every line of that step is correct
+
+89
+00:04:25.809 --> 00:04:29.440
+so each domino would knock over the next.
+
+90
+00:04:29.790 --> 00:04:31.978
+But check the base case.
+
+91
+00:04:31.978 --> 00:04:34.895
+Zero squared plus zero is zero
+
+92
+00:04:34.895 --> 00:04:36.535
+and zero is even.
+
+93
+00:04:36.535 --> 00:04:39.270
+The first domino never falls.
+
+94
+00:04:39.620 --> 00:04:43.827
+In fact n squared plus n is always even.
+
+95
+00:04:43.932 --> 00:04:46.772
+A correct step with no base
+
+96
+00:04:46.877 --> 00:04:48.980
+case proves nothing.
+
+97
+00:04:49.560 --> 00:04:54.242
+So every proof by induction has four parts.
+
+98
+00:04:54.242 --> 00:04:57.945
+One, the base case: check P of c.
+
+99
+00:04:57.945 --> 00:05:01.865
+Two, the hypothesis: assume P of k
+
+100
+00:05:01.865 --> 00:05:05.240
+for an arbitrary k at least c.
+
+101
+00:05:05.590 --> 00:05:08.971
+Three, the step: from P of k
+
+102
+00:05:08.971 --> 00:05:11.652
+prove P of k plus one.
+
+103
+00:05:11.652 --> 00:05:13.517
+Four, conclude
+
+104
+00:05:13.517 --> 00:05:17.830
+P of n holds for every n at least c.
+
+105
+00:05:18.410 --> 00:05:23.567
+Try it yourself: prove that one plus two
+
+106
+00:05:23.567 --> 00:05:28.850
+up to n, is n times n plus one, over two.
+
+107
+00:05:29.200 --> 00:05:32.682
+In part two, the step reaches further back.
+
+108
+00:05:32.763 --> 00:05:35.111
+Stamps of four cents and five
+
+109
+00:05:35.192 --> 00:05:37.459
+cents need strong induction
+
+110
+00:05:37.459 --> 00:05:39.240
+with four base cases.

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DM101 Discrete Mathematics · Interactive Notes</title>
+  <meta name="description" content="DM101 Discrete Mathematics: checked lecture notes, interactive pages and videos on definitions, proofs, sets, relations, induction, functions, probability, number theory and graphs. Instructors: Mingtao Xia and Boxi Yu.">
+  <!-- seo --><!-- written by dm101/tools/site_build.py -->
+  <link rel="canonical" href="https://boxi-math.github.io/dm101/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DM101 Discrete Mathematics">
+  <meta property="og:title" content="DM101 Discrete Mathematics · Interactive Notes">
+  <meta property="og:description" content="DM101 Discrete Mathematics: checked lecture notes, interactive pages and videos on definitions, proofs, sets, relations, induction, functions, probability, number theory and graphs. Instructors: Mingtao Xia and Boxi Yu.">
+  <meta property="og:url" content="https://boxi-math.github.io/dm101/">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="DM101 Discrete Mathematics · Interactive Notes">
+  <meta name="twitter:description" content="DM101 Discrete Mathematics: checked lecture notes, interactive pages and videos on definitions, proofs, sets, relations, induction, functions, probability, number theory and graphs. Instructors: Mingtao Xia and Boxi Yu.">
+  <!-- /seo -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230F6E73'/%3E%3Ctext x='16' y='22' font-family='serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23F6F5F1'%3E%E2%88%80%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+<!-- Hub page: adapted from peiyuUniversity/aie1001/site/index.html. -->
+  <style>
+    .lec:hover { transform: none; }
+    .lec .acts { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 4px; }
+    .lec .notes { font-size: 13px; font-weight: 600; text-decoration: none; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--line); }
+    .lec.ready .notes { color: var(--paper); background: var(--teal); border-color: var(--teal); }
+    .lec.soon .notes { color: var(--stone); cursor: help; }
+    .lec .watch { font-size: 13px; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--amber); background: var(--mark); color: var(--ink); cursor: pointer; }
+    .lec .watch:hover { filter: brightness(1.05); }
+    .lec .msg-soon { flex-basis: 100%; font: 500 11px var(--mono); color: var(--stone); }
+    .part { font: 600 12px var(--mono); color: var(--amber); letter-spacing: 0.06em; margin: 34px 0 12px; }
+    dialog.player { width: min(1040px, calc(100vw - 32px)); padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--card); color: var(--ink); }
+    dialog.player::backdrop { background: rgba(0, 0, 0, 0.6); }
+    dialog.player video { display: block; width: 100%; background: #000; }
+    dialog.player .bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 14px; font-size: 14px; }
+    dialog.player .plist { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 14px 14px; }
+    dialog.player .plist button { font-size: 12.5px; padding: 5px 9px; border-radius: 7px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; text-align: left; }
+    dialog.player .plist button.on { border-color: var(--amber); background: var(--mark); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">∀</span><span class="brand-text"><b>DM101</b><span>Discrete Mathematics</span></span></a>
+    <span class="spacer" style="flex:1"></span>
+    <button class="iconbtn" id="theme" title="Light / dark">☾</button>
+  </header>
+  <main class="wrap">
+    <section class="hero" style="grid-template-columns:minmax(0,1fr)">
+      <div>
+        <span class="pill">Instructors · Mingtao Xia · Boxi Yu</span>
+        <h1>Discrete Mathematics<small>Interactive lecture notes and videos</small></h1>
+        <p class="lead">Twelve lectures on the language of proof and the objects of computer science: definitions and theorems, sets and counting, quantifiers, relations, proof by contradiction and by induction, functions, probability, number theory and graphs. Every number in the notes has been computed by running code, every key idea has a demo you can step through, and every exercise has a hint and a full solution.</p>
+        <ul class="people"><li><b><a href="https://www.birmingham.ac.uk/staff/profiles/maths/xia-mingtao" target="_blank" rel="noopener">Mingtao Xia</a></b><small>INSTRUCTOR</small></li><li><b><a href="https://boxiyu.github.io/" target="_blank" rel="noopener">Boxi Yu</a></b><small>INSTRUCTOR</small></li></ul>
+        <p class="meta">Textbook: Scheinerman, <i>Mathematics: A Discrete Introduction</i>. English · CC BY-SA 4.0.</p>
+      </div>
+    </section>
+    <div id="lectures"></div>
+    <p class="meta" style="margin:40px 0">Every lecture has its notes and two narrated videos; the videos also appear inside the lecture, in the chapter they cover.
+    Instructors: <a href="https://www.birmingham.ac.uk/staff/profiles/maths/xia-mingtao" target="_blank" rel="noopener">Mingtao Xia</a> · <a href="https://boxiyu.github.io/" target="_blank" rel="noopener">Boxi Yu</a>.</p>
+  </main>
+  <footer></footer>
+  <script src="assets/course.js"></script>
+  <script>
+    renderFooter("");
+    const LECTURES = [
+      ["Unit 1 · The language of proof", [
+        [1, "Definitions", "What makes a definition precise; numbers, divisibility, even, odd, prime"],
+        [2, "Theorems and proofs", "If–then, converse and contrapositive, counterexamples, Boolean algebra"],
+        [3, "Lists, sets and counting", "Ordered and unordered collections, factorials, subsets and the power set"],
+        [4, "Quantifiers", "For all and there exists, their negations, and combinatorial proof"],
+      ]],
+      ["Unit 2 · Relations and proof techniques", [
+        [5, "Relations", "Reflexive, symmetric, transitive; equivalence relations and classes"],
+        [6, "Contradiction and the smallest counterexample", "Contrapositive, contradiction, and the well-ordering principle"],
+        [7, "Mathematical induction", "Base case and step, the four-step template, and strong induction"],
+        [8, "Functions", "One-to-one, onto, composition, inverses and the pigeonhole principle"],
+      ]],
+      ["Unit 3 · Probability, numbers and graphs", [
+        [9, "Sample spaces and events", "Probability as a function on a finite set; events and their rules"],
+        [10, "Random variables", "Independence, expectation and variance"],
+        [11, "Division and the gcd", "Division with remainder, Euclid's algorithm and Bézout's identity"],
+        [12, "Graphs", "Vertices and edges, degree, subgraphs, cliques and independent sets"],
+      ]],
+    ];
+    // Video parts per lecture: [title, minutes]. Files are LNN/media/LNN-K.mp4 (gitignored, copied from build/).
+    const VIDEOS = {
+      1: [["Definitions and divisibility", 6.1], ["Even, odd and prime", 6.2]],
+      2: [["If–then: converse, contrapositive, counterexample", 7.0], ["Boolean algebra and truth tables", 5.5]],
+      3: [["Counting lists", 4.8], ["Sets, subsets and set operations", 6.3]],
+      4: [["For all and there exists", 5.6], ["Order of quantifiers, and counting two ways", 6.3]],
+      5: [["Relations and their properties", 6.4], ["Equivalence relations and classes", 6.2]],
+      6: [["Contrapositive and contradiction", 4.9], ["Well-ordering and the smallest counterexample", 5.3]],
+      7: [["Induction: from one case to every case", 5.8], ["Strong induction", 4.3]],
+      8: [["Functions: one arrow out of every input", 5.9], ["Composition, inverses and the pigeonhole principle", 5.3]],
+      9: [["Sample spaces and events", 6.5], ["Conditional probability and independence", 5.4]],
+      10: [["Random variables and independence", 5.5], ["Expectation and variance", 5.9]],
+      11: [["Division with remainder, and the gcd", 6.4], ["Euclid's algorithm and Bézout's identity", 6.6]],
+      12: [["Graphs, degrees and the handshake lemma", 6.7], ["Subgraphs, cliques and independent sets", 5.7]],
+    };
+    const pad = (n) => String(n).padStart(2, "0");
+    // A core lecture is a number (folder LNN), an elective its id string (folder E1).
+    const fid = (n) => (typeof n === "number" ? `L${pad(n)}` : n);
+    const longName = (n) => (typeof n === "number" ? `Lecture ${n}` : `Elective ${n}`);
+    const total = (n) => Math.round((VIDEOS[n] || []).reduce((a, [, m]) => a + m, 0));
+    document.getElementById("lectures").innerHTML = LECTURES.map(([part, list]) =>
+      `<div class="part">${part.toUpperCase()}</div><div class="chapters">` + list.map(([n, t, s, kind]) =>
+        `<div class="card chapcard lec soon${kind === "later" ? " later" : ""}" data-n="${fid(n)}" data-kind="${kind || ""}">
+          <span class="num">${fid(n)}</span><h3>${t}</h3><p>${s}</p>
+          <div class="acts">
+            <span class="notes" data-href="${fid(n)}/index.html">${kind === "later" ? "Planned for later" : "Notes in preparation"}</span>
+            ${VIDEOS[n] ? `<button class="watch" data-n="${n}" data-title="${t}" hidden>▶ ${VIDEOS[n].length} videos · ${total(n)} min</button>` : ""}
+          </div></div>`).join("") + "</div>").join("");
+    // A lecture is live when its folder has an index.html (on the published site: only the lectures in
+    // site/PUBLISHED). Until then the card has no link and no video button, so the hub never links to a page or
+    // video that isn't there. Over file:// the check can't run, so every lecture shows as live.
+    // tools/publish.py replaces the null below with the published folder ids (site/PUBLISHED: "L01", …, "E1"), so
+    // the published hub needs no probing; the working copy checks each folder with a HEAD request instead.
+    // 
+    const PUBLISHED = ["L01", "L02", "L03", "L04", "L05", "L06", "L07", "L08", "L09", "L10", "L11", "L12"];
+    const local = location.protocol === "file:";
+    document.querySelectorAll(".lec").forEach((card) => {
+      const label = card.querySelector(".notes");
+      const ready = () => {
+        const a = document.createElement("a");
+        a.className = "notes";
+        a.href = label.dataset.href;
+        a.textContent = card.dataset.kind === "page" ? "Open page →" : "Open notes →";
+        label.replaceWith(a);
+        card.classList.replace("soon", "ready");
+        const watch = card.querySelector(".watch");
+        if (watch) watch.hidden = false;
+      };
+      if (card.dataset.kind === "later") { label.title = "This elective is planned for later."; return; }
+      label.title = "The notes for this lecture are still being written.";
+      if (Array.isArray(PUBLISHED)) { if (PUBLISHED.includes(card.dataset.n)) ready(); return; }
+      // Over file:// an elective counts as live only once the hub lists its videos (or it is a link page), so the
+      // ones another lane is still producing stay "in preparation" in the working copy too.
+      if (local) { if (card.dataset.n.startsWith("E") && !card.querySelector(".watch") && card.dataset.kind !== "page") return; return ready(); }
+      fetch(label.dataset.href, { method: "HEAD" })
+        .then((r) => { if (r.ok) ready(); })
+        .catch(() => { /* offline or blocked: leave the card as "in preparation" */ });
+    });
+    // One shared player: the lecture's parts are listed under the video, and each part
+    // runs on into the next.
+    const dlg = document.createElement("dialog");
+    dlg.className = "player";
+    dlg.innerHTML = `<video controls preload="none"></video><div class="bar"><b></b><button class="cbtn">Close</button></div><div class="plist"></div>`;
+    document.body.appendChild(dlg);
+    const vid = dlg.querySelector("video");
+    // Captions: media/LNN-K.vtt next to every video (dm101/tools/site_build.py); a Chinese track only for these.
+    const ZH_CAPTIONS = new Set([]);
+    let cur = { n: 0, k: 0, title: "" };
+    function playPart(k) {
+      const parts = VIDEOS[cur.n];
+      cur.k = k;
+      const base = `${fid(cur.n)}/media/${fid(cur.n)}-${k + 1}`;
+      vid.querySelectorAll("track").forEach((t) => t.remove());
+      [["en", "English", ""], ...(ZH_CAPTIONS.has(fid(cur.n)) ? [["zh", "中文", ".zh"]] : [])].forEach(([lang, label, ext], j) => {
+        const t = document.createElement("track");
+        Object.assign(t, { kind: "captions", srclang: lang, label, src: `${base}${ext}.vtt`, default: j === 0 });
+        vid.appendChild(t);
+      });
+      vid.src = `${base}.mp4`;
+      // English on, the others off (set again once the video loads: Chrome re-runs its own track selection).
+      const captionModes = () => [...vid.textTracks].forEach((t, j) => { t.mode = j === 0 ? "showing" : "disabled"; });
+      captionModes();
+      vid.addEventListener("loadedmetadata", captionModes, { once: true });
+      dlg.querySelector("b").textContent = `${longName(cur.n)} · Part ${k + 1} of ${parts.length} — ${parts[k][0]}`;
+      dlg.querySelectorAll(".plist button").forEach((b, j) => b.classList.toggle("on", j === k));
+      vid.play().catch(() => {});
+    }
+    vid.addEventListener("ended", () => { if (cur.k + 1 < VIDEOS[cur.n].length) playPart(cur.k + 1); });
+    dlg.querySelector(".bar button").onclick = () => dlg.close();
+    dlg.addEventListener("close", () => vid.pause());
+    document.querySelectorAll(".watch").forEach((b) => {
+      b.onclick = () => {
+        cur = { n: /^\d+$/.test(b.dataset.n) ? +b.dataset.n : b.dataset.n, k: 0, title: b.dataset.title };
+        dlg.querySelector(".plist").innerHTML = VIDEOS[cur.n].map(([t, m], j) =>
+          `<button data-k="${j}">${j + 1}. ${t} · ${m.toFixed(1)} min</button>`).join("");
+        dlg.querySelectorAll(".plist button").forEach((pb) => { pb.onclick = () => playPart(+pb.dataset.k); });
+        dlg.showModal();
+        playPart(0);
+      };
+    });
+    const themeBtn = document.getElementById("theme");
+    function applyTheme(t) {
+      if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+      const dark = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      themeBtn.textContent = dark ? "☀" : "☾";
+    }
+    try { applyTheme(localStorage.getItem(COURSE.themeKey)); } catch { applyTheme(null); }
+    themeBtn.onclick = () => {
+      const cur = document.documentElement.dataset.theme;
+      const dark = cur ? cur === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      const t = dark ? "light" : "dark";
+      applyTheme(t);
+      try { localStorage.setItem(COURSE.themeKey, t); } catch { /* storage unavailable */ }
+    };
+  </script>
+</body>
+</html>

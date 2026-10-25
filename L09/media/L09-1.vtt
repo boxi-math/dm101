@@ -1,0 +1,517 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.589
+Roll a red die and a blue die
+
+2
+00:00:05.589 --> 00:00:07.830
+and add the two numbers.
+
+3
+00:00:07.830 --> 00:00:09.622
+Here is every roll
+
+4
+00:00:09.622 --> 00:00:12.042
+the red die picks the row
+
+5
+00:00:12.042 --> 00:00:14.821
+the blue die picks the column
+
+6
+00:00:14.821 --> 00:00:17.420
+and each cell shows the sum.
+
+7
+00:00:17.770 --> 00:00:20.216
+The sum can be two, three
+
+8
+00:00:20.216 --> 00:00:22.473
+and so on up to twelve.
+
+9
+00:00:22.473 --> 00:00:25.296
+That is eleven possible sums.
+
+10
+00:00:25.296 --> 00:00:26.989
+So a friend says
+
+11
+00:00:27.083 --> 00:00:29.717
+the chance of a sum of seven
+
+12
+00:00:29.811 --> 00:00:31.410
+is one in eleven.
+
+13
+00:00:31.760 --> 00:00:33.212
+Is that right?
+
+14
+00:00:33.212 --> 00:00:35.080
+Pause and decide.
+
+15
+00:00:38.660 --> 00:00:39.866
+Count instead.
+
+16
+00:00:39.866 --> 00:00:43.571
+There are six times six, thirty-six pairs
+
+17
+00:00:43.657 --> 00:00:45.897
+and for fair dice they are
+
+18
+00:00:45.983 --> 00:00:47.620
+all equally likely.
+
+19
+00:00:47.970 --> 00:00:51.320
+A sum of seven fills six cells
+
+20
+00:00:51.428 --> 00:00:54.346
+the whole diagonal from one
+
+21
+00:00:54.454 --> 00:00:56.939
+and six to six and one.
+
+22
+00:00:56.939 --> 00:01:01.261
+So its chance is six out of thirty-six
+
+23
+00:01:01.261 --> 00:01:02.450
+one sixth.
+
+24
+00:01:02.800 --> 00:01:06.806
+A sum of twelve needs six and six: one cell
+
+25
+00:01:06.806 --> 00:01:08.536
+one in thirty-six.
+
+26
+00:01:08.536 --> 00:01:12.178
+The eleven sums are not equally likely
+
+27
+00:01:12.269 --> 00:01:14.546
+so one in eleven is wrong
+
+28
+00:01:14.637 --> 00:01:16.640
+for every one of them.
+
+29
+00:01:17.220 --> 00:01:20.192
+Count the cells for each sum.
+
+30
+00:01:20.192 --> 00:01:22.140
+Sum two: one cell.
+
+31
+00:01:22.140 --> 00:01:23.780
+Sum three: two.
+
+32
+00:01:23.780 --> 00:01:25.112
+Four: three.
+
+33
+00:01:25.112 --> 00:01:26.855
+Then four, five
+
+34
+00:01:26.855 --> 00:01:30.340
+and six cells for a sum of seven.
+
+35
+00:01:30.690 --> 00:01:34.921
+After seven the counts go back down, five
+
+36
+00:01:34.921 --> 00:01:39.252
+four, three, two, and one cell for twelve.
+
+37
+00:01:39.252 --> 00:01:41.770
+Thirty-six cells in all.
+
+38
+00:01:42.350 --> 00:01:46.305
+This is a sample space: a pair, S and P.
+
+39
+00:01:46.305 --> 00:01:50.655
+S is a nonempty set, the possible outcomes
+
+40
+00:01:50.655 --> 00:01:52.831
+here the eleven sums.
+
+41
+00:01:52.831 --> 00:01:56.390
+P gives each outcome a probability.
+
+42
+00:01:56.740 --> 00:01:57.598
+Two rules.
+
+43
+00:01:57.598 --> 00:02:00.259
+Every P of s is at least zero
+
+44
+00:02:00.259 --> 00:02:02.920
+and all of them add up to one.
+
+45
+00:02:02.920 --> 00:02:06.267
+The sum eight gets five thirty-sixths
+
+46
+00:02:06.267 --> 00:02:09.700
+the height of its bar, over thirty-six.
+
+47
+00:02:10.050 --> 00:02:11.897
+When every outcome gets
+
+48
+00:02:11.977 --> 00:02:13.664
+the same probability
+
+49
+00:02:13.664 --> 00:02:15.992
+the space is called uniform.
+
+50
+00:02:15.992 --> 00:02:18.723
+The thirty-six pairs are uniform.
+
+51
+00:02:18.723 --> 00:02:20.730
+The eleven sums are not.
+
+52
+00:02:21.310 --> 00:02:24.039
+And here is a P that fails.
+
+53
+00:02:24.140 --> 00:02:27.071
+Give each face of one die the
+
+54
+00:02:27.172 --> 00:02:29.395
+probability one fifth.
+
+55
+00:02:29.395 --> 00:02:33.640
+Six faces make six fifths, more than one.
+
+56
+00:02:33.640 --> 00:02:36.470
+That is not a sample space.
+
+57
+00:02:37.050 --> 00:02:39.827
+Back to the thirty-six pairs
+
+58
+00:02:39.827 --> 00:02:43.945
+each with probability one over thirty-six.
+
+59
+00:02:43.945 --> 00:02:46.914
+An event is a set of outcomes.
+
+60
+00:02:46.914 --> 00:02:50.170
+E is the event: the sum is eight.
+
+61
+00:02:50.520 --> 00:02:53.601
+Its five cells run along a diagonal.
+
+62
+00:02:53.601 --> 00:02:56.767
+P of E is the sum over its outcomes
+
+63
+00:02:56.767 --> 00:02:59.249
+five times one thirty-sixth
+
+64
+00:02:59.249 --> 00:03:00.960
+five thirty-sixths.
+
+65
+00:03:01.310 --> 00:03:03.598
+D is the event: a double.
+
+66
+00:03:03.598 --> 00:03:06.526
+Six cells on the main diagonal
+
+67
+00:03:06.526 --> 00:03:08.265
+six thirty-sixths.
+
+68
+00:03:08.265 --> 00:03:10.736
+When the space is uniform
+
+69
+00:03:10.736 --> 00:03:14.030
+probability is just counting cells.
+
+70
+00:03:14.610 --> 00:03:16.092
+Events are sets
+
+71
+00:03:16.092 --> 00:03:19.333
+so set operations make new events.
+
+72
+00:03:19.333 --> 00:03:23.038
+E and D, the intersection: both happen.
+
+73
+00:03:23.038 --> 00:03:24.890
+Only four and four.
+
+74
+00:03:25.240 --> 00:03:29.853
+E or D, the union: at least one happens.
+
+75
+00:03:29.853 --> 00:03:32.966
+Five cells plus six cells
+
+76
+00:03:32.966 --> 00:03:38.040
+but four and four is in both, so ten cells.
+
+77
+00:03:38.390 --> 00:03:39.541
+E minus D
+
+78
+00:03:39.541 --> 00:03:43.569
+the sum is eight but not a double.
+
+79
+00:03:43.569 --> 00:03:44.950
+Four cells.
+
+80
+00:03:45.300 --> 00:03:49.524
+And D bar, the complement: not a double.
+
+81
+00:03:49.524 --> 00:03:53.220
+The thirty cells off the diagonal.
+
+82
+00:03:53.800 --> 00:03:58.357
+Is P of E or D just P of E plus P of D?
+
+83
+00:03:58.474 --> 00:04:03.265
+Five thirty-sixths plus six thirty-sixths
+
+84
+00:04:03.382 --> 00:04:06.187
+is eleven thirty-sixths.
+
+85
+00:04:06.187 --> 00:04:10.160
+But the union has only ten cells.
+
+86
+00:04:10.510 --> 00:04:14.519
+The cell four and four is in both events
+
+87
+00:04:14.519 --> 00:04:17.257
+so the sum counts it twice.
+
+88
+00:04:17.257 --> 00:04:20.679
+Put the overlap on the other side
+
+89
+00:04:20.679 --> 00:04:24.492
+P of A plus P of B equals P of A or B
+
+90
+00:04:24.492 --> 00:04:26.350
+plus P of A and B.
+
+91
+00:04:26.700 --> 00:04:27.200
+Why?
+
+92
+00:04:27.257 --> 00:04:30.373
+Cut A or B into three pieces
+
+93
+00:04:30.484 --> 00:04:32.710
+that do not overlap.
+
+94
+00:04:32.710 --> 00:04:36.606
+Only in A, in both, and only in B.
+
+95
+00:04:36.606 --> 00:04:40.613
+P of A covers the first two pieces
+
+96
+00:04:40.613 --> 00:04:42.950
+P of B the last two
+
+97
+00:04:42.950 --> 00:04:47.180
+so the middle piece is counted twice.
+
+98
+00:04:47.530 --> 00:04:50.415
+So when A and B do not overlap
+
+99
+00:04:50.415 --> 00:04:53.578
+like a double and a sum of seven
+
+100
+00:04:53.578 --> 00:04:56.370
+the probabilities simply add.
+
+101
+00:04:56.950 --> 00:05:00.686
+Now: what is the chance of at least one six?
+
+102
+00:05:00.686 --> 00:05:04.506
+The red die shows six with chance one sixth
+
+103
+00:05:04.506 --> 00:05:06.034
+the blue die too.
+
+104
+00:05:06.034 --> 00:05:09.430
+So one sixth plus one sixth, one third?
+
+105
+00:05:09.780 --> 00:05:11.345
+Look at the cells.
+
+106
+00:05:11.432 --> 00:05:14.213
+The red six row and the blue six
+
+107
+00:05:14.300 --> 00:05:17.516
+column share the corner, six and six.
+
+108
+00:05:17.516 --> 00:05:19.863
+One third counts it twice.
+
+109
+00:05:19.863 --> 00:05:23.340
+The union has eleven cells, not twelve.
+
+110
+00:05:23.690 --> 00:05:26.462
+A quicker way is the complement.
+
+111
+00:05:26.462 --> 00:05:29.408
+No six at all is five times five
+
+112
+00:05:29.408 --> 00:05:31.054
+twenty-five cells.
+
+113
+00:05:31.140 --> 00:05:34.519
+So at least one six has probability one
+
+114
+00:05:34.606 --> 00:05:37.551
+minus twenty-five over thirty-six
+
+115
+00:05:37.551 --> 00:05:40.410
+which is eleven over thirty-six.
+
+116
+00:05:40.760 --> 00:05:45.698
+In general, P of not A is one minus P of A.
+
+117
+00:05:45.813 --> 00:05:48.798
+And P of A or B is at most
+
+118
+00:05:48.913 --> 00:05:51.095
+P of A plus P of B.
+
+119
+00:05:51.095 --> 00:05:55.803
+That is the union bound: an upper bound
+
+120
+00:05:55.803 --> 00:05:57.640
+not the answer.
+
+121
+00:05:58.220 --> 00:05:59.647
+Try it yourself
+
+122
+00:05:59.736 --> 00:06:02.769
+find the chance that the larger of
+
+123
+00:06:02.858 --> 00:06:05.712
+the two numbers is exactly four.
+
+124
+00:06:05.712 --> 00:06:07.941
+Hint: both at most four
+
+125
+00:06:07.941 --> 00:06:10.260
+minus both at most three.
+
+126
+00:06:10.610 --> 00:06:14.002
+In part two, we learn something about the
+
+127
+00:06:14.085 --> 00:06:15.905
+roll before we answer.
+
+128
+00:06:15.905 --> 00:06:18.304
+Given that the sum is eight
+
+129
+00:06:18.304 --> 00:06:20.290
+how likely is a double?

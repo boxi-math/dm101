@@ -1,0 +1,561 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.313
+In part one we found the gcd
+
+2
+00:00:05.399 --> 00:00:08.070
+of eighty-four and thirty, six
+
+3
+00:00:08.070 --> 00:00:09.880
+by listing divisors.
+
+4
+00:00:09.880 --> 00:00:11.517
+Now a fast method.
+
+5
+00:00:11.603 --> 00:00:13.585
+Cut the largest squares
+
+6
+00:00:13.671 --> 00:00:15.567
+you can off the board
+
+7
+00:00:15.567 --> 00:00:17.980
+two squares of side thirty.
+
+8
+00:00:18.330 --> 00:00:20.381
+What is left is a piece
+
+9
+00:00:20.470 --> 00:00:22.431
+twenty-four by thirty.
+
+10
+00:00:22.431 --> 00:00:25.374
+Eighty-four is two times thirty
+
+11
+00:00:25.374 --> 00:00:26.979
+plus twenty-four.
+
+12
+00:00:27.068 --> 00:00:30.189
+Does the piece have the same common
+
+13
+00:00:30.278 --> 00:00:32.774
+divisors as the whole board?
+
+14
+00:00:32.774 --> 00:00:34.290
+Pause and think.
+
+15
+00:00:37.870 --> 00:00:38.295
+Yes.
+
+16
+00:00:38.295 --> 00:00:42.229
+Let e divide eighty-four and thirty.
+
+17
+00:00:42.335 --> 00:00:45.099
+Then e divides eighty-four
+
+18
+00:00:45.206 --> 00:00:47.651
+minus two times thirty
+
+19
+00:00:47.651 --> 00:00:49.990
+which is twenty-four.
+
+20
+00:00:50.340 --> 00:00:52.126
+Now the other way.
+
+21
+00:00:52.126 --> 00:00:55.797
+Let e divide thirty and twenty-four.
+
+22
+00:00:55.896 --> 00:00:58.972
+Then e divides two times thirty
+
+23
+00:00:59.071 --> 00:01:02.940
+plus twenty-four, which is eighty-four.
+
+24
+00:01:03.290 --> 00:01:06.208
+So the two pairs have exactly
+
+25
+00:01:06.308 --> 00:01:08.823
+the same common divisors
+
+26
+00:01:08.823 --> 00:01:11.540
+and the same greatest one.
+
+27
+00:01:11.540 --> 00:01:15.162
+In general: if a equals q b plus r
+
+28
+00:01:15.262 --> 00:01:17.576
+then the gcd of a and b
+
+29
+00:01:17.677 --> 00:01:19.890
+is the gcd of b and r.
+
+30
+00:01:20.240 --> 00:01:22.925
+To prove two sets are equal
+
+31
+00:01:22.925 --> 00:01:26.760
+we showed each one is inside the other.
+
+32
+00:01:27.340 --> 00:01:27.982
+Repeat.
+
+33
+00:01:27.982 --> 00:01:31.470
+From the twenty-four by thirty piece
+
+34
+00:01:31.470 --> 00:01:34.774
+cut one square of side twenty-four.
+
+35
+00:01:34.774 --> 00:01:38.721
+Thirty is one times twenty-four, plus six.
+
+36
+00:01:38.721 --> 00:01:42.300
+Left over: a strip twenty-four by six.
+
+37
+00:01:42.650 --> 00:01:45.109
+That strip is exactly four
+
+38
+00:01:45.204 --> 00:01:47.095
+squares of side six
+
+39
+00:01:47.095 --> 00:01:51.067
+twenty-four is four times six, plus zero.
+
+40
+00:01:51.067 --> 00:01:53.810
+Nothing is left, so we stop.
+
+41
+00:01:54.160 --> 00:01:55.237
+By the lemma
+
+42
+00:01:55.320 --> 00:01:58.304
+the gcd of eighty-four and thirty is
+
+43
+00:01:58.387 --> 00:02:01.204
+the gcd of thirty and twenty-four
+
+44
+00:02:01.204 --> 00:02:04.602
+which is the gcd of twenty-four and six
+
+45
+00:02:04.602 --> 00:02:05.762
+which is six.
+
+46
+00:02:05.845 --> 00:02:08.165
+And squares of side six tile
+
+47
+00:02:08.248 --> 00:02:10.320
+every piece of the board.
+
+48
+00:02:10.900 --> 00:02:13.600
+Why does this always stop?
+
+49
+00:02:13.600 --> 00:02:17.962
+The remainders strictly decrease: thirty
+
+50
+00:02:17.962 --> 00:02:22.013
+then twenty-four, then six, then zero.
+
+51
+00:02:22.013 --> 00:02:26.271
+Natural numbers cannot decrease forever
+
+52
+00:02:26.271 --> 00:02:28.140
+by well-ordering.
+
+53
+00:02:28.490 --> 00:02:31.019
+And the gcd never changes from
+
+54
+00:02:31.104 --> 00:02:32.874
+one line to the next.
+
+55
+00:02:32.874 --> 00:02:35.909
+So when the remainder reaches zero
+
+56
+00:02:35.909 --> 00:02:39.450
+the answer is the last nonzero remainder.
+
+57
+00:02:39.800 --> 00:02:42.501
+Not the last remainder, zero
+
+58
+00:02:42.501 --> 00:02:45.575
+and not the last quotient, four.
+
+59
+00:02:45.575 --> 00:02:46.600
+It is six.
+
+60
+00:02:46.950 --> 00:02:48.252
+It is fast, too.
+
+61
+00:02:48.252 --> 00:02:51.262
+Ten thousand four hundred and three
+
+62
+00:02:51.344 --> 00:02:53.785
+and nine thousand nine hundred
+
+63
+00:02:53.866 --> 00:02:56.470
+and ninety-one: three divisions
+
+64
+00:02:56.470 --> 00:02:59.561
+and the gcd is one hundred and three.
+
+65
+00:02:59.561 --> 00:03:01.270
+No factoring needed.
+
+66
+00:03:01.850 --> 00:03:04.655
+Now run the algorithm backwards.
+
+67
+00:03:04.743 --> 00:03:07.724
+The second line says six is thirty
+
+68
+00:03:07.811 --> 00:03:10.266
+minus one times twenty-four.
+
+69
+00:03:10.354 --> 00:03:14.386
+The first line says twenty-four is eighty-four
+
+70
+00:03:14.474 --> 00:03:16.490
+minus two times thirty.
+
+71
+00:03:16.840 --> 00:03:19.518
+Put that in for twenty-four.
+
+72
+00:03:19.518 --> 00:03:21.623
+Collect the thirties
+
+73
+00:03:21.623 --> 00:03:25.449
+six equals eighty-four times minus one
+
+74
+00:03:25.449 --> 00:03:27.840
+plus thirty times three.
+
+75
+00:03:28.190 --> 00:03:30.453
+That is a recipe with rods.
+
+76
+00:03:30.453 --> 00:03:34.225
+Lay three thirty-centimetre rods end to end
+
+77
+00:03:34.225 --> 00:03:34.896
+ninety.
+
+78
+00:03:34.896 --> 00:03:36.069
+Next to them
+
+79
+00:03:36.069 --> 00:03:38.752
+one eighty-four-centimetre rod.
+
+80
+00:03:38.752 --> 00:03:41.350
+The difference is exactly six.
+
+81
+00:03:41.930 --> 00:03:43.926
+This always works.
+
+82
+00:03:43.926 --> 00:03:46.032
+Bézout's identity
+
+83
+00:03:46.032 --> 00:03:49.026
+for a and b not both zero
+
+84
+00:03:49.136 --> 00:03:52.573
+there are integers x and y with
+
+85
+00:03:52.684 --> 00:03:56.010
+the gcd equal to a x plus b y.
+
+86
+00:03:56.360 --> 00:03:56.951
+Proof.
+
+87
+00:03:57.049 --> 00:04:00.692
+Let d be the smallest positive number
+
+88
+00:04:00.791 --> 00:04:03.252
+of the form a x plus b y
+
+89
+00:04:03.252 --> 00:04:05.615
+well-ordering gives it.
+
+90
+00:04:05.615 --> 00:04:07.092
+Divide a by d.
+
+91
+00:04:07.191 --> 00:04:09.554
+The remainder is also of
+
+92
+00:04:09.652 --> 00:04:13.788
+the form a x plus b y, and smaller than d
+
+93
+00:04:13.788 --> 00:04:15.757
+so it must be zero.
+
+94
+00:04:15.757 --> 00:04:19.400
+So d divides a, and in the same way
+
+95
+00:04:19.400 --> 00:04:20.680
+d divides b.
+
+96
+00:04:21.030 --> 00:04:24.366
+And any common divisor of a and
+
+97
+00:04:24.474 --> 00:04:28.240
+b divides a x plus b y, which is d.
+
+98
+00:04:28.240 --> 00:04:30.069
+So d is the gcd.
+
+99
+00:04:30.069 --> 00:04:33.082
+The x and y are not unique
+
+100
+00:04:33.082 --> 00:04:35.665
+eighty-four times four
+
+101
+00:04:35.665 --> 00:04:39.108
+plus thirty times minus eleven
+
+102
+00:04:39.108 --> 00:04:40.830
+is six as well.
+
+103
+00:04:41.410 --> 00:04:42.430
+A warning.
+
+104
+00:04:42.430 --> 00:04:44.777
+Eighty-four times two
+
+105
+00:04:44.777 --> 00:04:49.163
+plus thirty times minus five, is eighteen.
+
+106
+00:04:49.163 --> 00:04:52.530
+Does that make eighteen the gcd?
+
+107
+00:04:52.880 --> 00:04:53.166
+No.
+
+108
+00:04:53.166 --> 00:04:57.266
+Eighteen does not even divide eighty-four.
+
+109
+00:04:57.361 --> 00:04:59.840
+Bézout says the gcd can be
+
+110
+00:04:59.935 --> 00:05:02.223
+written as a x plus b y.
+
+111
+00:05:02.318 --> 00:05:04.797
+It does not say that every
+
+112
+00:05:04.893 --> 00:05:07.181
+a x plus b y is the gcd.
+
+113
+00:05:07.181 --> 00:05:11.280
+All we learn is that six divides eighteen.
+
+114
+00:05:11.860 --> 00:05:15.049
+Bézout also proves what the summary
+
+115
+00:05:15.140 --> 00:05:17.873
+listed next to the definition
+
+116
+00:05:17.873 --> 00:05:21.336
+every common divisor divides the gcd.
+
+117
+00:05:21.336 --> 00:05:24.980
+One, two, three and six all divide six.
+
+118
+00:05:25.330 --> 00:05:28.258
+Two numbers are relatively prime
+
+119
+00:05:28.349 --> 00:05:30.362
+when their gcd is one.
+
+120
+00:05:30.453 --> 00:05:33.564
+That happens exactly when a x plus
+
+121
+00:05:33.655 --> 00:05:36.400
+b y equals one has a solution.
+
+122
+00:05:36.400 --> 00:05:38.778
+Thirty-five and eighteen
+
+123
+00:05:38.778 --> 00:05:41.431
+thirty-five times minus one
+
+124
+00:05:41.431 --> 00:05:44.450
+plus eighteen times two, is one.
+
+125
+00:05:44.800 --> 00:05:47.235
+That one line is a certificate
+
+126
+00:05:47.317 --> 00:05:48.697
+anyone can check.
+
+127
+00:05:48.778 --> 00:05:51.132
+But ninety-one and sixty-five
+
+128
+00:05:51.213 --> 00:05:53.324
+share the factor thirteen
+
+129
+00:05:53.324 --> 00:05:55.840
+they are not relatively prime.
+
+130
+00:05:56.420 --> 00:05:59.256
+So: to find the gcd, divide
+
+131
+00:05:59.256 --> 00:06:03.815
+then replace a and b by b and the remainder
+
+132
+00:06:03.815 --> 00:06:06.753
+until the remainder is zero.
+
+133
+00:06:06.753 --> 00:06:08.576
+Run it backwards
+
+134
+00:06:08.576 --> 00:06:12.020
+and the gcd becomes a x plus b y.
+
+135
+00:06:12.370 --> 00:06:13.728
+Try it yourself
+
+136
+00:06:13.813 --> 00:06:17.208
+find the gcd of one thousand two hundred
+
+137
+00:06:17.293 --> 00:06:20.264
+sixty and one hundred ninety-eight
+
+138
+00:06:20.264 --> 00:06:22.810
+and write it as a x plus b y.
+
+139
+00:06:23.160 --> 00:06:26.152
+Next lecture leaves numbers for graphs
+
+140
+00:06:26.152 --> 00:06:28.760
+dots, and the lines between them.

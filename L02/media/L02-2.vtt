@@ -1,0 +1,429 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.107
+A door should stay locked unless you
+
+2
+00:00:06.196 --> 00:00:08.958
+have a card and the right code.
+
+3
+00:00:08.958 --> 00:00:12.700
+So the program tests: not, card and code.
+
+4
+00:00:13.050 --> 00:00:16.592
+A programmer tidies it up: not card
+
+5
+00:00:16.592 --> 00:00:17.969
+and not code.
+
+6
+00:00:17.969 --> 00:00:21.905
+Four cases are possible: card and code
+
+7
+00:00:21.905 --> 00:00:25.250
+card only, code only, or neither.
+
+8
+00:00:25.600 --> 00:00:28.463
+Is the rewrite the same test?
+
+9
+00:00:28.463 --> 00:00:30.240
+Pause and decide.
+
+10
+00:00:33.820 --> 00:00:34.993
+To answer
+
+11
+00:00:34.993 --> 00:00:39.801
+we need an arithmetic of true and false.
+
+12
+00:00:39.801 --> 00:00:44.141
+Boolean algebra has just two values
+
+13
+00:00:44.141 --> 00:00:45.196
+T and F.
+
+14
+00:00:45.196 --> 00:00:50.474
+Two variables give four rows: T T, T F, F T
+
+15
+00:00:50.474 --> 00:00:51.060
+F F.
+
+16
+00:00:51.410 --> 00:00:51.786
+And
+
+17
+00:00:51.786 --> 00:00:55.635
+x and y is true only when both are true.
+
+18
+00:00:55.635 --> 00:00:58.264
+That is the first row only.
+
+19
+00:00:58.264 --> 00:00:58.639
+Or
+
+20
+00:00:58.639 --> 00:01:02.583
+x or y is true when at least one is true
+
+21
+00:01:02.583 --> 00:01:04.930
+including when both are.
+
+22
+00:01:05.280 --> 00:01:10.054
+Not flips a value: not T is F
+
+23
+00:01:10.054 --> 00:01:12.600
+and not F is T.
+
+24
+00:01:13.180 --> 00:01:14.744
+Now x implies y.
+
+25
+00:01:14.744 --> 00:01:17.873
+It is false in exactly one row
+
+26
+00:01:17.873 --> 00:01:19.829
+x true and y false.
+
+27
+00:01:19.829 --> 00:01:23.642
+That is the broken case from part one.
+
+28
+00:01:23.642 --> 00:01:27.260
+In the other three rows, it is true.
+
+29
+00:01:27.610 --> 00:01:29.803
+Why true when x is false?
+
+30
+00:01:29.803 --> 00:01:31.557
+Think of a promise
+
+31
+00:01:31.557 --> 00:01:35.329
+if you score ninety or more, you get an A.
+
+32
+00:01:35.416 --> 00:01:37.872
+A student who scores seventy
+
+33
+00:01:37.960 --> 00:01:41.556
+cannot break it, whatever grade they get.
+
+34
+00:01:41.556 --> 00:01:44.626
+So the rows with x false are true.
+
+35
+00:01:44.626 --> 00:01:47.170
+We call them vacuously true.
+
+36
+00:01:47.520 --> 00:01:50.940
+And x if and only if y is true exactly
+
+37
+00:01:51.030 --> 00:01:54.000
+when x and y have the same value
+
+38
+00:01:54.000 --> 00:01:56.520
+the first row and the last.
+
+39
+00:01:57.100 --> 00:02:01.284
+Two expressions are equal when their
+
+40
+00:02:01.400 --> 00:02:05.119
+truth tables agree in every row.
+
+41
+00:02:05.119 --> 00:02:07.095
+That gives laws.
+
+42
+00:02:07.095 --> 00:02:11.395
+Commutative: x and y equals y and x.
+
+43
+00:02:11.395 --> 00:02:16.625
+Distributive: x and, y or z, equals x and y
+
+44
+00:02:16.625 --> 00:02:18.020
+or x and z.
+
+45
+00:02:18.370 --> 00:02:22.525
+Double negative: not not x is x.
+
+46
+00:02:22.525 --> 00:02:26.810
+And x and not x is always false.
+
+47
+00:02:27.160 --> 00:02:30.257
+Each law is proved by its truth table.
+
+48
+00:02:30.257 --> 00:02:32.621
+One variable gives two rows.
+
+49
+00:02:32.621 --> 00:02:34.740
+Two variables, four rows.
+
+50
+00:02:34.740 --> 00:02:37.104
+Three variables, eight rows.
+
+51
+00:02:37.104 --> 00:02:40.365
+Checking all eight is a complete proof
+
+52
+00:02:40.365 --> 00:02:42.484
+unlike the whole numbers
+
+53
+00:02:42.484 --> 00:02:44.440
+no cases are left over.
+
+54
+00:02:45.020 --> 00:02:46.598
+Back to the door.
+
+55
+00:02:46.598 --> 00:02:49.383
+Column three is not, x and y.
+
+56
+00:02:49.383 --> 00:02:52.168
+It is false in the first row
+
+57
+00:02:52.168 --> 00:02:54.860
+and true in the other three.
+
+58
+00:02:55.210 --> 00:02:58.796
+Column four is not x, or not y.
+
+59
+00:02:58.796 --> 00:03:03.076
+Row by row: false, true, true, true.
+
+60
+00:03:03.076 --> 00:03:07.240
+The two columns agree in every row
+
+61
+00:03:07.240 --> 00:03:09.438
+so they are equal.
+
+62
+00:03:09.438 --> 00:03:12.330
+That is De Morgan's law.
+
+63
+00:03:12.680 --> 00:03:15.803
+Now the programmer's rewrite
+
+64
+00:03:15.803 --> 00:03:17.634
+not x and not y.
+
+65
+00:03:17.634 --> 00:03:20.542
+False, false, false, true.
+
+66
+00:03:20.542 --> 00:03:24.203
+It differs in rows two and three.
+
+67
+00:03:24.203 --> 00:03:26.895
+With a card but no code
+
+68
+00:03:26.895 --> 00:03:30.880
+the real test keeps the door locked
+
+69
+00:03:30.880 --> 00:03:33.680
+but the rewrite opens it.
+
+70
+00:03:34.030 --> 00:03:38.244
+Not does not simply pass through and.
+
+71
+00:03:38.244 --> 00:03:40.750
+It flips and into or.
+
+72
+00:03:41.330 --> 00:03:44.452
+Truth tables also settle part one.
+
+73
+00:03:44.452 --> 00:03:48.583
+Here is x implies y, and its contrapositive
+
+74
+00:03:48.583 --> 00:03:50.511
+not y implies not x.
+
+75
+00:03:50.511 --> 00:03:52.807
+They agree in every row
+
+76
+00:03:52.807 --> 00:03:55.010
+so they are equivalent.
+
+77
+00:03:55.360 --> 00:03:57.477
+The converse, y implies x
+
+78
+00:03:57.477 --> 00:04:00.001
+differs in rows two and three.
+
+79
+00:04:00.082 --> 00:04:02.606
+So a statement and its converse
+
+80
+00:04:02.687 --> 00:04:04.560
+are not the same thing.
+
+81
+00:04:05.140 --> 00:04:08.777
+Last, every expression falls into
+
+82
+00:04:08.887 --> 00:04:11.201
+one of three classes.
+
+83
+00:04:11.201 --> 00:04:14.949
+A tautology is true in every row
+
+84
+00:04:14.949 --> 00:04:16.822
+like x or not x.
+
+85
+00:04:16.822 --> 00:04:21.120
+A contradiction is false in every row
+
+86
+00:04:21.120 --> 00:04:23.104
+like x and not x.
+
+87
+00:04:23.214 --> 00:04:26.410
+A contingency is true in some
+
+88
+00:04:26.520 --> 00:04:29.275
+rows and false in others
+
+89
+00:04:29.275 --> 00:04:31.700
+like x implies not x.
+
+90
+00:04:32.050 --> 00:04:37.035
+Here is a useful tautology: if x implies y
+
+91
+00:04:37.035 --> 00:04:40.628
+and x is true, then y is true.
+
+92
+00:04:40.628 --> 00:04:45.033
+Every direct proof uses it: assume A
+
+93
+00:04:45.033 --> 00:04:49.090
+know that A implies B, conclude B.
+
+94
+00:04:49.670 --> 00:04:50.532
+To sum up.
+
+95
+00:04:50.618 --> 00:04:54.410
+Two Boolean expressions are equal when their
+
+96
+00:04:54.496 --> 00:04:57.254
+truth tables agree in every row.
+
+97
+00:04:57.340 --> 00:04:59.581
+With m variables there are
+
+98
+00:04:59.667 --> 00:05:01.218
+two to the m rows
+
+99
+00:05:01.218 --> 00:05:04.149
+and checking them all is a proof.
+
+100
+00:05:04.149 --> 00:05:06.476
+And not flips and into or
+
+101
+00:05:06.476 --> 00:05:08.630
+that is De Morgan's law.
+
+102
+00:05:09.210 --> 00:05:13.267
+Try it yourself: make the truth table of
+
+103
+00:05:13.267 --> 00:05:15.147
+x or y, implies x.
+
+104
+00:05:15.147 --> 00:05:18.709
+Is it a tautology, a contradiction
+
+105
+00:05:18.709 --> 00:05:20.490
+or a contingency?
+
+106
+00:05:20.840 --> 00:05:23.452
+Next lecture: lists, sets
+
+107
+00:05:23.452 --> 00:05:25.360
+and counting them.

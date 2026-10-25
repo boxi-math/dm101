@@ -1,0 +1,481 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:04.240
+Back to the fair.
+
+2
+00:00:04.319 --> 00:00:06.842
+Stand each of the sixteen prizes
+
+3
+00:00:06.921 --> 00:00:08.893
+up as a column of blocks
+
+4
+00:00:08.893 --> 00:00:11.258
+one block for a prize of one
+
+5
+00:00:11.258 --> 00:00:13.860
+four blocks for a prize of four.
+
+6
+00:00:14.210 --> 00:00:17.271
+The average prize is the level the columns
+
+7
+00:00:17.344 --> 00:00:19.239
+reach if we even them out
+
+8
+00:00:19.312 --> 00:00:21.571
+moving blocks from tall columns
+
+9
+00:00:21.644 --> 00:00:22.810
+into short ones.
+
+10
+00:00:23.160 --> 00:00:26.675
+Will that level be above three coins
+
+11
+00:00:26.675 --> 00:00:27.625
+or below?
+
+12
+00:00:27.625 --> 00:00:29.240
+Pause and think.
+
+13
+00:00:32.820 --> 00:00:34.340
+Keep moving blocks.
+
+14
+00:00:34.340 --> 00:00:35.700
+Four more moves
+
+15
+00:00:35.700 --> 00:00:39.220
+and every column has at least three blocks.
+
+16
+00:00:39.220 --> 00:00:41.300
+Two blocks are left over.
+
+17
+00:00:41.650 --> 00:00:44.352
+Fifty blocks over sixteen columns
+
+18
+00:00:44.434 --> 00:00:47.792
+is fifty sixteenths: twenty-five eighths
+
+19
+00:00:47.792 --> 00:00:50.330
+which is three and one eighth.
+
+20
+00:00:50.680 --> 00:00:54.283
+That level is the expectation of M: the sum
+
+21
+00:00:54.283 --> 00:00:55.839
+over all outcomes
+
+22
+00:00:55.839 --> 00:00:58.788
+of the value times its probability.
+
+23
+00:00:58.869 --> 00:01:00.917
+So the game pays a little
+
+24
+00:01:00.999 --> 00:01:02.719
+more than the ticket
+
+25
+00:01:02.719 --> 00:01:06.240
+one eighth of a coin per game, on average.
+
+26
+00:01:06.820 --> 00:01:08.781
+There is a shorter way.
+
+27
+00:01:08.781 --> 00:01:12.021
+Group the outcomes by the value of M
+
+28
+00:01:12.021 --> 00:01:15.431
+one cell pays one, three cells pay two
+
+29
+00:01:15.431 --> 00:01:18.500
+five pay three, and seven pay four.
+
+30
+00:01:18.850 --> 00:01:21.443
+So the expectation is one
+
+31
+00:01:21.547 --> 00:01:23.621
+times one sixteenth
+
+32
+00:01:23.621 --> 00:01:27.044
+plus two times three sixteenths
+
+33
+00:01:27.044 --> 00:01:30.570
+plus three times five sixteenths
+
+34
+00:01:30.570 --> 00:01:34.097
+plus four times seven sixteenths.
+
+35
+00:01:34.097 --> 00:01:36.690
+Again, fifty sixteenths.
+
+36
+00:01:37.040 --> 00:01:38.138
+In general
+
+37
+00:01:38.138 --> 00:01:41.832
+E of X is the sum over the values a
+
+38
+00:01:41.832 --> 00:01:46.225
+of a times the probability that X equals a.
+
+39
+00:01:46.225 --> 00:01:49.320
+Only the distribution matters.
+
+40
+00:01:49.900 --> 00:01:53.360
+Now a rule that saves a lot of work.
+
+41
+00:01:53.456 --> 00:01:56.435
+The expectation of a sum is the
+
+42
+00:01:56.531 --> 00:01:58.837
+sum of the expectations.
+
+43
+00:01:58.837 --> 00:02:01.048
+The proof is one line
+
+44
+00:02:01.048 --> 00:02:05.180
+split the sum over outcomes into two sums.
+
+45
+00:02:05.530 --> 00:02:08.748
+One die has expectation five halves
+
+46
+00:02:08.748 --> 00:02:12.771
+so the sum of two dice has expectation five
+
+47
+00:02:12.771 --> 00:02:15.810
+without listing the sixteen sums.
+
+48
+00:02:16.160 --> 00:02:18.124
+Here is a sharper use.
+
+49
+00:02:18.124 --> 00:02:19.464
+In every cell
+
+50
+00:02:19.553 --> 00:02:22.589
+the larger number plus the smaller
+
+51
+00:02:22.678 --> 00:02:25.357
+number is the sum of the dice.
+
+52
+00:02:25.446 --> 00:02:27.679
+So E of min is five minus
+
+53
+00:02:27.768 --> 00:02:29.554
+twenty-five eighths
+
+54
+00:02:29.554 --> 00:02:31.875
+which is fifteen eighths.
+
+55
+00:02:31.875 --> 00:02:35.626
+And min and max are far from independent
+
+56
+00:02:35.626 --> 00:02:38.840
+linearity never needs independence.
+
+57
+00:02:39.420 --> 00:02:41.467
+What about a product?
+
+58
+00:02:41.467 --> 00:02:44.195
+If X and Y are independent
+
+59
+00:02:44.195 --> 00:02:47.412
+E of X Y is E of X times E of Y.
+
+60
+00:02:47.412 --> 00:02:51.505
+Group the outcomes by the pair of values
+
+61
+00:02:51.602 --> 00:02:54.331
+and independence splits each
+
+62
+00:02:54.429 --> 00:02:57.060
+probability into a product.
+
+63
+00:02:57.410 --> 00:02:58.802
+For the two dice
+
+64
+00:02:58.802 --> 00:03:02.405
+the sixteen products add up to one hundred.
+
+65
+00:03:02.487 --> 00:03:04.535
+One hundred sixteenths is
+
+66
+00:03:04.616 --> 00:03:06.336
+twenty-five quarters
+
+67
+00:03:06.336 --> 00:03:09.530
+exactly five halves times five halves.
+
+68
+00:03:09.880 --> 00:03:13.966
+But drop independence, and the rule fails.
+
+69
+00:03:13.966 --> 00:03:16.204
+Take X times X itself.
+
+70
+00:03:16.204 --> 00:03:20.485
+Each row now pays its first number squared
+
+71
+00:03:20.485 --> 00:03:23.014
+one, four, nine, sixteen.
+
+72
+00:03:23.014 --> 00:03:26.030
+The average is fifteen halves
+
+73
+00:03:26.030 --> 00:03:28.560
+not twenty-five quarters.
+
+74
+00:03:29.140 --> 00:03:32.671
+The expectation is not the whole story.
+
+75
+00:03:32.761 --> 00:03:34.934
+Compare doubling one die
+
+76
+00:03:35.024 --> 00:03:36.925
+with adding two dice.
+
+77
+00:03:36.925 --> 00:03:39.460
+Both have expectation five.
+
+78
+00:03:39.810 --> 00:03:43.110
+Doubling one die gives two, four
+
+79
+00:03:43.110 --> 00:03:47.310
+six or eight, each a quarter of the time.
+
+80
+00:03:47.310 --> 00:03:50.510
+Adding two dice gives the tent
+
+81
+00:03:50.510 --> 00:03:53.810
+with five the most likely value.
+
+82
+00:03:53.810 --> 00:03:56.810
+The sum stays closer to five.
+
+83
+00:03:57.160 --> 00:03:59.847
+The variance measures that spread
+
+84
+00:03:59.926 --> 00:04:02.296
+the expectation of the squared
+
+85
+00:04:02.375 --> 00:04:04.193
+distance from the mean.
+
+86
+00:04:04.193 --> 00:04:07.353
+For two times the first die it is five
+
+87
+00:04:07.353 --> 00:04:10.040
+and for the sum only five halves.
+
+88
+00:04:10.620 --> 00:04:13.294
+Computing a variance from
+
+89
+00:04:13.401 --> 00:04:15.862
+the definition is slow.
+
+90
+00:04:15.862 --> 00:04:20.141
+Expand the square: X minus mu, squared
+
+91
+00:04:20.141 --> 00:04:23.350
+is X squared, minus two mu X
+
+92
+00:04:23.350 --> 00:04:25.169
+plus mu squared.
+
+93
+00:04:25.169 --> 00:04:29.020
+Take expectations, using linearity.
+
+94
+00:04:29.370 --> 00:04:31.612
+The middle term becomes
+
+95
+00:04:31.709 --> 00:04:33.757
+minus two mu squared.
+
+96
+00:04:33.757 --> 00:04:35.121
+What is left
+
+97
+00:04:35.121 --> 00:04:38.241
+the variance is E of X squared
+
+98
+00:04:38.241 --> 00:04:40.970
+minus the square of E of X.
+
+99
+00:04:41.320 --> 00:04:45.238
+For one die, the squares one, four, nine
+
+100
+00:04:45.238 --> 00:04:48.296
+sixteen average fifteen halves.
+
+101
+00:04:48.296 --> 00:04:52.310
+The mean squared is twenty-five quarters.
+
+102
+00:04:52.310 --> 00:04:55.464
+The difference is five quarters.
+
+103
+00:04:55.464 --> 00:04:59.286
+And since a variance is never negative
+
+104
+00:04:59.286 --> 00:05:03.300
+E of X squared is always at least E of X
+
+105
+00:05:03.300 --> 00:05:04.160
+squared.
+
+106
+00:05:04.740 --> 00:05:06.955
+Three rules to keep.
+
+107
+00:05:06.955 --> 00:05:11.717
+Linearity: the expectation of a sum is the
+
+108
+00:05:11.828 --> 00:05:15.372
+sum of the expectations, always.
+
+109
+00:05:15.372 --> 00:05:20.134
+Products: E of X Y is E of X times E of Y
+
+110
+00:05:20.134 --> 00:05:23.900
+but only for independent X and Y.
+
+111
+00:05:24.250 --> 00:05:25.825
+And the variance
+
+112
+00:05:25.825 --> 00:05:29.808
+E of X squared minus the square of E of X
+
+113
+00:05:29.808 --> 00:05:31.290
+never negative.
+
+114
+00:05:31.870 --> 00:05:34.353
+Try it yourself: for the two dice
+
+115
+00:05:34.426 --> 00:05:37.420
+find the distribution and the expectation
+
+116
+00:05:37.493 --> 00:05:38.808
+of the difference
+
+117
+00:05:38.808 --> 00:05:41.510
+the larger number minus the smaller.
+
+118
+00:05:41.860 --> 00:05:44.042
+Next lecture leaves probability
+
+119
+00:05:44.112 --> 00:05:47.138
+for whole numbers: division with remainder
+
+120
+00:05:47.138 --> 00:05:49.460
+and the greatest common divisor.

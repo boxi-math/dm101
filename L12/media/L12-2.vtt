@@ -1,0 +1,465 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.308
+Here is the exam graph from part one
+
+2
+00:00:06.308 --> 00:00:09.900
+six exams, and a line for every clash.
+
+3
+00:00:10.250 --> 00:00:13.631
+Exams in the same time slot must not clash.
+
+4
+00:00:13.709 --> 00:00:16.225
+What is the largest set of exams
+
+5
+00:00:16.304 --> 00:00:18.191
+that can share one slot?
+
+6
+00:00:18.191 --> 00:00:19.763
+Could four of them?
+
+7
+00:00:19.763 --> 00:00:21.650
+Pause and look for one.
+
+8
+00:00:25.230 --> 00:00:27.926
+First, graphs inside graphs.
+
+9
+00:00:28.022 --> 00:00:31.681
+H is a subgraph of G when its vertices
+
+10
+00:00:31.777 --> 00:00:34.666
+are some of the vertices of G
+
+11
+00:00:34.666 --> 00:00:38.710
+and its edges are some of the edges of G.
+
+12
+00:00:39.060 --> 00:00:43.455
+For example, keep only b, c, d and e
+
+13
+00:00:43.455 --> 00:00:47.731
+and only the two edges b c and d e.
+
+14
+00:00:47.731 --> 00:00:50.700
+That is a subgraph of G.
+
+15
+00:00:51.280 --> 00:00:56.698
+A spanning subgraph keeps every vertex.
+
+16
+00:00:56.698 --> 00:01:02.671
+Keep all six exams, but only five clashes
+
+17
+00:01:02.671 --> 00:01:06.560
+a b, b d, c d, c e and e f.
+
+18
+00:01:06.910 --> 00:01:09.273
+It spans the whole graph
+
+19
+00:01:09.273 --> 00:01:12.392
+but some edges of G are missing
+
+20
+00:01:12.392 --> 00:01:13.620
+such as a c.
+
+21
+00:01:13.620 --> 00:01:17.590
+So it is spanning, but it is not induced.
+
+22
+00:01:18.170 --> 00:01:23.253
+An induced subgraph is chosen the other way.
+
+23
+00:01:23.253 --> 00:01:27.990
+Choose some vertices, say b, c, d and e
+
+24
+00:01:27.990 --> 00:01:33.073
+and keep every edge of G between them: b c
+
+25
+00:01:33.073 --> 00:01:35.730
+b d, c d, c e and d e.
+
+26
+00:01:36.080 --> 00:01:37.827
+Nothing is left out
+
+27
+00:01:37.915 --> 00:01:40.797
+so for each set of vertices there
+
+28
+00:01:40.885 --> 00:01:43.680
+is exactly one induced subgraph.
+
+29
+00:01:44.260 --> 00:01:47.576
+Now compare the first example: b, c
+
+30
+00:01:47.576 --> 00:01:50.523
+d and e, with only b c and d e.
+
+31
+00:01:50.523 --> 00:01:53.747
+It has the same vertices, but b d
+
+32
+00:01:53.747 --> 00:01:56.050
+c d and c e are missing.
+
+33
+00:01:56.050 --> 00:01:57.984
+So it is a subgraph
+
+34
+00:01:57.984 --> 00:02:01.300
+but it is not the induced subgraph.
+
+35
+00:02:01.880 --> 00:02:04.841
+A clique is a set of vertices that
+
+36
+00:02:04.928 --> 00:02:07.627
+are all adjacent to each other.
+
+37
+00:02:07.627 --> 00:02:09.891
+a, b and c form a clique
+
+38
+00:02:09.891 --> 00:02:13.200
+three exams that clash in every pair.
+
+39
+00:02:13.200 --> 00:02:16.160
+So do b, c and d, and c, d and e.
+
+40
+00:02:16.510 --> 00:02:19.350
+The clique number, omega of G
+
+41
+00:02:19.350 --> 00:02:22.474
+is the size of a largest clique.
+
+42
+00:02:22.474 --> 00:02:25.030
+Is there a clique of four?
+
+43
+00:02:25.380 --> 00:02:27.092
+In a clique of four
+
+44
+00:02:27.092 --> 00:02:30.858
+each vertex has three neighbours inside it
+
+45
+00:02:30.858 --> 00:02:33.682
+so its degree is at least three.
+
+46
+00:02:33.682 --> 00:02:34.624
+Only b, c
+
+47
+00:02:34.624 --> 00:02:37.619
+d and e have degree three or more
+
+48
+00:02:37.619 --> 00:02:40.187
+and b and e are not adjacent.
+
+49
+00:02:40.187 --> 00:02:42.840
+So there is no clique of four
+
+50
+00:02:42.840 --> 00:02:44.980
+and omega of G is three.
+
+51
+00:02:45.560 --> 00:02:48.547
+An independent set is the opposite
+
+52
+00:02:48.547 --> 00:02:51.705
+no two of its vertices are adjacent.
+
+53
+00:02:51.705 --> 00:02:53.497
+a, d and f, algebra
+
+54
+00:02:53.497 --> 00:02:55.631
+data science and French
+
+55
+00:02:55.631 --> 00:02:57.679
+have no clashes at all
+
+56
+00:02:57.679 --> 00:02:59.898
+so they can share a slot.
+
+57
+00:02:59.898 --> 00:03:03.056
+Alpha of G, the independence number
+
+58
+00:03:03.056 --> 00:03:06.640
+is the size of a largest independent set.
+
+59
+00:03:06.990 --> 00:03:09.296
+Proving that alpha of G is
+
+60
+00:03:09.385 --> 00:03:11.424
+three takes two halves.
+
+61
+00:03:11.424 --> 00:03:14.351
+First, an example of size three
+
+62
+00:03:14.351 --> 00:03:15.504
+we have one.
+
+63
+00:03:15.504 --> 00:03:18.696
+Second, a reason why no independent
+
+64
+00:03:18.785 --> 00:03:20.470
+set of four exists.
+
+65
+00:03:20.820 --> 00:03:23.154
+Take any independent set S.
+
+66
+00:03:23.154 --> 00:03:26.697
+If S contains c, it contains none of the
+
+67
+00:03:26.784 --> 00:03:28.598
+four neighbours of c
+
+68
+00:03:28.598 --> 00:03:30.846
+so S sits inside c and f
+
+69
+00:03:30.846 --> 00:03:33.438
+and has at most two vertices.
+
+70
+00:03:33.438 --> 00:03:35.599
+If S does not contain c
+
+71
+00:03:35.685 --> 00:03:38.192
+split the other five vertices
+
+72
+00:03:38.278 --> 00:03:41.822
+into three groups: a b, d e, and f alone.
+
+73
+00:03:41.822 --> 00:03:44.587
+The first two groups are edges
+
+74
+00:03:44.674 --> 00:03:47.180
+so S takes at most one vertex
+
+75
+00:03:47.267 --> 00:03:48.649
+from each group
+
+76
+00:03:48.649 --> 00:03:52.020
+and has at most three vertices in all.
+
+77
+00:03:52.370 --> 00:03:54.638
+So alpha of G is three.
+
+78
+00:03:54.638 --> 00:03:58.090
+Four exams can never share a slot.
+
+79
+00:03:58.670 --> 00:03:59.555
+A warning.
+
+80
+00:03:59.555 --> 00:04:02.477
+c and f form an independent set
+
+81
+00:04:02.477 --> 00:04:05.309
+and nothing can be added to it
+
+82
+00:04:05.309 --> 00:04:08.231
+every other vertex is next to c
+
+83
+00:04:08.231 --> 00:04:09.470
+or next to f.
+
+84
+00:04:09.820 --> 00:04:13.534
+So it is stuck, but it is not the largest.
+
+85
+00:04:13.534 --> 00:04:16.010
+It is maximal, not maximum.
+
+86
+00:04:16.099 --> 00:04:18.486
+The largest independent set
+
+87
+00:04:18.575 --> 00:04:20.255
+has three vertices
+
+88
+00:04:20.344 --> 00:04:23.262
+and a greedy search that stops as
+
+89
+00:04:23.350 --> 00:04:26.180
+soon as it is stuck can miss it.
+
+90
+00:04:26.760 --> 00:04:28.751
+Now the timetable.
+
+91
+00:04:28.751 --> 00:04:31.184
+Slot one: a, d and f.
+
+92
+00:04:31.184 --> 00:04:33.285
+Slot two: b and e.
+
+93
+00:04:33.285 --> 00:04:36.160
+Slot three: c on its own.
+
+94
+00:04:36.160 --> 00:04:39.920
+Every slot is an independent set.
+
+95
+00:04:40.270 --> 00:04:42.636
+Could two slots be enough?
+
+96
+00:04:42.636 --> 00:04:43.000
+No.
+
+97
+00:04:43.000 --> 00:04:45.365
+a, b and c form a clique
+
+98
+00:04:45.365 --> 00:04:48.367
+three exams that clash in pairs
+
+99
+00:04:48.367 --> 00:04:51.643
+so they need three different slots.
+
+100
+00:04:51.643 --> 00:04:54.190
+Three slots is the minimum.
+
+101
+00:04:54.770 --> 00:04:55.592
+To sum up.
+
+102
+00:04:55.674 --> 00:04:58.715
+A subgraph keeps some of the vertices
+
+103
+00:04:58.797 --> 00:05:00.605
+and some of the edges.
+
+104
+00:05:00.605 --> 00:05:03.893
+A spanning subgraph keeps every vertex
+
+105
+00:05:03.975 --> 00:05:07.262
+and an induced subgraph keeps every edge
+
+106
+00:05:07.345 --> 00:05:09.810
+between the vertices it chose.
+
+107
+00:05:10.160 --> 00:05:13.183
+Omega is the size of a largest clique
+
+108
+00:05:13.183 --> 00:05:16.762
+alpha the size of a largest independent set
+
+109
+00:05:16.762 --> 00:05:20.024
+and proving either one takes two halves
+
+110
+00:05:20.024 --> 00:05:20.978
+an example
+
+111
+00:05:20.978 --> 00:05:24.160
+and a reason why nothing larger exists.
+
+112
+00:05:24.510 --> 00:05:25.330
+Try this
+
+113
+00:05:25.421 --> 00:05:28.790
+the five-cycle has no clique of three
+
+114
+00:05:28.881 --> 00:05:31.795
+and no independent set of three.
+
+115
+00:05:31.886 --> 00:05:35.347
+Prove that every graph on six vertices
+
+116
+00:05:35.438 --> 00:05:37.350
+has one or the other.

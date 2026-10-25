@@ -1,0 +1,569 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:07.071
+A college must timetable six exams: algebra
+
+2
+00:00:07.071 --> 00:00:10.295
+biology, chemistry, data science
+
+3
+00:00:10.295 --> 00:00:12.381
+economics and French.
+
+4
+00:00:12.475 --> 00:00:15.604
+Two exams clash when some student
+
+5
+00:00:15.699 --> 00:00:17.500
+takes both of them.
+
+6
+00:00:17.850 --> 00:00:20.014
+Student one takes algebra
+
+7
+00:00:20.014 --> 00:00:21.929
+biology and chemistry
+
+8
+00:00:21.929 --> 00:00:25.009
+so those three exams clash in pairs.
+
+9
+00:00:25.009 --> 00:00:28.672
+Student two takes biology and data science.
+
+10
+00:00:28.672 --> 00:00:31.253
+Student three takes chemistry
+
+11
+00:00:31.253 --> 00:00:33.584
+data science and economics.
+
+12
+00:00:33.584 --> 00:00:37.330
+And student four takes economics and French.
+
+13
+00:00:37.680 --> 00:00:42.073
+Draw each exam as a dot and each clash
+
+14
+00:00:42.189 --> 00:00:45.310
+as a line between two dots.
+
+15
+00:00:45.310 --> 00:00:48.200
+That picture is a graph.
+
+16
+00:00:48.550 --> 00:00:51.058
+Now count the lines at each dot
+
+17
+00:00:51.058 --> 00:00:53.175
+and add up the six counts.
+
+18
+00:00:53.175 --> 00:00:55.135
+Will the total be eight
+
+19
+00:00:55.135 --> 00:00:56.781
+the number of lines?
+
+20
+00:00:56.781 --> 00:00:58.270
+Pause and predict.
+
+21
+00:01:01.850 --> 00:01:04.270
+Here is the definition.
+
+22
+00:01:04.270 --> 00:01:07.426
+A graph G is a pair: V and E.
+
+23
+00:01:07.426 --> 00:01:11.845
+V is a nonempty finite set, the vertices
+
+24
+00:01:11.845 --> 00:01:14.054
+here, the six exams.
+
+25
+00:01:14.054 --> 00:01:18.263
+E is a set of two-element subsets of V
+
+26
+00:01:18.263 --> 00:01:22.050
+the edges: here, the eight clashes.
+
+27
+00:01:22.400 --> 00:01:24.623
+The number of vertices is
+
+28
+00:01:24.712 --> 00:01:28.003
+the order of the graph: n equals six.
+
+29
+00:01:28.003 --> 00:01:30.937
+The number of edges is its size
+
+30
+00:01:30.937 --> 00:01:32.360
+m equals eight.
+
+31
+00:01:32.449 --> 00:01:35.206
+The edge with endpoints a and b
+
+32
+00:01:35.295 --> 00:01:37.963
+is the set containing a and b
+
+33
+00:01:37.963 --> 00:01:40.720
+and we write it simply as a b.
+
+34
+00:01:41.070 --> 00:01:43.290
+A drawing is only a picture
+
+35
+00:01:43.372 --> 00:01:45.017
+of the pair V and E.
+
+36
+00:01:45.017 --> 00:01:47.154
+Turn it or move the dots
+
+37
+00:01:47.154 --> 00:01:49.786
+and it is still the same graph
+
+38
+00:01:49.786 --> 00:01:52.910
+as long as the same pairs are joined.
+
+39
+00:01:53.490 --> 00:01:55.915
+Two things are not allowed.
+
+40
+00:01:55.915 --> 00:01:59.329
+A loop, from a vertex back to itself
+
+41
+00:01:59.329 --> 00:02:01.395
+would be the set f, f
+
+42
+00:02:01.395 --> 00:02:04.629
+which is just the set with f alone.
+
+43
+00:02:04.629 --> 00:02:07.234
+It has one element, not two
+
+44
+00:02:07.234 --> 00:02:09.210
+so it is not an edge.
+
+45
+00:02:09.560 --> 00:02:11.913
+And a second line between a
+
+46
+00:02:12.000 --> 00:02:14.963
+and b would be the set a, b again.
+
+47
+00:02:14.963 --> 00:02:16.358
+But E is a set
+
+48
+00:02:16.358 --> 00:02:19.582
+and a set holds each pair only once.
+
+49
+00:02:19.582 --> 00:02:21.151
+Graphs like ours
+
+50
+00:02:21.151 --> 00:02:24.375
+with no loops and no multiple edges
+
+51
+00:02:24.375 --> 00:02:26.641
+are called simple graphs.
+
+52
+00:02:26.641 --> 00:02:30.040
+In this course, every graph is simple.
+
+53
+00:02:30.620 --> 00:02:33.091
+Two vertices are adjacent
+
+54
+00:02:33.190 --> 00:02:35.463
+when they form an edge.
+
+55
+00:02:35.463 --> 00:02:39.713
+Chemistry is adjacent to algebra, biology
+
+56
+00:02:39.713 --> 00:02:42.481
+data science and economics.
+
+57
+00:02:42.481 --> 00:02:46.039
+That set is the neighbourhood of c
+
+58
+00:02:46.039 --> 00:02:47.620
+written N of c.
+
+59
+00:02:47.970 --> 00:02:50.327
+The degree of a vertex is the
+
+60
+00:02:50.408 --> 00:02:52.196
+number of edges at it
+
+61
+00:02:52.196 --> 00:02:55.447
+which is the size of its neighbourhood.
+
+62
+00:02:55.447 --> 00:02:57.722
+So the degree of c is four.
+
+63
+00:02:57.722 --> 00:03:01.136
+French has a single neighbour, economics
+
+64
+00:03:01.136 --> 00:03:03.330
+so the degree of f is one.
+
+65
+00:03:03.680 --> 00:03:09.105
+Here are all six degrees: two, three, four
+
+66
+00:03:09.105 --> 00:03:11.880
+three, three and one.
+
+67
+00:03:12.460 --> 00:03:15.820
+The largest degree is called
+
+68
+00:03:15.940 --> 00:03:20.260
+capital delta of G: here four, at c.
+
+69
+00:03:20.260 --> 00:03:25.180
+The smallest degree is small delta of G
+
+70
+00:03:25.180 --> 00:03:27.100
+here one, at f.
+
+71
+00:03:27.450 --> 00:03:31.006
+Careful: the course summary calls small
+
+72
+00:03:31.097 --> 00:03:33.377
+delta the maximal degree.
+
+73
+00:03:33.377 --> 00:03:34.835
+That is a typo.
+
+74
+00:03:34.835 --> 00:03:37.388
+Small delta is the minimum
+
+75
+00:03:37.388 --> 00:03:39.850
+capital delta the maximum.
+
+76
+00:03:40.200 --> 00:03:43.037
+A graph is r regular when every
+
+77
+00:03:43.129 --> 00:03:45.783
+vertex has the same degree r.
+
+78
+00:03:45.783 --> 00:03:48.254
+This graph is not regular
+
+79
+00:03:48.254 --> 00:03:51.640
+its degrees run from one up to four.
+
+80
+00:03:52.220 --> 00:03:54.546
+Back to the prediction.
+
+81
+00:03:54.647 --> 00:03:58.187
+Two plus three plus four plus three
+
+82
+00:03:58.288 --> 00:04:01.423
+plus three plus one is sixteen.
+
+83
+00:04:01.423 --> 00:04:03.850
+Not eight, but sixteen
+
+84
+00:04:03.850 --> 00:04:06.580
+twice the number of edges.
+
+85
+00:04:06.930 --> 00:04:09.226
+This is the handshake lemma.
+
+86
+00:04:09.226 --> 00:04:12.833
+In every graph, the degrees add up to twice
+
+87
+00:04:12.915 --> 00:04:14.555
+the number of edges.
+
+88
+00:04:14.637 --> 00:04:16.604
+The proof counts one set
+
+89
+00:04:16.686 --> 00:04:18.490
+in two different ways.
+
+90
+00:04:18.840 --> 00:04:22.226
+The set we count is every pair made of
+
+91
+00:04:22.315 --> 00:04:25.523
+a vertex and an edge at that vertex.
+
+92
+00:04:25.523 --> 00:04:28.909
+Put a tick at each end of every edge.
+
+93
+00:04:28.909 --> 00:04:31.226
+Counted vertex by vertex
+
+94
+00:04:31.226 --> 00:04:35.236
+each vertex has as many ticks as its degree
+
+95
+00:04:35.236 --> 00:04:38.800
+so the count is the sum of the degrees.
+
+96
+00:04:39.150 --> 00:04:40.878
+Counted edge by edge
+
+97
+00:04:40.878 --> 00:04:43.922
+each edge has exactly two endpoints
+
+98
+00:04:43.922 --> 00:04:47.049
+because an edge is a two-element set.
+
+99
+00:04:47.049 --> 00:04:49.764
+So every edge carries two ticks
+
+100
+00:04:49.847 --> 00:04:51.986
+and the count is two times
+
+101
+00:04:52.068 --> 00:04:53.714
+the number of edges.
+
+102
+00:04:53.714 --> 00:04:55.442
+One set, two counts
+
+103
+00:04:55.442 --> 00:04:57.910
+so the two numbers are equal.
+
+104
+00:04:58.490 --> 00:05:01.496
+A common slip is to say that the degrees
+
+105
+00:05:01.571 --> 00:05:03.825
+add up to the number of edges.
+
+106
+00:05:03.900 --> 00:05:06.154
+But every edge is counted once
+
+107
+00:05:06.229 --> 00:05:08.033
+at each of its two ends.
+
+108
+00:05:08.033 --> 00:05:10.437
+The edge a b counts once for a
+
+109
+00:05:10.437 --> 00:05:12.090
+and once again for b.
+
+110
+00:05:12.670 --> 00:05:17.024
+One consequence: the number of vertices with
+
+111
+00:05:17.123 --> 00:05:19.695
+odd degree is always even.
+
+112
+00:05:19.695 --> 00:05:23.950
+Here they are b, d, e and f: four of them.
+
+113
+00:05:24.300 --> 00:05:24.622
+Why?
+
+114
+00:05:24.622 --> 00:05:28.159
+The total is even, and the even degrees add
+
+115
+00:05:28.240 --> 00:05:29.928
+up to an even number.
+
+116
+00:05:30.008 --> 00:05:32.179
+So the odd degrees must add
+
+117
+00:05:32.260 --> 00:05:34.270
+up to an even number too
+
+118
+00:05:34.350 --> 00:05:37.727
+and a sum of odd numbers is even only when
+
+119
+00:05:37.807 --> 00:05:40.380
+there is an even number of them.
+
+120
+00:05:40.730 --> 00:05:44.281
+So no graph has the degrees three, three
+
+121
+00:05:44.281 --> 00:05:45.753
+three, one, one.
+
+122
+00:05:45.753 --> 00:05:48.957
+They add up to eleven, which is odd.
+
+123
+00:05:49.044 --> 00:05:51.988
+And no graph on seven vertices has
+
+124
+00:05:52.075 --> 00:05:54.499
+every degree equal to three
+
+125
+00:05:54.499 --> 00:05:58.050
+because seven times three is twenty-one.
+
+126
+00:05:58.630 --> 00:05:59.421
+To sum up.
+
+127
+00:05:59.500 --> 00:06:02.425
+A graph is a set of vertices together
+
+128
+00:06:02.504 --> 00:06:04.085
+with a set of edges
+
+129
+00:06:04.085 --> 00:06:07.011
+and each edge is a pair of vertices.
+
+130
+00:06:07.090 --> 00:06:09.382
+The degree of a vertex counts
+
+131
+00:06:09.461 --> 00:06:10.726
+the edges at it.
+
+132
+00:06:10.805 --> 00:06:13.335
+And the degrees always add up to
+
+133
+00:06:13.414 --> 00:06:15.470
+twice the number of edges.
+
+134
+00:06:16.050 --> 00:06:17.719
+Try this yourself
+
+135
+00:06:17.719 --> 00:06:21.707
+can a graph have the degrees three, three
+
+136
+00:06:21.707 --> 00:06:22.635
+one, one?
+
+137
+00:06:22.635 --> 00:06:24.211
+The sum is even
+
+138
+00:06:24.211 --> 00:06:27.364
+so the handshake lemma allows it.
+
+139
+00:06:27.364 --> 00:06:28.570
+Look closer.
+
+140
+00:06:28.920 --> 00:06:31.092
+In part two: subgraphs
+
+141
+00:06:31.092 --> 00:06:33.924
+cliques and independent sets
+
+142
+00:06:33.924 --> 00:06:37.040
+and the answer to the timetable.

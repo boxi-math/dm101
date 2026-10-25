@@ -1,0 +1,525 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.197
+Three quick questions.
+
+2
+00:00:05.197 --> 00:00:07.598
+Is one a prime number?
+
+3
+00:00:07.598 --> 00:00:09.059
+Is zero even?
+
+4
+00:00:09.059 --> 00:00:11.460
+Does zero divide zero?
+
+5
+00:00:11.810 --> 00:00:13.383
+Ask a room of people
+
+6
+00:00:13.383 --> 00:00:15.705
+and you get different answers
+
+7
+00:00:15.705 --> 00:00:17.727
+all given with confidence.
+
+8
+00:00:17.727 --> 00:00:18.926
+In mathematics
+
+9
+00:00:18.926 --> 00:00:21.922
+that argument is not allowed to happen.
+
+10
+00:00:21.922 --> 00:00:23.570
+A definition decides.
+
+11
+00:00:23.920 --> 00:00:26.426
+So, is zero even?
+
+12
+00:00:26.426 --> 00:00:29.080
+Pause and decide.
+
+13
+00:00:32.660 --> 00:00:34.500
+A definition is a test.
+
+14
+00:00:34.500 --> 00:00:37.540
+Give it any object of the right kind
+
+15
+00:00:37.540 --> 00:00:39.620
+and it answers yes or no.
+
+16
+00:00:39.620 --> 00:00:41.780
+Here is the test for even
+
+17
+00:00:41.860 --> 00:00:43.780
+run on the integers from
+
+18
+00:00:43.860 --> 00:00:45.460
+minus three to four.
+
+19
+00:00:45.810 --> 00:00:49.928
+Minus two, zero, two and four pass.
+
+20
+00:00:49.928 --> 00:00:55.106
+Minus three, minus one, one and three fail.
+
+21
+00:00:55.106 --> 00:00:59.930
+So zero is even: zero is two times zero.
+
+22
+00:01:00.280 --> 00:01:04.021
+Every integer lands in exactly one group.
+
+23
+00:01:04.021 --> 00:01:07.305
+There is no answer like it depends
+
+24
+00:01:07.305 --> 00:01:08.400
+or sort of.
+
+25
+00:01:08.980 --> 00:01:11.810
+A good definition has four parts.
+
+26
+00:01:11.810 --> 00:01:13.096
+Take this one.
+
+27
+00:01:13.096 --> 00:01:15.583
+It starts with the category
+
+28
+00:01:15.583 --> 00:01:17.470
+a positive integer n.
+
+29
+00:01:17.470 --> 00:01:19.956
+Then the term being defined
+
+30
+00:01:19.956 --> 00:01:21.500
+a perfect square.
+
+31
+00:01:21.850 --> 00:01:23.889
+Then the word provided
+
+32
+00:01:23.889 --> 00:01:26.193
+which means exactly when.
+
+33
+00:01:26.193 --> 00:01:28.409
+And last, the condition
+
+34
+00:01:28.498 --> 00:01:30.802
+there is an integer m with
+
+35
+00:01:30.891 --> 00:01:32.752
+n equal to m squared.
+
+36
+00:01:32.752 --> 00:01:33.905
+Nine passes
+
+37
+00:01:33.905 --> 00:01:37.450
+nine dots make a three by three square.
+
+38
+00:01:37.800 --> 00:01:40.315
+Compare: a number is large
+
+39
+00:01:40.315 --> 00:01:43.761
+provided it is much bigger than one.
+
+40
+00:01:43.761 --> 00:01:45.252
+Is fifty large?
+
+41
+00:01:45.252 --> 00:01:46.742
+Nobody can say.
+
+42
+00:01:46.742 --> 00:01:48.605
+That is not a test
+
+43
+00:01:48.605 --> 00:01:51.120
+so it is not a definition.
+
+44
+00:01:51.700 --> 00:01:55.581
+We also need names for the numbers we use.
+
+45
+00:01:55.581 --> 00:01:59.277
+The natural numbers, N: zero, one, two
+
+46
+00:01:59.277 --> 00:02:00.293
+and so on.
+
+47
+00:02:00.293 --> 00:02:04.174
+In this course, zero is a natural number.
+
+48
+00:02:04.174 --> 00:02:07.500
+The integers, Z, add the negatives.
+
+49
+00:02:07.850 --> 00:02:10.057
+The rational numbers, Q
+
+50
+00:02:10.057 --> 00:02:12.264
+are fractions a over b
+
+51
+00:02:12.264 --> 00:02:15.299
+with integers on top and bottom
+
+52
+00:02:15.299 --> 00:02:16.770
+and b not zero.
+
+53
+00:02:16.862 --> 00:02:19.345
+Zero point three seven five
+
+54
+00:02:19.437 --> 00:02:21.001
+is three eighths
+
+55
+00:02:21.001 --> 00:02:23.668
+and seven is seven over one.
+
+56
+00:02:23.668 --> 00:02:27.530
+The real numbers, R, fill the whole line.
+
+57
+00:02:27.880 --> 00:02:31.020
+We assume that integers can be added
+
+58
+00:02:31.020 --> 00:02:33.311
+subtracted and multiplied.
+
+59
+00:02:33.311 --> 00:02:36.960
+But we assume nothing about dividing them.
+
+60
+00:02:36.960 --> 00:02:39.760
+That is the next word we define.
+
+61
+00:02:40.340 --> 00:02:41.805
+Here it is.
+
+62
+00:02:41.805 --> 00:02:47.397
+b divides a, provided a equals b times c
+
+63
+00:02:47.397 --> 00:02:50.060
+for some integer c.
+
+64
+00:02:50.410 --> 00:02:53.981
+In a picture: a dots fill b equal rows.
+
+65
+00:02:53.981 --> 00:02:57.553
+Forty-two dots make six rows of seven.
+
+66
+00:02:57.553 --> 00:03:00.300
+Forty-two is six times seven
+
+67
+00:03:00.300 --> 00:03:02.589
+and seven is an integer.
+
+68
+00:03:02.589 --> 00:03:04.970
+So six divides forty-two.
+
+69
+00:03:05.550 --> 00:03:08.398
+Now try forty dots in six rows.
+
+70
+00:03:08.398 --> 00:03:12.257
+Six full rows of six use thirty-six dots
+
+71
+00:03:12.257 --> 00:03:14.462
+and four are left over.
+
+72
+00:03:14.462 --> 00:03:17.677
+They cannot fill a seventh column
+
+73
+00:03:17.677 --> 00:03:19.790
+two places stay empty.
+
+74
+00:03:20.140 --> 00:03:24.611
+In symbols: six times c equals forty needs
+
+75
+00:03:24.718 --> 00:03:27.805
+c equal to twenty over three
+
+76
+00:03:27.805 --> 00:03:30.466
+which is not an integer.
+
+77
+00:03:30.466 --> 00:03:33.660
+So six does not divide forty.
+
+78
+00:03:34.240 --> 00:03:36.612
+Negative numbers are allowed.
+
+79
+00:03:36.612 --> 00:03:39.148
+Seven divides minus fifty-six
+
+80
+00:03:39.148 --> 00:03:41.520
+with c equal to minus eight.
+
+81
+00:03:41.870 --> 00:03:43.506
+Zero needs care.
+
+82
+00:03:43.506 --> 00:03:45.754
+Every b divides zero
+
+83
+00:03:45.754 --> 00:03:48.821
+because zero is b times zero.
+
+84
+00:03:48.821 --> 00:03:51.172
+But zero divides five?
+
+85
+00:03:51.172 --> 00:03:54.648
+Zero times c is zero for every c
+
+86
+00:03:54.648 --> 00:03:55.874
+never five.
+
+87
+00:03:55.874 --> 00:03:56.590
+So no.
+
+88
+00:03:56.590 --> 00:03:59.759
+And zero divides zero is true
+
+89
+00:03:59.759 --> 00:04:02.110
+c equal to zero works.
+
+90
+00:04:02.690 --> 00:04:03.858
+A common slip.
+
+91
+00:04:03.858 --> 00:04:06.861
+Three divides twelve is a sentence.
+
+92
+00:04:06.861 --> 00:04:08.613
+It is true or false
+
+93
+00:04:08.613 --> 00:04:11.283
+like three is less than twelve.
+
+94
+00:04:11.283 --> 00:04:14.370
+Twelve over three is a number: four.
+
+95
+00:04:14.720 --> 00:04:17.520
+So writing three divides twelve
+
+96
+00:04:17.610 --> 00:04:19.958
+equals four mixes the two.
+
+97
+00:04:19.958 --> 00:04:22.036
+And the order matters.
+
+98
+00:04:22.036 --> 00:04:24.655
+Four divides twenty is true
+
+99
+00:04:24.655 --> 00:04:26.371
+four rows of five.
+
+100
+00:04:26.371 --> 00:04:29.080
+Twenty divides four is false.
+
+101
+00:04:29.660 --> 00:04:31.991
+Now a first proof.
+
+102
+00:04:31.991 --> 00:04:36.263
+If d divides a, and d divides b
+
+103
+00:04:36.263 --> 00:04:39.500
+then d divides a plus b.
+
+104
+00:04:39.850 --> 00:04:42.127
+Unwrap the definitions.
+
+105
+00:04:42.127 --> 00:04:45.690
+a is d times x, and b is d times y
+
+106
+00:04:45.690 --> 00:04:49.253
+with a new letter for each integer.
+
+107
+00:04:49.253 --> 00:04:52.222
+Twelve is three rows of four
+
+108
+00:04:52.222 --> 00:04:55.290
+fifteen is three rows of five.
+
+109
+00:04:55.640 --> 00:04:58.945
+Name the goal: an integer c
+
+110
+00:04:58.945 --> 00:05:02.957
+with a plus b equal to d times c.
+
+111
+00:05:02.957 --> 00:05:04.020
+Compute.
+
+112
+00:05:04.020 --> 00:05:07.088
+a plus b is d x plus d y
+
+113
+00:05:07.088 --> 00:05:10.275
+which is d times x plus y.
+
+114
+00:05:10.275 --> 00:05:14.760
+Side by side, the rows still line up
+
+115
+00:05:14.760 --> 00:05:17.120
+three rows of nine.
+
+116
+00:05:17.470 --> 00:05:21.012
+Last, check: x plus y is an integer
+
+117
+00:05:21.012 --> 00:05:25.047
+because a sum of integers is an integer.
+
+118
+00:05:25.047 --> 00:05:27.310
+So d divides a plus b.
+
+119
+00:05:27.890 --> 00:05:30.544
+That is the pattern for this course.
+
+120
+00:05:30.544 --> 00:05:32.313
+Unwrap each definition
+
+121
+00:05:32.386 --> 00:05:34.376
+with a new letter for every
+
+122
+00:05:34.450 --> 00:05:35.924
+integer it promises.
+
+123
+00:05:35.924 --> 00:05:37.030
+Name the goal.
+
+124
+00:05:37.030 --> 00:05:37.693
+Compute.
+
+125
+00:05:37.693 --> 00:05:41.010
+And check that what you found is an integer.
+
+126
+00:05:41.360 --> 00:05:43.146
+Try it yourself
+
+127
+00:05:43.146 --> 00:05:46.718
+if d divides a and d divides b
+
+128
+00:05:46.718 --> 00:05:51.294
+show that d divides three a minus two b.
+
+129
+00:05:51.294 --> 00:05:52.745
+In part two
+
+130
+00:05:52.745 --> 00:05:57.433
+the same pattern proves facts about even
+
+131
+00:05:57.433 --> 00:06:00.000
+odd and prime numbers.

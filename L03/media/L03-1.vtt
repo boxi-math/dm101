@@ -1,0 +1,405 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.955
+A lab labels each sample with
+
+2
+00:00:06.060 --> 00:00:08.589
+a code of three letters
+
+3
+00:00:08.589 --> 00:00:13.118
+taken from the four letters A, C, G and T.
+
+4
+00:00:13.118 --> 00:00:16.700
+For example, G, A, T, or T, T, A.
+
+5
+00:00:17.050 --> 00:00:18.394
+To start smaller
+
+6
+00:00:18.473 --> 00:00:20.608
+here are all the codes with
+
+7
+00:00:20.687 --> 00:00:23.850
+only two letters, one code in each cell.
+
+8
+00:00:24.200 --> 00:00:27.691
+How many three-letter codes are there?
+
+9
+00:00:27.691 --> 00:00:28.978
+And how many
+
+10
+00:00:28.978 --> 00:00:31.918
+if no letter may be used twice?
+
+11
+00:00:31.918 --> 00:00:33.480
+Pause and guess.
+
+12
+00:00:37.060 --> 00:00:38.399
+A code is a list
+
+13
+00:00:38.399 --> 00:00:41.393
+its entries come in a definite order.
+
+14
+00:00:41.393 --> 00:00:44.939
+A then C, and C then A, are different lists
+
+15
+00:00:44.939 --> 00:00:47.460
+so they sit in different cells.
+
+16
+00:00:47.810 --> 00:00:50.710
+Entries may repeat, like A then A
+
+17
+00:00:50.710 --> 00:00:52.331
+down the diagonal.
+
+18
+00:00:52.416 --> 00:00:54.719
+The length of a list is the
+
+19
+00:00:54.804 --> 00:00:56.681
+number of its entries
+
+20
+00:00:56.766 --> 00:00:59.069
+and the list of length zero
+
+21
+00:00:59.155 --> 00:01:00.690
+is the empty list.
+
+22
+00:01:01.270 --> 00:01:04.180
+How many two-letter codes are there?
+
+23
+00:01:04.180 --> 00:01:07.494
+The first letter picks a row: four ways.
+
+24
+00:01:07.494 --> 00:01:08.868
+Whatever it was
+
+25
+00:01:08.868 --> 00:01:11.616
+the second letter picks a column
+
+26
+00:01:11.616 --> 00:01:12.990
+four ways again.
+
+27
+00:01:13.340 --> 00:01:16.712
+Four rows times four columns: sixteen cells
+
+28
+00:01:16.712 --> 00:01:17.861
+sixteen codes.
+
+29
+00:01:17.861 --> 00:01:20.773
+This is the multiplication principle.
+
+30
+00:01:20.850 --> 00:01:24.145
+When the number of choices at each position
+
+31
+00:01:24.222 --> 00:01:27.134
+doesn't depend on the earlier choices
+
+32
+00:01:27.134 --> 00:01:27.900
+multiply.
+
+33
+00:01:28.480 --> 00:01:30.228
+Now add a third letter.
+
+34
+00:01:30.228 --> 00:01:32.736
+Each two-letter code, like G, A
+
+35
+00:01:32.736 --> 00:01:36.080
+can be followed by any of the four letters.
+
+36
+00:01:36.080 --> 00:01:38.588
+So there are sixteen times four
+
+37
+00:01:38.588 --> 00:01:40.640
+which is sixty-four codes.
+
+38
+00:01:40.990 --> 00:01:41.959
+In general
+
+39
+00:01:41.959 --> 00:01:45.307
+the lists of length k from n objects
+
+40
+00:01:45.307 --> 00:01:49.183
+with repetition allowed, number n to the k.
+
+41
+00:01:49.183 --> 00:01:52.619
+Each of the k positions has n choices
+
+42
+00:01:52.619 --> 00:01:54.910
+whatever the others hold.
+
+43
+00:01:55.490 --> 00:01:59.408
+Without repetition, the diagonal goes: A A
+
+44
+00:01:59.408 --> 00:02:01.049
+C C, G G and T T.
+
+45
+00:02:01.049 --> 00:02:03.145
+Twelve codes are left
+
+46
+00:02:03.145 --> 00:02:06.334
+four choices for the first letter
+
+47
+00:02:06.334 --> 00:02:09.250
+then only three for the second.
+
+48
+00:02:09.600 --> 00:02:12.146
+A third letter must be one
+
+49
+00:02:12.244 --> 00:02:14.594
+of the two not used yet
+
+50
+00:02:14.594 --> 00:02:17.923
+so twelve times two, twenty-four.
+
+51
+00:02:17.923 --> 00:02:22.329
+In general: n, times n minus one, and so on
+
+52
+00:02:22.329 --> 00:02:23.406
+k factors.
+
+53
+00:02:23.406 --> 00:02:26.442
+This is the falling factorial
+
+54
+00:02:26.442 --> 00:02:28.400
+n to the k falling.
+
+55
+00:02:28.750 --> 00:02:32.649
+A tempting shortcut: sixty-four minus four
+
+56
+00:02:32.739 --> 00:02:35.278
+removing only the codes with
+
+57
+00:02:35.369 --> 00:02:37.545
+all three letters equal.
+
+58
+00:02:37.545 --> 00:02:39.539
+But a code like G, A
+
+59
+00:02:39.539 --> 00:02:41.715
+G repeats a letter too.
+
+60
+00:02:41.715 --> 00:02:45.070
+Forty codes have a repeat, not four.
+
+61
+00:02:45.650 --> 00:02:47.141
+When k equals n
+
+62
+00:02:47.141 --> 00:02:50.403
+every object is used exactly once
+
+63
+00:02:50.403 --> 00:02:51.894
+an arrangement.
+
+64
+00:02:51.894 --> 00:02:55.062
+There are n factorial of them: n
+
+65
+00:02:55.062 --> 00:02:58.044
+times n minus one, down to one.
+
+66
+00:02:58.044 --> 00:03:01.679
+Four letters in a row: four factorial
+
+67
+00:03:01.679 --> 00:03:02.890
+twenty-four.
+
+68
+00:03:03.240 --> 00:03:05.257
+Zero factorial is one
+
+69
+00:03:05.348 --> 00:03:07.915
+because there is exactly one
+
+70
+00:03:08.006 --> 00:03:11.306
+list of length zero, the empty list.
+
+71
+00:03:11.306 --> 00:03:14.881
+And n to the k falling is n factorial
+
+72
+00:03:14.881 --> 00:03:17.355
+over n minus k, factorial
+
+73
+00:03:17.355 --> 00:03:21.480
+twelve is four factorial over two factorial.
+
+74
+00:03:21.830 --> 00:03:23.583
+If k is bigger than n
+
+75
+00:03:23.583 --> 00:03:25.495
+there is no way at all.
+
+76
+00:03:25.575 --> 00:03:27.805
+Four letters can't fill five
+
+77
+00:03:27.885 --> 00:03:29.797
+places without a repeat
+
+78
+00:03:29.797 --> 00:03:31.550
+so the count is zero.
+
+79
+00:03:32.130 --> 00:03:36.429
+One warning about the multiplication principle.
+
+80
+00:03:36.520 --> 00:03:39.721
+Count the codes whose second letter
+
+81
+00:03:39.813 --> 00:03:42.374
+comes later in the alphabet.
+
+82
+00:03:42.374 --> 00:03:45.392
+After A there are three choices
+
+83
+00:03:45.392 --> 00:03:49.050
+after C two, after G one, after T none.
+
+84
+00:03:49.400 --> 00:03:52.171
+Three plus two plus one plus zero
+
+85
+00:03:52.171 --> 00:03:53.067
+six codes.
+
+86
+00:03:53.149 --> 00:03:56.083
+The number of second choices changes
+
+87
+00:03:56.164 --> 00:03:57.957
+with the first letter
+
+88
+00:03:57.957 --> 00:04:00.320
+so there is no product here.
+
+89
+00:04:00.402 --> 00:04:03.988
+Multiply only when every first choice leaves
+
+90
+00:04:04.069 --> 00:04:06.840
+the same number of second choices.
+
+91
+00:04:07.420 --> 00:04:10.334
+So: a list keeps its order and
+
+92
+00:04:10.432 --> 00:04:12.277
+may repeat entries.
+
+93
+00:04:12.374 --> 00:04:15.289
+With repetition there are n to
+
+94
+00:04:15.386 --> 00:04:17.717
+the k lists of length k.
+
+95
+00:04:17.717 --> 00:04:21.603
+Without repetition, n to the k falling
+
+96
+00:04:21.603 --> 00:04:25.780
+and n factorial when every object is used.
+
+97
+00:04:26.360 --> 00:04:30.170
+Try it yourself: how many four-digit PINs
+
+98
+00:04:30.263 --> 00:04:32.400
+have no repeated digit?
+
+99
+00:04:32.750 --> 00:04:33.686
+Next, sets
+
+100
+00:04:33.771 --> 00:04:37.004
+collections where order and repetition
+
+101
+00:04:37.089 --> 00:04:38.790
+don't matter at all.

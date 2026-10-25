@@ -1,0 +1,517 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.680
+Four locks and four keys.
+
+2
+00:00:05.791 --> 00:00:08.904
+A coloured square means this
+
+3
+00:00:09.015 --> 00:00:11.239
+key opens this lock.
+
+4
+00:00:11.239 --> 00:00:13.352
+Lock one: key two.
+
+5
+00:00:13.352 --> 00:00:16.687
+Lock two: keys one and three.
+
+6
+00:00:16.687 --> 00:00:19.244
+Lock three: key three.
+
+7
+00:00:19.244 --> 00:00:22.580
+Lock four: keys two and four.
+
+8
+00:00:22.930 --> 00:00:26.605
+Here are two sentences with the same words.
+
+9
+00:00:26.605 --> 00:00:29.682
+Every lock has a key that opens it.
+
+10
+00:00:29.682 --> 00:00:32.930
+There is a key that opens every lock.
+
+11
+00:00:33.280 --> 00:00:35.560
+Do they say the same thing?
+
+12
+00:00:35.560 --> 00:00:37.080
+Pause and decide.
+
+13
+00:00:40.660 --> 00:00:44.438
+The first sentence says: for every lock
+
+14
+00:00:44.438 --> 00:00:46.327
+there exists a key.
+
+15
+00:00:46.327 --> 00:00:48.216
+So check every row.
+
+16
+00:00:48.216 --> 00:00:50.294
+Row one has a square.
+
+17
+00:00:50.294 --> 00:00:53.128
+Row two, row three, row four
+
+18
+00:00:53.128 --> 00:00:55.300
+each one has a square.
+
+19
+00:00:55.650 --> 00:00:56.098
+True.
+
+20
+00:00:56.098 --> 00:01:00.043
+And the key may be different for each lock
+
+21
+00:01:00.043 --> 00:01:03.450
+key two, key one, key three, key two.
+
+22
+00:01:04.030 --> 00:01:06.112
+The second sentence says
+
+23
+00:01:06.112 --> 00:01:09.026
+there exists a key, for all locks.
+
+24
+00:01:09.026 --> 00:01:11.190
+That key is chosen first
+
+25
+00:01:11.190 --> 00:01:14.021
+and then it must open every lock
+
+26
+00:01:14.021 --> 00:01:15.270
+a full column.
+
+27
+00:01:15.620 --> 00:01:18.134
+Key one misses lock one.
+
+28
+00:01:18.134 --> 00:01:20.753
+Key two misses lock two.
+
+29
+00:01:20.753 --> 00:01:23.582
+Key three misses lock one
+
+30
+00:01:23.582 --> 00:01:25.887
+and so does key four.
+
+31
+00:01:25.887 --> 00:01:27.877
+No column is full.
+
+32
+00:01:27.877 --> 00:01:31.020
+The second sentence is false.
+
+33
+00:01:31.600 --> 00:01:34.149
+Same words, different order
+
+34
+00:01:34.149 --> 00:01:35.879
+different meaning.
+
+35
+00:01:35.879 --> 00:01:38.246
+In for all, there exists
+
+36
+00:01:38.246 --> 00:01:41.159
+the key may depend on the lock.
+
+37
+00:01:41.159 --> 00:01:43.526
+In there exists, for all
+
+38
+00:01:43.526 --> 00:01:47.440
+one key is fixed before any lock is named.
+
+39
+00:01:47.790 --> 00:01:50.114
+One direction always holds.
+
+40
+00:01:50.114 --> 00:01:53.214
+Imagine key four opened every lock
+
+41
+00:01:53.214 --> 00:01:54.505
+a full column.
+
+42
+00:01:54.505 --> 00:01:57.604
+Then every row would have a square
+
+43
+00:01:57.604 --> 00:01:58.982
+in that column.
+
+44
+00:01:58.982 --> 00:02:02.684
+So there exists, for all, implies for all
+
+45
+00:02:02.684 --> 00:02:03.889
+there exists.
+
+46
+00:02:03.889 --> 00:02:05.955
+But the converse fails
+
+47
+00:02:05.955 --> 00:02:08.710
+this table is a counterexample.
+
+48
+00:02:09.060 --> 00:02:10.370
+With numbers
+
+49
+00:02:10.470 --> 00:02:13.694
+for every integer x there is a y
+
+50
+00:02:13.795 --> 00:02:16.616
+with x plus y equal to zero.
+
+51
+00:02:16.616 --> 00:02:19.134
+Take y equal to minus x.
+
+52
+00:02:19.134 --> 00:02:22.660
+But no single y works for every x.
+
+53
+00:02:23.240 --> 00:02:27.424
+To negate a sentence with two quantifiers
+
+54
+00:02:27.424 --> 00:02:28.520
+flip both.
+
+55
+00:02:28.520 --> 00:02:32.804
+Not: there is a key that opens every lock.
+
+56
+00:02:32.804 --> 00:02:35.693
+That becomes: for every key
+
+57
+00:02:35.693 --> 00:02:39.080
+there is a lock it does not open.
+
+58
+00:02:39.430 --> 00:02:40.605
+In the table
+
+59
+00:02:40.605 --> 00:02:43.677
+every column has an empty square
+
+60
+00:02:43.677 --> 00:02:47.202
+lock one for keys one, three and four
+
+61
+00:02:47.202 --> 00:02:49.190
+lock two for key two.
+
+62
+00:02:49.770 --> 00:02:51.985
+Now find the error.
+
+63
+00:02:51.985 --> 00:02:57.115
+Claim: there is a largest natural number m
+
+64
+00:02:57.115 --> 00:02:59.913
+with every n at most m.
+
+65
+00:02:59.913 --> 00:03:04.111
+Proof: let n be any natural number
+
+66
+00:03:04.111 --> 00:03:07.842
+and take m equal to n plus one.
+
+67
+00:03:07.842 --> 00:03:10.290
+Then n is at most m.
+
+68
+00:03:10.640 --> 00:03:13.602
+The error: m was chosen after n
+
+69
+00:03:13.602 --> 00:03:16.009
+so it moves when n moves.
+
+70
+00:03:16.009 --> 00:03:19.711
+That proves: for every n there is an m.
+
+71
+00:03:19.711 --> 00:03:21.840
+A different statement.
+
+72
+00:03:22.420 --> 00:03:26.281
+For the real claim, m must be fixed first.
+
+73
+00:03:26.281 --> 00:03:30.142
+And then n equal to m plus one is bigger.
+
+74
+00:03:30.142 --> 00:03:31.980
+The claim is false.
+
+75
+00:03:32.560 --> 00:03:35.043
+Now a new kind of proof.
+
+76
+00:03:35.043 --> 00:03:38.353
+Claim: two to the n, minus one
+
+77
+00:03:38.353 --> 00:03:42.697
+equals one plus two plus four, and so on
+
+78
+00:03:42.697 --> 00:03:45.800
+up to two to the n minus one.
+
+79
+00:03:46.150 --> 00:03:48.760
+A combinatorial proof asks
+
+80
+00:03:48.861 --> 00:03:51.069
+one counting question
+
+81
+00:03:51.069 --> 00:03:53.880
+and answers it in two ways.
+
+82
+00:03:53.880 --> 00:03:55.285
+Our question
+
+83
+00:03:55.285 --> 00:03:59.702
+how many nonempty subsets does the set one
+
+84
+00:03:59.702 --> 00:04:01.710
+two, up to n, have?
+
+85
+00:04:02.060 --> 00:04:06.229
+For n equals four, here are all the subsets
+
+86
+00:04:06.229 --> 00:04:09.260
+in binary order, four to a row.
+
+87
+00:04:09.840 --> 00:04:11.410
+Left side first.
+
+88
+00:04:11.508 --> 00:04:13.962
+A set with n elements has
+
+89
+00:04:14.060 --> 00:04:17.494
+two to the n subsets: sixteen here.
+
+90
+00:04:17.494 --> 00:04:19.948
+Leave out the empty set
+
+91
+00:04:19.948 --> 00:04:23.481
+and fifteen are left: two to the n
+
+92
+00:04:23.481 --> 00:04:24.560
+minus one.
+
+93
+00:04:25.140 --> 00:04:26.031
+Right side
+
+94
+00:04:26.031 --> 00:04:29.515
+sort the subsets by their largest element.
+
+95
+00:04:29.515 --> 00:04:32.674
+Largest element one: just the set one.
+
+96
+00:04:32.674 --> 00:04:35.428
+Largest element two: two subsets.
+
+97
+00:04:35.428 --> 00:04:38.425
+Largest element three: four subsets
+
+98
+00:04:38.425 --> 00:04:39.722
+the second row.
+
+99
+00:04:39.722 --> 00:04:42.719
+Largest element four: eight subsets
+
+100
+00:04:42.719 --> 00:04:44.420
+the bottom two rows.
+
+101
+00:04:44.770 --> 00:04:47.442
+Why two to the k minus one?
+
+102
+00:04:47.442 --> 00:04:51.202
+A subset with largest element k is k
+
+103
+00:04:51.301 --> 00:04:53.675
+together with any subset
+
+104
+00:04:53.774 --> 00:04:56.050
+of the numbers below k.
+
+105
+00:04:56.630 --> 00:04:59.692
+Each nonempty subset has exactly
+
+106
+00:04:59.788 --> 00:05:01.702
+one largest element
+
+107
+00:05:01.702 --> 00:05:04.668
+so it is counted exactly once.
+
+108
+00:05:04.764 --> 00:05:07.348
+One plus two plus four plus
+
+109
+00:05:07.443 --> 00:05:09.070
+eight is fifteen.
+
+110
+00:05:09.420 --> 00:05:12.183
+Both sides count the same set
+
+111
+00:05:12.183 --> 00:05:15.130
+so they are equal, for every n.
+
+112
+00:05:15.130 --> 00:05:19.275
+That is a combinatorial proof: one question
+
+113
+00:05:19.275 --> 00:05:20.380
+two counts.
+
+114
+00:05:20.960 --> 00:05:24.731
+So: read quantifiers from left to right.
+
+115
+00:05:24.731 --> 00:05:28.501
+There exists, for all, implies for all
+
+116
+00:05:28.501 --> 00:05:29.821
+there exists
+
+117
+00:05:29.821 --> 00:05:33.120
+but not in the opposite direction.
+
+118
+00:05:33.470 --> 00:05:36.421
+To negate, flip every quantifier.
+
+119
+00:05:36.510 --> 00:05:39.818
+And a combinatorial proof answers one
+
+120
+00:05:39.908 --> 00:05:42.590
+counting question in two ways.
+
+121
+00:05:43.170 --> 00:05:46.957
+Try it yourself: count the strings of zeros
+
+122
+00:05:47.043 --> 00:05:49.194
+ones and twos of length n
+
+123
+00:05:49.280 --> 00:05:52.378
+that are not all zeros, in two ways.
+
+124
+00:05:52.378 --> 00:05:55.390
+You get three to the n, minus one
+
+125
+00:05:55.390 --> 00:05:59.176
+equals two times one plus three, and so on
+
+126
+00:05:59.176 --> 00:06:01.930
+up to three to the n minus one.
+
+127
+00:06:02.280 --> 00:06:04.459
+Next lecture: relations
+
+128
+00:06:04.549 --> 00:06:07.182
+where pairs like lock and key
+
+129
+00:06:07.272 --> 00:06:09.360
+become the main object.

@@ -1,0 +1,405 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:05.416
+In part one we proved things
+
+2
+00:00:05.505 --> 00:00:07.033
+by contradiction.
+
+3
+00:00:07.033 --> 00:00:10.087
+Here is a question for that tool
+
+4
+00:00:10.177 --> 00:00:12.693
+is there a smallest positive
+
+5
+00:00:12.783 --> 00:00:14.220
+rational number?
+
+6
+00:00:14.570 --> 00:00:16.460
+Start at one half.
+
+7
+00:00:16.460 --> 00:00:21.080
+Half of it is one quarter, then one eighth
+
+8
+00:00:21.080 --> 00:00:24.650
+one sixteenth, one thirty-second.
+
+9
+00:00:25.000 --> 00:00:27.774
+The points crowd towards zero
+
+10
+00:00:27.870 --> 00:00:29.687
+but never reach it.
+
+11
+00:00:29.687 --> 00:00:32.078
+Is there a smallest one?
+
+12
+00:00:32.078 --> 00:00:33.800
+Pause and decide.
+
+13
+00:00:37.380 --> 00:00:39.587
+Suppose, to the contrary
+
+14
+00:00:39.587 --> 00:00:43.294
+that r is the smallest positive rational.
+
+15
+00:00:43.294 --> 00:00:45.854
+Then r over two is rational
+
+16
+00:00:45.854 --> 00:00:47.620
+and it is positive.
+
+17
+00:00:47.970 --> 00:00:50.827
+But r over two is less than r.
+
+18
+00:00:50.827 --> 00:00:55.017
+A positive rational below the smallest one
+
+19
+00:00:55.017 --> 00:00:56.635
+a contradiction.
+
+20
+00:00:56.635 --> 00:01:00.730
+So there is no smallest positive rational.
+
+21
+00:01:01.080 --> 00:01:03.476
+Positive numbers in general need
+
+22
+00:01:03.550 --> 00:01:05.347
+not have a smallest one.
+
+23
+00:01:05.347 --> 00:01:07.518
+Whatever candidate you pick
+
+24
+00:01:07.518 --> 00:01:09.240
+half of it is smaller.
+
+25
+00:01:09.820 --> 00:01:12.467
+The natural numbers are different.
+
+26
+00:01:12.467 --> 00:01:15.347
+This is the well-ordering principle
+
+27
+00:01:15.425 --> 00:01:17.682
+every nonempty set of natural
+
+28
+00:01:17.760 --> 00:01:19.940
+numbers has a least element.
+
+29
+00:01:20.290 --> 00:01:23.983
+Take the n whose square is more than fifty.
+
+30
+00:01:23.983 --> 00:01:27.418
+Seven squared is forty-nine, too small.
+
+31
+00:01:27.418 --> 00:01:29.908
+Eight squared is sixty-four.
+
+32
+00:01:29.908 --> 00:01:32.570
+So the least element is eight.
+
+33
+00:01:32.920 --> 00:01:35.612
+Or take the n, at least one
+
+34
+00:01:35.612 --> 00:01:39.939
+where seven divides two to the n, minus one
+
+35
+00:01:39.939 --> 00:01:43.496
+three, six, nine, twelve, and so on.
+
+36
+00:01:43.496 --> 00:01:45.419
+The least is three
+
+37
+00:01:45.419 --> 00:01:48.880
+since two cubed minus one is seven.
+
+38
+00:01:49.230 --> 00:01:50.606
+Both words matter.
+
+39
+00:01:50.606 --> 00:01:53.357
+The integers have no least element
+
+40
+00:01:53.357 --> 00:01:56.337
+and neither do the positive rationals.
+
+41
+00:01:56.337 --> 00:01:59.470
+And the empty set has no element at all.
+
+42
+00:02:00.050 --> 00:02:02.156
+Now use it to prove things.
+
+43
+00:02:02.234 --> 00:02:04.496
+Suppose a claim about natural
+
+44
+00:02:04.574 --> 00:02:06.446
+numbers fails somewhere.
+
+45
+00:02:06.524 --> 00:02:08.942
+The numbers where it fails form
+
+46
+00:02:09.020 --> 00:02:10.970
+a set of counterexamples.
+
+47
+00:02:11.320 --> 00:02:13.339
+That set is not empty
+
+48
+00:02:13.339 --> 00:02:16.092
+so it has a least element, m.
+
+49
+00:02:16.092 --> 00:02:18.478
+Everything below m works.
+
+50
+00:02:18.478 --> 00:02:21.047
+Then show that m works too
+
+51
+00:02:21.047 --> 00:02:23.800
+and you have a contradiction.
+
+52
+00:02:24.380 --> 00:02:29.269
+Theorem: three divides n cubed plus two n
+
+53
+00:02:29.269 --> 00:02:32.528
+for every natural number n.
+
+54
+00:02:32.528 --> 00:02:36.719
+The values are zero, three, twelve
+
+55
+00:02:36.719 --> 00:02:39.862
+thirty-three, seventy-two
+
+56
+00:02:39.862 --> 00:02:42.656
+all multiples of three.
+
+57
+00:02:42.656 --> 00:02:45.100
+But we want every n.
+
+58
+00:02:45.450 --> 00:02:49.757
+Suppose, to the contrary, that some n fails
+
+59
+00:02:49.757 --> 00:02:53.574
+and let m be the least counterexample.
+
+60
+00:02:53.574 --> 00:02:55.042
+m is not zero
+
+61
+00:02:55.042 --> 00:02:58.370
+because zero is three times zero.
+
+62
+00:02:58.720 --> 00:03:03.625
+So m minus one is a natural number below m
+
+63
+00:03:03.625 --> 00:03:07.503
+and it works: m minus one, cubed
+
+64
+00:03:07.503 --> 00:03:10.697
+plus two times m minus one
+
+65
+00:03:10.697 --> 00:03:13.320
+is three times some q.
+
+66
+00:03:13.670 --> 00:03:18.119
+Now m cubed plus two m is that number plus
+
+67
+00:03:18.225 --> 00:03:22.357
+three times m squared minus m plus one.
+
+68
+00:03:22.357 --> 00:03:26.064
+Both parts are multiples of three.
+
+69
+00:03:26.064 --> 00:03:30.196
+So m works after all: a contradiction.
+
+70
+00:03:30.196 --> 00:03:32.950
+No counterexample exists.
+
+71
+00:03:33.530 --> 00:03:35.235
+Now a warning.
+
+72
+00:03:35.235 --> 00:03:40.593
+Claim: two to the n is at least n plus two
+
+73
+00:03:40.593 --> 00:03:44.003
+for every natural number n.
+
+74
+00:03:44.003 --> 00:03:48.266
+Let m be the least counterexample.
+
+75
+00:03:48.266 --> 00:03:51.188
+Then m minus one works
+
+76
+00:03:51.188 --> 00:03:55.086
+and two to the m is twice that
+
+77
+00:03:55.086 --> 00:03:58.130
+at least two m plus two.
+
+78
+00:03:58.480 --> 00:04:00.321
+Every step looks fine.
+
+79
+00:04:00.321 --> 00:04:03.502
+But test the claim: it fails at zero
+
+80
+00:04:03.502 --> 00:04:06.849
+since one is less than two, and at one
+
+81
+00:04:06.849 --> 00:04:09.360
+since two is less than three.
+
+82
+00:04:09.710 --> 00:04:12.566
+The least counterexample is zero
+
+83
+00:04:12.652 --> 00:04:14.989
+and zero has no m minus one
+
+84
+00:04:15.076 --> 00:04:17.326
+among the natural numbers.
+
+85
+00:04:17.326 --> 00:04:20.355
+The proof never checked the start.
+
+86
+00:04:20.355 --> 00:04:23.470
+The claim is true only from two on.
+
+87
+00:04:24.050 --> 00:04:27.617
+So a proof by smallest counterexample
+
+88
+00:04:27.713 --> 00:04:29.159
+has five steps.
+
+89
+00:04:29.159 --> 00:04:32.051
+One, suppose the claim fails.
+
+90
+00:04:32.051 --> 00:04:35.810
+Two, take the least counterexample, m.
+
+91
+00:04:36.160 --> 00:04:39.447
+Three, everything below m works
+
+92
+00:04:39.447 --> 00:04:43.965
+check the start before you use m minus one.
+
+93
+00:04:43.965 --> 00:04:46.944
+Four, reach a contradiction.
+
+94
+00:04:46.944 --> 00:04:51.360
+Five, conclude that the claim never fails.
+
+95
+00:04:51.940 --> 00:04:53.392
+Try it yourself
+
+96
+00:04:53.392 --> 00:04:57.022
+prove that five divides n to the fifth
+
+97
+00:04:57.022 --> 00:05:00.380
+minus n, for every natural number n.
+
+98
+00:05:00.730 --> 00:05:02.373
+Check zero first
+
+99
+00:05:02.373 --> 00:05:05.467
+then get from m minus one to m.
+
+100
+00:05:05.467 --> 00:05:09.333
+That shape has its own name: induction
+
+101
+00:05:09.333 --> 00:05:12.330
+the topic of the next lecture.

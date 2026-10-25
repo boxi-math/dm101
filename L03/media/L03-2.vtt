@@ -1,0 +1,517 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.611
+In part one, order mattered: the list two
+
+2
+00:00:06.611 --> 00:00:09.439
+five is not the list five, two.
+
+3
+00:00:09.439 --> 00:00:12.620
+A set forgets order and repetition.
+
+4
+00:00:12.970 --> 00:00:15.458
+Think of a set as shading on
+
+5
+00:00:15.546 --> 00:00:17.590
+the numbers one to ten.
+
+6
+00:00:17.590 --> 00:00:20.877
+Shade two and five, or five and two
+
+7
+00:00:20.877 --> 00:00:22.121
+the same set.
+
+8
+00:00:22.121 --> 00:00:25.586
+Shade five again, and nothing changes
+
+9
+00:00:25.586 --> 00:00:27.274
+the set two, five
+
+10
+00:00:27.274 --> 00:00:29.850
+five still has two elements.
+
+11
+00:00:30.200 --> 00:00:31.953
+Here is a question.
+
+12
+00:00:32.045 --> 00:00:34.537
+How many subsets does a set
+
+13
+00:00:34.629 --> 00:00:36.751
+of three elements have?
+
+14
+00:00:36.751 --> 00:00:38.320
+Pause and count.
+
+15
+00:00:41.900 --> 00:00:44.851
+A set is a collection of elements
+
+16
+00:00:44.851 --> 00:00:47.282
+and only membership counts.
+
+17
+00:00:47.282 --> 00:00:51.014
+We write x in A when x is an element of A.
+
+18
+00:00:51.014 --> 00:00:54.660
+The even numbers up to ten form a set, E.
+
+19
+00:00:54.660 --> 00:00:56.570
+It has five elements
+
+20
+00:00:56.570 --> 00:00:58.740
+its cardinality is five.
+
+21
+00:00:59.090 --> 00:01:02.551
+The empty set has no elements at all
+
+22
+00:01:02.551 --> 00:01:04.235
+cardinality zero.
+
+23
+00:01:04.329 --> 00:01:07.603
+It is not the same as the set whose
+
+24
+00:01:07.697 --> 00:01:10.410
+one element is the empty set.
+
+25
+00:01:10.990 --> 00:01:14.522
+A is a subset of B when every element
+
+26
+00:01:14.618 --> 00:01:17.386
+of A is also an element of B.
+
+27
+00:01:17.386 --> 00:01:21.205
+Take the set whose only element is six.
+
+28
+00:01:21.205 --> 00:01:25.310
+Six is even, so that set is a subset of E.
+
+29
+00:01:25.660 --> 00:01:28.037
+Careful with the two symbols.
+
+30
+00:01:28.037 --> 00:01:31.235
+One is an element of the set one, two.
+
+31
+00:01:31.235 --> 00:01:34.678
+The set containing one is a subset of it.
+
+32
+00:01:34.678 --> 00:01:38.285
+But that set is not an element of one, two
+
+33
+00:01:38.285 --> 00:01:41.400
+the elements of one, two are numbers
+
+34
+00:01:41.400 --> 00:01:42.220
+not sets.
+
+35
+00:01:42.570 --> 00:01:46.319
+And the empty set is a subset of every set
+
+36
+00:01:46.406 --> 00:01:48.848
+it has no element that could
+
+37
+00:01:48.935 --> 00:01:50.330
+fail to be in B.
+
+38
+00:01:50.910 --> 00:01:53.233
+The power set of A is the
+
+39
+00:01:53.326 --> 00:01:55.463
+set of all its subsets.
+
+40
+00:01:55.463 --> 00:01:58.809
+For the set a, b, c: the empty set
+
+41
+00:01:58.809 --> 00:02:02.991
+three sets with one element, three with two
+
+42
+00:02:02.991 --> 00:02:04.756
+and the whole set.
+
+43
+00:02:04.756 --> 00:02:06.150
+Eight subsets.
+
+44
+00:02:06.500 --> 00:02:08.910
+A common slip is to forget the
+
+45
+00:02:08.990 --> 00:02:12.445
+empty set and the whole set, and count six.
+
+46
+00:02:12.445 --> 00:02:14.212
+But both are subsets
+
+47
+00:02:14.212 --> 00:02:16.140
+so the answer is eight.
+
+48
+00:02:16.720 --> 00:02:17.699
+Why eight?
+
+49
+00:02:17.797 --> 00:02:20.537
+A subset is decided by three
+
+50
+00:02:20.635 --> 00:02:22.592
+yes or no questions.
+
+51
+00:02:22.592 --> 00:02:23.767
+Is a in it?
+
+52
+00:02:23.767 --> 00:02:28.171
+Yes for four subsets, no for the other four.
+
+53
+00:02:28.171 --> 00:02:29.346
+Is b in it?
+
+54
+00:02:29.346 --> 00:02:30.520
+Is c in it?
+
+55
+00:02:30.870 --> 00:02:33.447
+Write the answers as a list
+
+56
+00:02:33.543 --> 00:02:37.743
+of ones and zeros: the set a, c becomes one
+
+57
+00:02:37.743 --> 00:02:38.793
+zero, one.
+
+58
+00:02:38.793 --> 00:02:41.466
+Each subset gives one list
+
+59
+00:02:41.466 --> 00:02:44.520
+and each list gives one subset.
+
+60
+00:02:44.520 --> 00:02:47.956
+We counted those lists in part one
+
+61
+00:02:47.956 --> 00:02:51.870
+two times two times two, which is eight.
+
+62
+00:02:52.220 --> 00:02:55.987
+In general, a set with n elements has
+
+63
+00:02:56.089 --> 00:02:58.227
+two to the n subsets.
+
+64
+00:02:58.227 --> 00:03:02.300
+And one more element doubles the count
+
+65
+00:03:02.300 --> 00:03:05.558
+every old subset appears twice
+
+66
+00:03:05.558 --> 00:03:09.020
+once without it and once with it.
+
+67
+00:03:09.600 --> 00:03:12.291
+Back to the numbers one to ten.
+
+68
+00:03:12.291 --> 00:03:14.636
+Let E be the even numbers
+
+69
+00:03:14.636 --> 00:03:17.240
+and T the multiples of three.
+
+70
+00:03:17.590 --> 00:03:21.336
+Their union holds everything in either set
+
+71
+00:03:21.336 --> 00:03:22.643
+seven numbers.
+
+72
+00:03:22.643 --> 00:03:26.302
+Their intersection holds what is in both
+
+73
+00:03:26.302 --> 00:03:27.173
+only six.
+
+74
+00:03:27.173 --> 00:03:31.094
+So the size of the union is five plus three
+
+75
+00:03:31.094 --> 00:03:34.230
+minus the one shared number: seven.
+
+76
+00:03:34.580 --> 00:03:36.842
+The difference, E minus T
+
+77
+00:03:36.929 --> 00:03:39.626
+keeps the even numbers that are
+
+78
+00:03:39.713 --> 00:03:42.671
+not multiples of three: two, four
+
+79
+00:03:42.671 --> 00:03:43.975
+eight and ten.
+
+80
+00:03:44.062 --> 00:03:47.716
+The symmetric difference keeps the numbers
+
+81
+00:03:47.803 --> 00:03:50.500
+in exactly one of the two sets.
+
+82
+00:03:51.080 --> 00:03:53.871
+Union and intersection don't
+
+83
+00:03:53.971 --> 00:03:57.759
+care about order, but difference does.
+
+84
+00:03:57.859 --> 00:04:00.750
+T minus E keeps the multiples
+
+85
+00:04:00.850 --> 00:04:03.541
+of three that are not even
+
+86
+00:04:03.541 --> 00:04:05.635
+just three and nine.
+
+87
+00:04:05.734 --> 00:04:08.127
+So E minus T and T minus
+
+88
+00:04:08.227 --> 00:04:10.320
+E are different sets.
+
+89
+00:04:10.900 --> 00:04:14.215
+How do we prove that two sets are equal?
+
+90
+00:04:14.215 --> 00:04:17.945
+Show that each one is a subset of the other.
+
+91
+00:04:17.945 --> 00:04:20.100
+This is double inclusion.
+
+92
+00:04:20.450 --> 00:04:25.556
+Claim: A minus, B union C, equals A minus B
+
+93
+00:04:25.556 --> 00:04:28.805
+intersected with A minus C.
+
+94
+00:04:28.805 --> 00:04:32.170
+Take any x on the left side.
+
+95
+00:04:32.170 --> 00:04:36.579
+Then x is in A, but not in B union C
+
+96
+00:04:36.579 --> 00:04:39.828
+so x is in neither B nor C.
+
+97
+00:04:39.828 --> 00:04:44.469
+So x is in A minus B, and in A minus C
+
+98
+00:04:44.469 --> 00:04:47.370
+it is on the right side.
+
+99
+00:04:47.720 --> 00:04:50.414
+Now take any x on the right side.
+
+100
+00:04:50.414 --> 00:04:53.353
+It is in A, not in B, and not in C
+
+101
+00:04:53.353 --> 00:04:55.721
+so it is not in their union
+
+102
+00:04:55.721 --> 00:04:57.680
+it is on the left side.
+
+103
+00:04:57.680 --> 00:04:59.476
+Both inclusions hold
+
+104
+00:04:59.476 --> 00:05:01.680
+so the two sets are equal.
+
+105
+00:05:02.030 --> 00:05:04.357
+An example on the board
+
+106
+00:05:04.357 --> 00:05:06.684
+with A all ten numbers
+
+107
+00:05:06.684 --> 00:05:10.756
+B the evens and C the multiples of three
+
+108
+00:05:10.756 --> 00:05:14.247
+both sides are one, five and seven.
+
+109
+00:05:14.247 --> 00:05:17.155
+That checks the theorem once.
+
+110
+00:05:17.155 --> 00:05:19.870
+The proof covers every set.
+
+111
+00:05:20.450 --> 00:05:23.233
+One example is never a proof
+
+112
+00:05:23.233 --> 00:05:27.262
+a false law can agree with many examples.
+
+113
+00:05:27.262 --> 00:05:29.949
+But for a single element x
+
+114
+00:05:29.949 --> 00:05:32.347
+only three facts matter.
+
+115
+00:05:32.347 --> 00:05:33.499
+Is it in A?
+
+116
+00:05:33.499 --> 00:05:34.074
+In B?
+
+117
+00:05:34.074 --> 00:05:34.650
+In C?
+
+118
+00:05:35.000 --> 00:05:36.999
+That gives eight cases
+
+119
+00:05:36.999 --> 00:05:39.781
+the rows of a membership table.
+
+120
+00:05:39.781 --> 00:05:43.258
+For De Morgan's law, only the row in A
+
+121
+00:05:43.258 --> 00:05:46.996
+not in B, not in C, puts x on either side
+
+122
+00:05:46.996 --> 00:05:48.995
+and it puts x on both.
+
+123
+00:05:48.995 --> 00:05:52.559
+When both sides agree in all eight rows
+
+124
+00:05:52.559 --> 00:05:55.080
+the law holds for every set.
+
+125
+00:05:55.660 --> 00:05:57.203
+Try it yourself
+
+126
+00:05:57.203 --> 00:06:01.446
+how many subsets of one to six contain one
+
+127
+00:06:01.446 --> 00:06:02.700
+but not two?
+
+128
+00:06:03.050 --> 00:06:05.528
+Next time: quantifiers
+
+129
+00:06:05.528 --> 00:06:08.330
+for all and there exists.
